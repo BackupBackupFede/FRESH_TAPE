@@ -1,0 +1,9 @@
+{
+  "parents": {
+    "AMRZ": "Holcim",
+    "MFP": "Middleby"
+  },
+  "exclude": {
+    "SUNB": "Ashtead transfère sa cotation principale aux États-Unis (nouvelle holding), ce n'est pas une spin-off"
+  }
+}

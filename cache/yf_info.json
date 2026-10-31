@@ -1,0 +1,377 @@
+{
+ "SPTX": {
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "longName": "Seaport Therapeutics, Inc."
+ },
+ "COAG": {
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "longName": "Hemab Therapeutics Holdings, Inc."
+ },
+ "AVLN": {
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "longName": "Avalyn Pharma Inc."
+ },
+ "ELMT": {
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
+  "longName": "The Elmet Group Co."
+ },
+ "YSWY": {
+  "sector": "Consumer Defensive",
+  "industry": "Grocery Stores",
+  "longName": "Yesway, Inc."
+ },
+ "NHP": {
+  "sector": "Real Estate",
+  "industry": "REIT - Healthcare Facilities",
+  "longName": "National Healthcare Properties, Inc."
+ },
+ "ALMR": {
+  "sector": "Healthcare",
+  "industry": "Medical Devices",
+  "longName": "Alamar Biosciences, Inc."
+ },
+ "ARXS": {
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
+  "longName": "Arxis, Inc."
+ },
+ "JAN": {
+  "sector": "Real Estate",
+  "industry": "REIT - Residential",
+  "longName": "Janus Living, Inc."
+ },
+ "SWMR": {
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "longName": "Swarmer, Inc"
+ },
+ "SGP": {
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "longName": "SpyGlass Pharma, Inc."
+ },
+ "CEPS": {
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "longName": "Cantor Equity Partners VI, Inc."
+ },
+ "MANE": {
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "longName": null
+ },
+ "LIFE": {
+  "sector": "Financial Services",
+  "industry": "Insurance Brokers",
+  "longName": "Ethos Technologies Inc."
+ },
+ "MDLN": {
+  "sector": "Healthcare",
+  "industry": "Medical Instruments & Supplies",
+  "longName": "Medline Inc."
+ },
+ "ANDG": {
+  "sector": "Consumer Cyclical",
+  "industry": "Personal Services",
+  "longName": null
+ },
+ "HYNE": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional",
+  "longName": "Hoyne Bancorp, Inc."
+ },
+ "PARK": {
+  "sector": "Healthcare",
+  "industry": "Medical Care Facilities",
+  "longName": "Park Dental Partners, Inc."
+ },
+ "CBC": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional",
+  "longName": "Central Bancompany, Inc."
+ },
+ "BLLN": {
+  "sector": "Healthcare",
+  "industry": "Diagnostics & Research",
+  "longName": "BillionToOne, Inc."
+ },
+ "CEPV": {
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "longName": "Cantor Equity Partners V, Inc."
+ },
+ "NAVN": {
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "longName": "Navan, Inc."
+ },
+ "AGCC": {
+  "sector": "Consumer Defensive",
+  "industry": "Beverages - Wineries & Distilleries",
+  "longName": "Agencia Comercial Spirits Ltd"
+ },
+ "MCTA": {
+  "sector": "Healthcare",
+  "industry": "Medical Care Facilities",
+  "longName": "Charming Medical Limited"
+ },
+ "CBK": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional",
+  "longName": "Commercial Bancgroup, Inc."
+ },
+ "NP": {
+  "sector": "Financial Services",
+  "industry": "Insurance Brokers",
+  "longName": "Neptune Insurance Holdings Inc."
+ },
+ "PTRN": {
+  "sector": "Consumer Cyclical",
+  "industry": "Internet Retail",
+  "longName": "Pattern Group Inc."
+ },
+ "NTSK": {
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "longName": "Netskope, Inc."
+ },
+ "WBI": {
+  "sector": "Energy",
+  "industry": "Oil & Gas Equipment & Services",
+  "longName": "WaterBridge Infrastructure LLC"
+ },
+ "CHOW": {
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "longName": "ChowChow Cloud International Holdings Limited"
+ },
+ "LGN": {
+  "sector": "Industrials",
+  "industry": "Engineering & Construction",
+  "longName": "Legence Corp."
+ },
+ "LBRX": {
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "longName": "LB Pharmaceuticals Inc"
+ },
+ "CEPF": {
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "longName": "Cantor Equity Partners IV, Inc."
+ },
+ "MIAX": {
+  "sector": "Financial Services",
+  "industry": "Capital Markets",
+  "longName": "Miami International Holdings, Inc."
+ },
+ "BUUU": {
+  "sector": "Industrials",
+  "industry": "Specialty Business Services",
+  "longName": "BUUU Group Limited"
+ },
+ "MAGH": {
+  "sector": "Industrials",
+  "industry": "Engineering & Construction",
+  "longName": "Magnitude International Ltd"
+ },
+ "EFTY": {
+  "sector": "Industrials",
+  "industry": "Consulting Services",
+  "longName": "Etoiles Capital Group Co., Ltd"
+ },
+ "HTFL": {
+  "sector": "Healthcare",
+  "industry": "Health Information Services",
+  "longName": "Heartflow, Inc."
+ },
+ "SI": {
+  "sector": null,
+  "industry": null,
+  "longName": "Shoulder Innovations, Inc."
+ },
+ "AMBQ": {
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "longName": null
+ },
+ "MGRT": {
+  "sector": "Technology",
+  "industry": "Information Technology Services",
+  "longName": "Mega Fortune Company Limited"
+ },
+ "AUGO": {
+  "sector": "Basic Materials",
+  "industry": "Gold",
+  "longName": "Aura Minerals Inc."
+ },
+ "MAMK": {
+  "sector": "Industrials",
+  "industry": "Conglomerates",
+  "longName": "MaxsMaking Inc"
+ },
+ "COSO": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional",
+  "longName": "CoastalSouth Bancshares, Inc."
+ },
+ "CV": {
+  "sector": "Healthcare",
+  "industry": "Medical Devices",
+  "longName": "CapsoVision, Inc."
+ },
+ "JCAP": {
+  "sector": "Financial Services",
+  "industry": "Credit Services",
+  "longName": "Jefferson Capital, Inc."
+ },
+ "JLHL": {
+  "sector": "Industrials",
+  "industry": "Building Products & Equipment",
+  "longName": "Julong Holding Limited"
+ },
+ "SLDE": {
+  "sector": "Financial Services",
+  "industry": "Insurance - Property & Casualty",
+  "longName": "Slide Insurance Holdings, Inc."
+ },
+ "CHYM": {
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "longName": "Chime Financial, Inc."
+ },
+ "ASIC": {
+  "sector": "Financial Services",
+  "industry": "Insurance - Property & Casualty",
+  "longName": "Ategrity Specialty Insurance Company Holdings"
+ },
+ "CRCL": {
+  "sector": "Financial Services",
+  "industry": "Capital Markets",
+  "longName": "Circle Internet Group"
+ },
+ "HNGE": {
+  "sector": "Healthcare",
+  "industry": "Health Information Services",
+  "longName": "Hinge Health, Inc."
+ },
+ "AII": {
+  "sector": "Financial Services",
+  "industry": "Insurance - Property & Casualty",
+  "longName": "American Integrity Insurance Group, Inc."
+ },
+ "WSBK": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional",
+  "longName": "Winchester Bancorp, Inc."
+ },
+ "PHOE": {
+  "sector": "Industrials",
+  "industry": "Engineering & Construction",
+  "longName": "Phoenix Asia Holdings Limited"
+ },
+ "SMA": {
+  "sector": "Real Estate",
+  "industry": "REIT - Industrial",
+  "longName": "SmartStop Self Storage REIT, Inc."
+ },
+ "ENGS": {
+  "sector": "Industrials",
+  "industry": "Waste Management",
+  "longName": "Energys Group Limited"
+ },
+ "CRWV": {
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "longName": "CoreWeave, Inc."
+ },
+ "KMTS": {
+  "sector": "Healthcare",
+  "industry": "Medical Instruments & Supplies",
+  "longName": "Kestra Medical Technologies, Ltd."
+ },
+ "JFB": {
+  "sector": "Real Estate",
+  "industry": "Real Estate - Development",
+  "longName": "JFB Construction Holdings"
+ },
+ "NPB": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional",
+  "longName": "Northpointe Bancshares, Inc."
+ },
+ "KRMN": {
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
+  "longName": "Karman Holdings Inc."
+ },
+ "MAZE": {
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "longName": "Maze Therapeutics, Inc."
+ },
+ "CEPO": {
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "longName": "Cantor Equity Partners I, Inc."
+ },
+ "CAI": {
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "longName": "Caris Life Sciences, Inc."
+ },
+ "RHLD": {
+  "sector": "Industrials",
+  "industry": "Specialty Business Services",
+  "longName": "Resolute Holdings Management, Inc."
+ },
+ "SNDK": {
+  "sector": "Technology",
+  "industry": "Computer Hardware",
+  "longName": "Sandisk Corporation"
+ },
+ "Q": {
+  "sector": "Technology",
+  "industry": "Semiconductor Equipment & Materials",
+  "longName": "Qnity Electronics, Inc."
+ },
+ "RAL": {
+  "sector": "Technology",
+  "industry": "Electronic Components",
+  "longName": "Ralliant Corporation"
+ },
+ "VGNT": {
+  "sector": "Consumer Cyclical",
+  "industry": "Auto Parts",
+  "longName": "Versigent PLC"
+ },
+ "TRAX": {
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "longName": "First Tracks Biotherapeutics, Inc."
+ },
+ "SUNB": {
+  "sector": "Industrials",
+  "industry": "Rental & Leasing Services",
+  "longName": "Sunbelt Rentals Holdings, Inc."
+ },
+ "EHLD": {
+  "sector": "Industrials",
+  "industry": "Marine Shipping",
+  "longName": "Euroholdings Ltd."
+ },
+ "SOLS": {
+  "sector": "Basic Materials",
+  "industry": "Specialty Chemicals",
+  "longName": "Solstice Advanced Materials, Inc."
+ },
+ "MICC": {
+  "sector": "Consumer Defensive",
+  "industry": "Packaged Foods",
+  "longName": "The Magnum Ice Cream Company N.V."
+ }
+}

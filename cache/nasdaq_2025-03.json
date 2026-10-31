@@ -1,0 +1,233 @@
+[
+ {
+  "dealID": "1298989-112913",
+  "proposedTickerSymbol": "NMAX",
+  "companyName": "Newsmax Inc.",
+  "proposedExchange": "NYSE",
+  "proposedSharePrice": "10.00",
+  "sharesOffered": "7,500,000",
+  "pricedDate": "3/31/2025",
+  "dollarValueOfSharesOffered": "$75,000,000",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1324536-112932",
+  "proposedTickerSymbol": "UYSCU",
+  "companyName": "UY Scuti Acquisition Corp.",
+  "proposedExchange": "NASDAQ Capital",
+  "proposedSharePrice": "10.00",
+  "sharesOffered": "5,000,000",
+  "pricedDate": "3/31/2025",
+  "dollarValueOfSharesOffered": "$50,000,000",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1079716-113203",
+  "proposedTickerSymbol": "CRWV",
+  "companyName": "CoreWeave, Inc.",
+  "proposedExchange": "NASDAQ Global Select",
+  "proposedSharePrice": "40.00",
+  "sharesOffered": "37,500,000",
+  "pricedDate": "3/28/2025",
+  "dollarValueOfSharesOffered": "$1,500,000,000",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1310035-111591",
+  "proposedTickerSymbol": "NCT",
+  "companyName": "Intercont (Cayman) Ltd",
+  "proposedExchange": "NASDAQ Capital",
+  "proposedSharePrice": "7.00",
+  "sharesOffered": "1,500,000",
+  "pricedDate": "3/28/2025",
+  "dollarValueOfSharesOffered": "$10,500,000",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1309334-111538",
+  "proposedTickerSymbol": "WFF",
+  "companyName": "WF Holding Ltd",
+  "proposedExchange": "NASDAQ Capital",
+  "proposedSharePrice": "4.00",
+  "sharesOffered": "2,000,000",
+  "pricedDate": "3/27/2025",
+  "dollarValueOfSharesOffered": "$8,000,000",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1263209-112508",
+  "proposedTickerSymbol": "NTHI",
+  "companyName": "NEONC TECHNOLOGIES HOLDINGS, INC.",
+  "proposedExchange": "NASDAQ Global",
+  "proposedSharePrice": null,
+  "sharesOffered": "2,101,313",
+  "pricedDate": "3/26/2025",
+  "dollarValueOfSharesOffered": "",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1202801-108674",
+  "proposedTickerSymbol": "EPSM",
+  "companyName": "Epsium Enterprise Ltd",
+  "proposedExchange": "NASDAQ Capital",
+  "proposedSharePrice": "4.00",
+  "sharesOffered": "1,250,000",
+  "pricedDate": "3/26/2025",
+  "dollarValueOfSharesOffered": "$5,000,000",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1315126-112070",
+  "proposedTickerSymbol": "LGPS",
+  "companyName": "LOGPROSTYLE INC.",
+  "proposedExchange": "NYSE MKT",
+  "proposedSharePrice": "5.00",
+  "sharesOffered": "2,000,000",
+  "pricedDate": "3/25/2025",
+  "dollarValueOfSharesOffered": "$10,000,000",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1322821-112765",
+  "proposedTickerSymbol": "GSHRU",
+  "companyName": "Gesher Acquisition Corp. II",
+  "proposedExchange": "NASDAQ Global",
+  "proposedSharePrice": "10.00",
+  "sharesOffered": "12,500,000",
+  "pricedDate": "3/21/2025",
+  "dollarValueOfSharesOffered": "$125,000,000",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1313937-111934",
+  "proposedTickerSymbol": "RCT",
+  "companyName": "RedCloud Holdings plc",
+  "proposedExchange": "NASDAQ Capital",
+  "proposedSharePrice": "4.50",
+  "sharesOffered": "4,444,445",
+  "pricedDate": "3/21/2025",
+  "dollarValueOfSharesOffered": "$20,000,003",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1275408-108092",
+  "proposedTickerSymbol": "BIYA",
+  "companyName": "Baiya International Group Inc.",
+  "proposedExchange": "NASDAQ Capital",
+  "proposedSharePrice": "4.00",
+  "sharesOffered": "2,500,000",
+  "pricedDate": "3/21/2025",
+  "dollarValueOfSharesOffered": "$10,000,000",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1326257-113091",
+  "proposedTickerSymbol": "QSEAU",
+  "companyName": "Quartzsea Acquisition Corp",
+  "proposedExchange": "NASDAQ Global",
+  "proposedSharePrice": "10.00",
+  "sharesOffered": "7,200,000",
+  "pricedDate": "3/18/2025",
+  "dollarValueOfSharesOffered": "$72,000,000",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1321087-112580",
+  "proposedTickerSymbol": "MWYN",
+  "companyName": "Marwynn Holdings, Inc.",
+  "proposedExchange": "NASDAQ Capital",
+  "proposedSharePrice": "4.00",
+  "sharesOffered": "2,000,000",
+  "pricedDate": "3/13/2025",
+  "dollarValueOfSharesOffered": "$8,000,000",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1280612-108624",
+  "proposedTickerSymbol": "MCRP",
+  "companyName": "Micropolis AI Robotics",
+  "proposedExchange": "NYSE MKT",
+  "proposedSharePrice": "4.00",
+  "sharesOffered": "3,875,000",
+  "pricedDate": "3/07/2025",
+  "dollarValueOfSharesOffered": "$15,500,000",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1319302-112462",
+  "proposedTickerSymbol": "SAGT",
+  "companyName": "SAGTEC GLOBAL Ltd",
+  "proposedExchange": "NASDAQ Capital",
+  "proposedSharePrice": "4.00",
+  "sharesOffered": "1,750,000",
+  "pricedDate": "3/07/2025",
+  "dollarValueOfSharesOffered": "$7,000,000",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1324484-112926",
+  "proposedTickerSymbol": "KMTS",
+  "companyName": "KESTRA MEDICAL TECHNOLOGIES, LTD.",
+  "proposedExchange": "NASDAQ Global Select",
+  "proposedSharePrice": "17.00",
+  "sharesOffered": "11,882,352",
+  "pricedDate": "3/06/2025",
+  "dollarValueOfSharesOffered": "$201,999,984",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1314318-111980",
+  "proposedTickerSymbol": "JFB",
+  "companyName": "JFB Construction Holdings",
+  "proposedExchange": "NASDAQ Capital",
+  "proposedSharePrice": "4.125",
+  "sharesOffered": "1,250,000",
+  "pricedDate": "3/06/2025",
+  "dollarValueOfSharesOffered": "$5,162,500",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1240695-110520",
+  "proposedTickerSymbol": "TBH",
+  "companyName": "House of Doge Inc.",
+  "proposedExchange": "NASDAQ Capital",
+  "proposedSharePrice": "4.00",
+  "sharesOffered": "1,475,000",
+  "pricedDate": "3/06/2025",
+  "dollarValueOfSharesOffered": "$5,900,000",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1258722-106608",
+  "proposedTickerSymbol": "ADVB",
+  "companyName": "Advanced Biomed Inc.",
+  "proposedExchange": "NASDAQ Capital",
+  "proposedSharePrice": "4.00",
+  "sharesOffered": "1,640,000",
+  "pricedDate": "3/06/2025",
+  "dollarValueOfSharesOffered": "$6,560,000",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "5413-112499",
+  "proposedTickerSymbol": "CAPS",
+  "companyName": "Capstone Holding Corp.",
+  "proposedExchange": "NASDAQ Capital",
+  "proposedSharePrice": "4.00",
+  "sharesOffered": "1,250,000",
+  "pricedDate": "3/06/2025",
+  "dollarValueOfSharesOffered": "$5,000,000",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1313864-111927",
+  "proposedTickerSymbol": "PN",
+  "companyName": "PN Smart Energy Ltd",
+  "proposedExchange": "NASDAQ Capital",
+  "proposedSharePrice": "4.00",
+  "sharesOffered": "2,000,000",
+  "pricedDate": "3/04/2025",
+  "dollarValueOfSharesOffered": "$8,000,000",
+  "dealStatus": "Priced"
+ }
+]

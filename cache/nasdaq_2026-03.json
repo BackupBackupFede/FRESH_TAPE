@@ -1,0 +1,189 @@
+[
+ {
+  "dealID": "1370848-117254",
+  "proposedTickerSymbol": "KPETU",
+  "companyName": "KPET Ultra Paceline Corp",
+  "proposedExchange": "NYSE",
+  "proposedSharePrice": "10.00",
+  "sharesOffered": "20,000,000",
+  "pricedDate": "3/31/2026",
+  "dollarValueOfSharesOffered": "$200,000,000",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1361366-116508",
+  "proposedTickerSymbol": "IPFXU",
+  "companyName": "Inflection Point Acquisition Corp. VI",
+  "proposedExchange": "NASDAQ Global",
+  "proposedSharePrice": "10.00",
+  "sharesOffered": "22,000,000",
+  "pricedDate": "3/27/2026",
+  "dollarValueOfSharesOffered": "$220,000,000",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1348766-115309",
+  "proposedTickerSymbol": "QADRU",
+  "companyName": "QDRO Acquisition Corp.",
+  "proposedExchange": "NASDAQ Global",
+  "proposedSharePrice": "10.00",
+  "sharesOffered": "20,000,000",
+  "pricedDate": "3/27/2026",
+  "dollarValueOfSharesOffered": "$200,000,000",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1358667-116293",
+  "proposedTickerSymbol": "FMACU",
+  "companyName": "Future Money Acquisition Corp",
+  "proposedExchange": "NASDAQ Global",
+  "proposedSharePrice": "10.00",
+  "sharesOffered": "10,000,000",
+  "pricedDate": "3/27/2026",
+  "dollarValueOfSharesOffered": "$100,000,000",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1358593-116269",
+  "proposedTickerSymbol": "BWIVU",
+  "companyName": "Blue Water Acquisition Corp. IV",
+  "proposedExchange": "NYSE",
+  "proposedSharePrice": "10.00",
+  "sharesOffered": "12,500,000",
+  "pricedDate": "3/20/2026",
+  "dollarValueOfSharesOffered": "$125,000,000",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1311277-117171",
+  "proposedTickerSymbol": "GMTL",
+  "companyName": "Guardian Metal Resources PLC",
+  "proposedExchange": "NYSE MKT",
+  "proposedSharePrice": "13.50",
+  "sharesOffered": "4,444,400",
+  "pricedDate": "3/20/2026",
+  "dollarValueOfSharesOffered": "$59,999,400",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1370032-117180",
+  "proposedTickerSymbol": "JAN",
+  "companyName": "Janus Living, Inc.",
+  "proposedExchange": "NYSE",
+  "proposedSharePrice": "20.00",
+  "sharesOffered": "42,000,000",
+  "pricedDate": "3/20/2026",
+  "dollarValueOfSharesOffered": "$840,000,000",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1367787-117007",
+  "proposedTickerSymbol": "BHAVU",
+  "companyName": "BHAV Acquisition Corp",
+  "proposedExchange": "NASDAQ Global",
+  "proposedSharePrice": "10.00",
+  "sharesOffered": "10,000,000",
+  "pricedDate": "3/19/2026",
+  "dollarValueOfSharesOffered": "$100,000,000",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1354929-116890",
+  "proposedTickerSymbol": "SWMR",
+  "companyName": "Swarmer, Inc",
+  "proposedExchange": "NASDAQ Capital",
+  "proposedSharePrice": "5.00",
+  "sharesOffered": "3,000,000",
+  "pricedDate": "3/17/2026",
+  "dollarValueOfSharesOffered": "$15,000,000",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1366150-116888",
+  "proposedTickerSymbol": "PONOU",
+  "companyName": "Pono Capital Four, Inc.",
+  "proposedExchange": "NASDAQ Global",
+  "proposedSharePrice": "10.00",
+  "sharesOffered": "12,000,000",
+  "pricedDate": "3/13/2026",
+  "dollarValueOfSharesOffered": "$120,000,000",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1366186-116901",
+  "proposedTickerSymbol": "MTALU",
+  "companyName": "Metals Acquisition Corp. II",
+  "proposedExchange": "NYSE",
+  "proposedSharePrice": "10.00",
+  "sharesOffered": "20,000,000",
+  "pricedDate": "3/12/2026",
+  "dollarValueOfSharesOffered": "$200,000,000",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1367884-117013",
+  "proposedTickerSymbol": "PAYP",
+  "companyName": "PayPay Corp",
+  "proposedExchange": "NASDAQ Global Select",
+  "proposedSharePrice": "16.00",
+  "sharesOffered": "54,987,214",
+  "pricedDate": "3/12/2026",
+  "dollarValueOfSharesOffered": "$879,795,424",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1364157-116752",
+  "proposedTickerSymbol": "SUMAU",
+  "companyName": "SUMA Acquisition Corp",
+  "proposedExchange": "NASDAQ Global",
+  "proposedSharePrice": "10.00",
+  "sharesOffered": "15,000,000",
+  "pricedDate": "3/11/2026",
+  "dollarValueOfSharesOffered": "$150,000,000",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1109989-108267",
+  "proposedTickerSymbol": "CAST",
+  "companyName": "Freecast, Inc.",
+  "proposedExchange": "NASDAQ Global",
+  "proposedSharePrice": null,
+  "sharesOffered": "19,782,084",
+  "pricedDate": "3/10/2026",
+  "dollarValueOfSharesOffered": "",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1360488-116434",
+  "proposedTickerSymbol": "MMED",
+  "companyName": "MiniMed Group, Inc.",
+  "proposedExchange": "NASDAQ Global Select",
+  "proposedSharePrice": "20.00",
+  "sharesOffered": "28,000,000",
+  "pricedDate": "3/06/2026",
+  "dollarValueOfSharesOffered": "$560,000,000",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1352897-116781",
+  "proposedTickerSymbol": "GLEDU",
+  "companyName": "GalaxyEdge Acquisition Corp",
+  "proposedExchange": "NYSE",
+  "proposedSharePrice": "10.00",
+  "sharesOffered": "10,000,000",
+  "pricedDate": "3/04/2026",
+  "dollarValueOfSharesOffered": "$100,000,000",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1366787-116934",
+  "proposedTickerSymbol": "KCACU",
+  "companyName": "Kensington Capital Acquisition Corp. VI",
+  "proposedExchange": "NYSE",
+  "proposedSharePrice": "10.00",
+  "sharesOffered": "20,000,000",
+  "pricedDate": "3/04/2026",
+  "dollarValueOfSharesOffered": "$200,000,000",
+  "dealStatus": "Priced"
+ }
+]

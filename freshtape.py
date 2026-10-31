@@ -17,7 +17,6 @@ Usage :
 Sorties :
   fresh_tape.md    rapport lisible sur GitHub (candidats, entrées depuis le dernier passage, backtest)
   fresh_tape.csv   tout l'univers ; la colonne `candidat` sert à repérer les entrées au passage suivant
-  alert_freshtape.txt   créé UNIQUEMENT si de nouveaux candidats apparaissent (message Telegram)
   output/freshtape_AAAA-MM-JJ.html   tableau triable, en local
 Ce n'est pas un conseil d'investissement.
 """
@@ -48,7 +47,6 @@ SEC_CONTACT = ROOT / "sec_contact.txt"
 SPIN_OVERRIDES = ROOT / "spinoff_overrides.json"
 REPORT_MD = ROOT / "fresh_tape.md"
 REPORT_CSV = ROOT / "fresh_tape.csv"
-ALERT_TXT = ROOT / "alert_freshtape.txt"
 
 NASDAQ_URL = "https://api.nasdaq.com/api/ipo/calendar?date={ym}"
 SEC_INDEX_URL = "https://www.sec.gov/Archives/edgar/full-index/{y}/QTR{q}/form.idx"
@@ -523,17 +521,6 @@ Petit échantillon et biais du survivant (les titres radiés n'ont plus de cours
 """, encoding="utf-8")
 
 
-def write_alert(entrants: pd.DataFrame, today: date):
-    if ALERT_TXT.exists():
-        ALERT_TXT.unlink()
-    if entrants.empty:
-        return
-    lines = [f"Fresh Tape {today:%d/%m} : {len(entrants)} nouveau(x) candidat(s)"]
-    for _, r in entrants.iterrows():
-        lines.append(f"• {r['ticker']} ({r['kind']}, {r['age']:.1f} mois) {fmt(r['ret'], ' %')} — {r['name'][:40]}")
-    ALERT_TXT.write_text("\n".join(lines), encoding="utf-8")
-
-
 # ---------------------------------------------------------------- main
 
 def main():
@@ -636,7 +623,6 @@ def main():
     df[csv_cols].sort_values(["candidat", "ret"], ascending=False).to_csv(
         REPORT_CSV, index=False, encoding="utf-8-sig", sep=";", decimal=",")
     write_md(cand, entrants, bt, args, today, len(df), first_run)
-    write_alert(entrants, today)
     write_html(cand, bt, args, today, OUT / f"freshtape_{stamp}.html", len(df))
 
     show = cand[["ticker", "name", "kind", "date", "age", "ret", "ret3m", "trend", "note", "new"]].copy()

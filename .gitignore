@@ -1,6 +1,5 @@
 __pycache__/
 *.pyc
-alert_*.txt
 output/
 sec_contact.txt
 cache/yf_tz/

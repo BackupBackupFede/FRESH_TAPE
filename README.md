@@ -3,9 +3,8 @@
 Repère les IPO et spin-offs américaines qui ont passé 6 mois de cotation (fin habituelle du lock-up et des
 ventes forcées) et qui restent au-dessus de leur prix de référence.
 
-Tourne tout seul sur GitHub Actions le **samedi matin**, et à la demande avec le bouton **Run workflow**
-(onglet Actions, aussi dans l'appli GitHub mobile). Un **message Telegram** part uniquement quand de
-nouveaux candidats apparaissent (secrets `TELEGRAM_TOKEN` et `TELEGRAM_CHAT_ID`).
+Mise à jour **à la demande** sur GitHub Actions : onglet Actions → Fresh Tape → **Run workflow**
+(aussi dans l'appli GitHub mobile). Le rapport est régénéré et commité en une minute environ.
 
 | Fichier | Contenu |
 |---|---|

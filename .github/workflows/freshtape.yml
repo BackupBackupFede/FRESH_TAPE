@@ -1,10 +1,7 @@
 name: Fresh Tape
 
 on:
-  schedule:
-    # Samedi 8h00 UTC (9h ou 10h Paris), après la clôture US du vendredi.
-    - cron: "0 8 * * 6"
-  workflow_dispatch:          # bouton "Run workflow" (aussi dans l'appli GitHub mobile)
+  workflow_dispatch:          # lancement manuel : bouton "Run workflow" (aussi dans l'appli GitHub mobile)
 
 permissions:
   contents: write             # commit du rapport
@@ -32,29 +29,10 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A                     # output/ et alert_*.txt sont exclus par .gitignore
+          git add -A                     # output/ est exclu par .gitignore
           if git diff --staged --quiet; then
             echo "Rien à committer"
           else
             git commit -m "freshtape: $(date -u +%Y-%m-%d)"
             git push
           fi
-
-      - name: Alerte Telegram
-        env:
-          TELEGRAM_TOKEN:   ${{ secrets.TELEGRAM_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: |
-          [ -f alert_freshtape.txt ] || { echo "Pas de nouveau candidat"; exit 0; }
-          if [ -z "$TELEGRAM_TOKEN" ] || [ -z "$TELEGRAM_CHAT_ID" ]; then
-            echo "::warning::Secrets TELEGRAM_TOKEN / TELEGRAM_CHAT_ID absents : pas d'envoi."
-            exit 0
-          fi
-          text="$(cat alert_freshtape.txt)
-
-          Rapport : https://github.com/${{ github.repository }}/blob/${{ github.ref_name }}/fresh_tape.md"
-          curl -sS --fail -X POST "https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage" \
-            --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" \
-            --data-urlencode "text=${text}" \
-            --data-urlencode "disable_web_page_preview=true" > /dev/null
-          echo "Alerte envoyée"

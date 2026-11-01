@@ -6,8 +6,13 @@ ventes forcées) et qui restent au-dessus de leur prix de référence.
 Mise à jour **à la demande** sur GitHub Actions : onglet Actions → Fresh Tape → **Run workflow**
 (aussi dans l'appli GitHub mobile). Le rapport est régénéré et commité en une minute environ.
 
+**Page interactive : https://backupbackupfede.github.io/FRESH_TAPE/** (filtres, tri, mini-graphiques,
+fiche par titre ; les filtres se retrouvent dans l'adresse, à mettre en favori).
+
 | Fichier | Contenu |
 |---|---|
+| [`index.html`](index.html) | Page interactive publiée sur GitHub Pages (générée, ne pas modifier à la main) |
+| [`page_template.html`](page_template.html) | Gabarit de la page : mise en forme et filtres |
 | [`fresh_tape.md`](fresh_tape.md) | Rapport : entrées depuis le dernier passage, tous les candidats, backtest |
 | [`fresh_tape.csv`](fresh_tape.csv) | Tout l'univers (séparateur `;`, décimale `,`) |
 | [`freshtape.py`](freshtape.py) | Le script |
@@ -22,7 +27,7 @@ Mise à jour **à la demande** sur GitHub Actions : onglet Actions → Fresh Tap
 - EDGAR exige une adresse de contact : secret `SEC_CONTACT` (ou `sec_contact.txt` en local, non versionné).
 
 En local : `pip install -r requirements.txt` puis `python freshtape.py` (options : `--months`, `--start`,
-`--min-price`, `--hold`, `--no-info`). Le tableau triable sort dans `output/`.
+`--min-price`, `--hold`, `--no-info`). La page sort dans `index.html`.
 
 ## Limites
 

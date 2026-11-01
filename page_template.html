@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fresh Tape</title>
+<style>
+:root{
+  --bg:#f7f5f0;--surface:#fff;--surface-2:#f1efe8;--border:#ddd8ca;--border-soft:#ebe7dc;
+  --text:#1c1d1f;--dim:#5c5e66;--faint:#8b8d94;--accent:#a96f0c;--accent-soft:#a96f0c18;
+  --up:#187a4c;--up-soft:#187a4c14;--down:#c23b32;--down-soft:#c23b3214;color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0b0d12;--surface:#12151c;--surface-2:#181c25;--border:#262c3a;--border-soft:#1b2029;
+  --text:#e9ebf1;--dim:#9aa2b6;--faint:#5f6779;--accent:#e0a339;--accent-soft:#e0a3391f;
+  --up:#4fd18b;--up-soft:#4fd18b1a;--down:#f0685f;--down-soft:#f0685f1a;color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#0b0d12;--surface:#12151c;--surface-2:#181c25;--border:#262c3a;--border-soft:#1b2029;
+  --text:#e9ebf1;--dim:#9aa2b6;--faint:#5f6779;--accent:#e0a339;--accent-soft:#e0a3391f;
+  --up:#4fd18b;--up-soft:#4fd18b1a;--down:#f0685f;--down-soft:#f0685f1a;color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:14px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif}
+.page{max-width:1400px;margin:0 auto;padding:20px 16px 48px}
+a{color:var(--accent)}
+header{display:flex;gap:12px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap}
+h1{margin:0;font-size:22px;letter-spacing:-.01em}
+h1 span{color:var(--accent)}
+h2{font-size:16px;margin:32px 0 8px}
+.sub{color:var(--dim);margin:4px 0 0}
+.btn{font:inherit;color:var(--text);background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:6px 10px;cursor:pointer}
+.btn:hover{border-color:var(--accent)}
+.btn.on{background:var(--accent-soft);border-color:var(--accent);color:var(--accent)}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin:16px 0}
+.kpi{background:var(--surface);border:1px solid var(--border-soft);border-radius:10px;padding:10px 12px}
+.kpi b{display:block;font-size:20px;font-variant-numeric:tabular-nums}
+.kpi small{color:var(--dim)}
+.entrants{background:var(--accent-soft);border:1px solid var(--accent);border-radius:10px;padding:10px 12px;margin:0 0 12px}
+.entrants .chip{margin:2px}
+.chip{display:inline-block;font:inherit;font-size:12px;padding:2px 8px;border-radius:999px;border:1px solid var(--border);background:var(--surface);color:var(--text);cursor:pointer}
+.filters{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:end;background:var(--surface);border:1px solid var(--border-soft);border-radius:10px;padding:12px}
+.filters label{display:flex;flex-direction:column;gap:3px;font-size:12px;color:var(--dim)}
+.filters input,.filters select{font:inherit;font-size:14px;color:var(--text);background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:5px 8px}
+.filters input[type=number]{width:84px}
+.filters input[type=search]{width:200px}
+.filters .chk{flex-direction:row;align-items:center;gap:6px;font-size:14px;color:var(--text);padding-bottom:6px}
+.filters .grow{flex:1}
+.seg{display:inline-flex;border:1px solid var(--border);border-radius:6px;overflow:hidden}
+.seg button{font:inherit;font-size:14px;border:0;background:var(--bg);color:var(--dim);padding:5px 10px;cursor:pointer}
+.seg button.on{background:var(--accent-soft);color:var(--accent)}
+.count{color:var(--dim);margin:10px 0 6px;font-size:13px}
+.wrap{overflow-x:auto;border:1px solid var(--border-soft);border-radius:10px;background:var(--surface)}
+table{border-collapse:collapse;width:100%}
+th,td{padding:7px 9px;border-bottom:1px solid var(--border-soft);white-space:nowrap;text-align:left}
+thead th{background:var(--surface-2);position:sticky;top:0;font-size:12px;color:var(--dim);font-weight:600;cursor:pointer;user-select:none}
+thead th.sorted{color:var(--accent)}
+thead th.sorted::after{content:" ▾"}
+thead th.sorted.asc::after{content:" ▴"}
+tbody tr{cursor:pointer}
+tbody tr:hover td{background:var(--surface-2)}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+td.tk{font-weight:700;position:sticky;left:0;background:var(--surface)}
+tbody tr:hover td.tk{background:var(--surface-2)}
+td.name{max-width:240px;overflow:hidden;text-overflow:ellipsis}
+.pos{color:var(--up)} .neg{color:var(--down)} .mut{color:var(--faint)}
+.tag{font-size:11px;padding:1px 6px;border-radius:4px;background:var(--surface-2);color:var(--dim);margin-left:4px;font-weight:500}
+.tag.new{background:var(--accent-soft);color:var(--accent)}
+.tag.ok{background:var(--up-soft);color:var(--up)}
+svg.spark{display:block}
+.bt{width:auto}
+.bt td,.bt th{font-size:13px}
+.notes{color:var(--dim);font-size:13px}
+.notes li{margin:3px 0}
+dialog{border:1px solid var(--border);border-radius:14px;background:var(--surface);color:var(--text);padding:0;width:min(720px,calc(100vw - 32px))}
+dialog::backdrop{background:#0008}
+.dlg{padding:16px 18px 18px}
+.dlg-h{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.dlg-h h3{margin:0;font-size:18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:6px 14px;margin-top:12px}
+.grid div{font-size:13px}
+.grid small{display:block;color:var(--dim);font-size:11px}
+.chart{margin-top:12px;width:100%;height:auto}
+.links{margin-top:12px;display:flex;gap:12px;flex-wrap:wrap;font-size:13px}
+.empty{padding:24px;text-align:center;color:var(--dim)}
+@media (max-width:640px){.filters input[type=search]{width:100%}.filters label.s{flex-basis:100%}}
+</style>
+</head>
+<body>
+<div class="page">
+<header>
+  <div>
+    <h1>Fresh <span>Tape</span></h1>
+    <p class="sub" id="sub"></p>
+  </div>
+  <button class="btn" id="theme" type="button" title="Changer de thème">◐ Thème</button>
+</header>
+
+<div class="kpis" id="kpis"></div>
+<div class="entrants" id="entrants" hidden></div>
+
+<div class="filters">
+  <label class="s">Recherche<input type="search" id="q" placeholder="Ticker, société, maison mère"></label>
+  <label>Type<span class="seg" id="kind"><button data-v="">Tous</button><button data-v="IPO">IPO</button><button data-v="Spin-off">Spin-offs</button></span></label>
+  <label>Âge min. (mois)<input type="number" id="age" step="0.5" min="0"></label>
+  <label>Perf. min. (%)<input type="number" id="perf" step="5"></label>
+  <label>Cours min. ($)<input type="number" id="price" step="0.5" min="0"></label>
+  <label>Secteur<select id="sector"><option value="">Tous</option></select></label>
+  <label class="chk"><input type="checkbox" id="trend"> En tendance</label>
+  <label class="chk"><input type="checkbox" id="nomut"> Sans conversions mutualistes</label>
+  <span class="grow"></span>
+  <button class="btn" id="rule" type="button" title="Revenir à la règle Fresh Tape">Règle Fresh Tape</button>
+  <button class="btn" id="all" type="button" title="Afficher toutes les cotations, sans seuil">Tout l'univers</button>
+</div>
+
+<p class="count" id="count"></p>
+<div class="wrap"><table id="t"><thead><tr id="head"></tr></thead><tbody id="body"></tbody></table></div>
+
+<h2>Backtest rapide</h2>
+<p class="notes" id="btnote"></p>
+<div class="wrap" style="display:inline-block;max-width:100%"><table class="bt" id="bt"></table></div>
+
+<h2>Lecture</h2>
+<ul class="notes" id="notes"></ul>
+<p class="notes">Travail d'analyse quantitative, sans valeur de conseil en investissement.</p>
+</div>
+
+<dialog id="dlg"><div class="dlg" id="dlgbody"></div></dialog>
+
+<script id="data" type="application/json">/*__DATA__*/</script>
+<script>
+(() => {
+const D = JSON.parse(document.getElementById('data').textContent);
+const R = D.rows;
+const $ = id => document.getElementById(id);
+const nf1 = new Intl.NumberFormat('fr-FR', {minimumFractionDigits: 1, maximumFractionDigits: 1});
+const nf2 = new Intl.NumberFormat('fr-FR', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+const nf0 = new Intl.NumberFormat('fr-FR', {maximumFractionDigits: 0});
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]));
+const nd = '<span class="mut">n/d</span>';
+const pct = v => v == null ? nd : `<span class="${v > 0 ? 'pos' : v < 0 ? 'neg' : ''}">${v > 0 ? '+' : ''}${nf1.format(v)} %</span>`;
+const usd = v => v == null ? nd : nf2.format(v) + ' $';
+const fdate = s => s ? s.split('-').reverse().join('/') : nd;
+const entrants = new Set(D.entrants);
+
+// ------------------------------------------------------------ thème
+const root = document.documentElement;
+try { const t = localStorage.getItem('freshtape_theme'); if (t) root.dataset.theme = t; } catch (e) {}
+$('theme').onclick = () => {
+  const dark = root.dataset.theme ? root.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+  root.dataset.theme = dark ? 'light' : 'dark';
+  try { localStorage.setItem('freshtape_theme', root.dataset.theme); } catch (e) {}
+};
+
+// ------------------------------------------------------------ en-tête
+$('sub').innerHTML = `Snapshot du <b>${fdate(D.asof)}</b> · IPO et spin-offs US cotées depuis ${esc(D.start)} · `
+  + `${D.nUniverse} cotations (${D.nSpac} SPAC écartées). Cours figés à cette date : relancer le workflow pour les mettre à jour.`;
+
+// ------------------------------------------------------------ filtres
+const RULE = {q: '', kind: '', age: D.months, perf: 0, price: D.minPrice, sector: '', trend: false, nomut: false};
+const ALL = {...RULE, age: 0, perf: '', price: 0};
+let F = {...RULE}, sortKey = 'ret', sortAsc = false;
+
+const sectors = [...new Set(R.map(r => r.sec).filter(Boolean))].sort();
+$('sector').insertAdjacentHTML('beforeend', sectors.map(s => `<option>${esc(s)}</option>`).join(''));
+
+function readHash() {
+  const p = new URLSearchParams(location.hash.slice(1));
+  for (const k of Object.keys(RULE)) if (p.has(k)) {
+    const v = p.get(k);
+    F[k] = typeof RULE[k] === 'boolean' ? v === '1' : (typeof RULE[k] === 'number' && v !== '' ? +v : v);
+  }
+  if (p.has('s')) { sortKey = p.get('s'); sortAsc = p.get('o') === 'a'; }
+}
+function writeHash() {
+  const p = new URLSearchParams();
+  for (const k of Object.keys(RULE)) if (F[k] !== RULE[k]) p.set(k, typeof F[k] === 'boolean' ? (F[k] ? '1' : '0') : F[k]);
+  if (sortKey !== 'ret' || sortAsc) { p.set('s', sortKey); p.set('o', sortAsc ? 'a' : 'd'); }
+  const h = p.toString();
+  history.replaceState(null, '', h ? '#' + h : location.pathname + location.search);
+}
+function syncInputs() {
+  $('q').value = F.q; $('age').value = F.age; $('perf').value = F.perf; $('price').value = F.price;
+  $('sector').value = F.sector; $('trend').checked = F.trend; $('nomut').checked = F.nomut;
+  document.querySelectorAll('#kind button').forEach(b => b.classList.toggle('on', b.dataset.v === F.kind));
+  const same = o => Object.keys(o).every(k => String(F[k]) === String(o[k]));
+  $('rule').classList.toggle('on', same(RULE)); $('all').classList.toggle('on', same(ALL));
+}
+const num = (el, k) => el.oninput = () => { F[k] = el.value === '' ? '' : +el.value; render(); };
+num($('age'), 'age'); num($('perf'), 'perf'); num($('price'), 'price');
+$('q').oninput = e => { F.q = e.target.value; render(); };
+$('sector').onchange = e => { F.sector = e.target.value; render(); };
+$('trend').onchange = e => { F.trend = e.target.checked; render(); };
+$('nomut').onchange = e => { F.nomut = e.target.checked; render(); };
+document.querySelectorAll('#kind button').forEach(b => b.onclick = () => { F.kind = b.dataset.v; render(); });
+$('rule').onclick = () => { F = {...RULE}; render(); };
+$('all').onclick = () => { F = {...ALL}; render(); };
+
+function pass(r) {
+  if (F.kind && r.k !== F.kind) return false;
+  if (F.age !== '' && r.age < F.age) return false;
+  if (F.perf !== '' && !(r.ret != null && r.ret > F.perf)) return false;
+  if (F.price !== '' && !(r.p >= F.price)) return false;
+  if (F.sector && r.sec !== F.sector) return false;
+  if (F.trend && r.tr !== 'oui') return false;
+  if (F.nomut && r.note) return false;
+  if (F.q) {
+    const q = F.q.toLowerCase();
+    if (![r.t, r.n, r.par].some(s => s && s.toLowerCase().includes(q))) return false;
+  }
+  return true;
+}
+
+// ------------------------------------------------------------ tableau
+function spark(r, w = 84, h = 22) {
+  const v = r.h; if (!v || v.length < 2) return '';
+  const ref = r.ref ?? r.fc, lo = Math.min(...v, ref), hi = Math.max(...v, ref), span = hi - lo || 1;
+  const x = i => (i / (v.length - 1) * (w - 2) + 1).toFixed(1), y = p => (h - 1 - (p - lo) / span * (h - 2)).toFixed(1);
+  const pts = v.map((p, i) => x(i) + ',' + y(p)).join(' ');
+  const col = v[v.length - 1] >= ref ? 'var(--up)' : 'var(--down)';
+  return `<svg class="spark" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" aria-hidden="true">`
+    + `<line x1="0" x2="${w}" y1="${y(ref)}" y2="${y(ref)}" stroke="var(--faint)" stroke-dasharray="2 2" stroke-width="1"/>`
+    + `<polyline points="${pts}" fill="none" stroke="${col}" stroke-width="1.4" stroke-linejoin="round"/></svg>`;
+}
+const COLS = [
+  {k: 't', l: 'Ticker', c: 'tk', f: r => esc(r.t) + (entrants.has(r.t) ? '<span class="tag new">entrée</span>' : '')},
+  {k: 'n', l: 'Société', c: 'name', f: r => `<span title="${esc(r.n)}">${esc(r.n)}</span>`},
+  {k: 'k', l: 'Type', f: r => esc(r.k)},
+  {k: 'd', l: 'Cotation', f: r => fdate(r.d)},
+  {k: 'age', l: 'Âge (mois)', c: 'num', f: r => nf1.format(r.age)},
+  {k: 'h', l: 'Depuis la cotation', sort: false, f: r => spark(r)},
+  {k: 'ref', l: 'Réf.', c: 'num', f: r => usd(r.ref ?? r.fc)},
+  {k: 'p', l: 'Cours', c: 'num', f: r => usd(r.p)},
+  {k: 'ret', l: 'Perf. réf.', c: 'num', f: r => pct(r.ret)},
+  {k: 'r3', l: '3 mois', c: 'num', f: r => pct(r.r3)},
+  {k: 'r1', l: '1 mois', c: 'num', f: r => pct(r.r1)},
+  {k: 'fh', l: 'Depuis + haut', c: 'num', f: r => pct(r.fh)},
+  {k: 'tr', l: 'Tendance', f: r => r.tr === 'oui' ? '<span class="tag ok">oui</span>' : r.tr ? '<span class="mut">non</span>' : nd},
+  {k: 'sec', l: 'Secteur', f: r => r.sec ? esc(r.sec) : nd},
+  {k: 'mc', l: 'Cap. (M$)', c: 'num', f: r => r.mc == null ? nd : nf0.format(r.mc)},
+  {k: 'note', l: 'Note', f: r => [r.par && 'de ' + esc(r.par), r.note && esc(r.note), r.new && `<span class="mut">${esc(r.new)}</span>`].filter(Boolean).join(' · ')},
+];
+$('head').innerHTML = COLS.map(c => `<th data-k="${c.k}" class="${c.c === 'num' ? 'num' : ''}">${c.l}</th>`).join('');
+document.querySelectorAll('#head th').forEach(th => {
+  const c = COLS.find(c => c.k === th.dataset.k);
+  if (c.sort === false) { th.style.cursor = 'default'; return; }
+  th.onclick = () => {
+    if (sortKey === c.k) sortAsc = !sortAsc;
+    else { sortKey = c.k; sortAsc = !(c.c === 'num'); }
+    render();
+  };
+});
+
+function sortVal(r, k) { return k === 'ref' ? (r.ref ?? r.fc) : r[k]; }
+function median(a) { if (!a.length) return null; const s = [...a].sort((x, y) => x - y), m = s.length >> 1; return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2; }
+
+let shown = [];
+function render() {
+  syncInputs(); writeHash();
+  shown = R.filter(pass).sort((a, b) => {
+    const x = sortVal(a, sortKey), y = sortVal(b, sortKey);
+    if (x == null && y == null) return 0; if (x == null) return 1; if (y == null) return -1;
+    const d = typeof x === 'number' ? x - y : String(x).localeCompare(String(y), 'fr');
+    return sortAsc ? d : -d;
+  });
+  document.querySelectorAll('#head th').forEach(th => {
+    th.classList.toggle('sorted', th.dataset.k === sortKey); th.classList.toggle('asc', th.dataset.k === sortKey && sortAsc);
+  });
+  $('body').innerHTML = shown.length
+    ? shown.map((r, i) => `<tr data-i="${i}">` + COLS.map(c => `<td class="${c.c || ''}">${c.f(r)}</td>`).join('') + '</tr>').join('')
+    : `<tr><td colspan="${COLS.length}" class="empty">Aucun titre ne passe ces filtres.</td></tr>`;
+  const nIpo = shown.filter(r => r.k === 'IPO').length;
+  $('count').textContent = `${shown.length} titre${shown.length > 1 ? 's' : ''} (${nIpo} IPO, ${shown.length - nIpo} spin-off${shown.length - nIpo > 1 ? 's' : ''}) · clic sur une ligne pour la fiche`;
+  const rets = shown.map(r => r.ret).filter(v => v != null), r3 = shown.map(r => r.r3).filter(v => v != null);
+  const trend = shown.filter(r => r.tr === 'oui').length;
+  const kpi = (v, l) => `<div class="kpi"><b>${v}</b><small>${l}</small></div>`;
+  $('kpis').innerHTML = kpi(shown.length, 'titres affichés')
+    + kpi(rets.length ? pct(median(rets)) : nd, 'perf. médiane depuis la référence')
+    + kpi(r3.length ? pct(median(r3)) : nd, 'perf. médiane sur 3 mois')
+    + kpi(shown.length ? Math.round(trend / shown.length * 100) + ' %' : nd, 'en tendance')
+    + kpi(D.firstRun ? nd : D.entrants.length, 'entrées depuis le dernier passage');
+}
+$('body').onclick = e => { const tr = e.target.closest('tr[data-i]'); if (tr) openRow(shown[+tr.dataset.i]); };
+
+// ------------------------------------------------------------ entrées
+if (D.entrants.length) {
+  $('entrants').hidden = false;
+  $('entrants').innerHTML = '<b>Entrées depuis le dernier passage :</b> '
+    + D.entrants.map(t => `<button class="chip" data-t="${esc(t)}">${esc(t)}</button>`).join('');
+  $('entrants').onclick = e => { const b = e.target.closest('[data-t]'); if (b) openRow(R.find(r => r.t === b.dataset.t)); };
+}
+
+// ------------------------------------------------------------ fiche
+function chart(r) {
+  const v = r.h; if (!v || v.length < 2) return '<p class="mut">Pas d\'historique.</p>';
+  const W = 680, H = 220, L = 46, B = 22, T = 8, ref = r.ref ?? r.fc;
+  const lo = Math.min(...v, ref) * 0.97, hi = Math.max(...v, ref) * 1.03;
+  const t0 = Date.parse(r.h0), day = 864e5, tN = t0 + (v.length - 1) * 7 * day;
+  const x = t => L + (t - t0) / (tN - t0 || 1) * (W - L - 4), y = p => T + (1 - (p - lo) / (hi - lo)) * (H - T - B);
+  const pts = v.map((p, i) => x(t0 + i * 7 * day).toFixed(1) + ',' + y(p).toFixed(1)).join(' ');
+  const col = v[v.length - 1] >= ref ? 'var(--up)' : 'var(--down)';
+  let g = '';
+  for (let i = 0; i <= 4; i++) {
+    const p = lo + (hi - lo) * i / 4, yy = y(p).toFixed(1);
+    g += `<line x1="${L}" x2="${W - 4}" y1="${yy}" y2="${yy}" stroke="var(--border-soft)"/>`
+      + `<text x="${L - 6}" y="${+yy + 4}" text-anchor="end" font-size="10" fill="var(--faint)">${nf2.format(p)}</text>`;
+  }
+  const sig = Date.parse(r.d) + D.months * 30.44 * day;
+  if (sig > t0 && sig < tN) {
+    const xs = x(sig).toFixed(1);
+    g += `<line x1="${xs}" x2="${xs}" y1="${T}" y2="${H - B}" stroke="var(--accent)" stroke-dasharray="3 3"/>`
+      + `<text x="${+xs + 4}" y="${T + 10}" font-size="10" fill="var(--accent)">M+${D.months}</text>`;
+  }
+  const yr = y(ref).toFixed(1);
+  g += `<line x1="${L}" x2="${W - 4}" y1="${yr}" y2="${yr}" stroke="var(--dim)" stroke-dasharray="4 3"/>`
+    + `<text x="${W - 6}" y="${+yr - 4}" text-anchor="end" font-size="10" fill="var(--dim)">réf. ${nf2.format(ref)} $</text>`;
+  g += `<text x="${L}" y="${H - 6}" font-size="10" fill="var(--faint)">${fdate(r.h0)}</text>`
+    + `<text x="${W - 4}" y="${H - 6}" text-anchor="end" font-size="10" fill="var(--faint)">${fdate(r.ld)}</text>`;
+  return `<svg class="chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="Cours hebdomadaire de ${esc(r.t)}">${g}`
+    + `<polyline points="${pts}" fill="none" stroke="${col}" stroke-width="2" stroke-linejoin="round"/></svg>`;
+}
+function openRow(r) {
+  if (!r) return;
+  const cell = (l, v) => `<div><small>${l}</small>${v}</div>`;
+  $('dlgbody').innerHTML = `<div class="dlg-h"><div><h3>${esc(r.t)} <span class="tag">${esc(r.k)}</span>`
+    + (entrants.has(r.t) ? '<span class="tag new">entrée</span>' : '') + `</h3>`
+    + `<div class="sub">${esc(r.n)}${r.par ? ' · issue de ' + esc(r.par) : ''}</div></div>`
+    + `<button class="btn" type="button" id="close" aria-label="Fermer">✕</button></div>`
+    + chart(r)
+    + '<div class="grid">'
+    + cell('Cotation', fdate(r.d) + ` (${nf1.format(r.age)} mois)`)
+    + cell(r.ref != null ? 'Prix d\'IPO' : 'Première clôture', usd(r.ref ?? r.fc))
+    + cell('Cours au ' + fdate(r.ld), usd(r.p))
+    + cell('Perf. depuis la référence', pct(r.ret))
+    + cell('Perf. depuis la 1re clôture', pct(r.rfc))
+    + cell('3 mois / 1 mois', pct(r.r3) + ' / ' + pct(r.r1))
+    + cell('Depuis le plus haut', pct(r.fh))
+    + cell('Tendance', r.tr ?? nd)
+    + cell('Secteur', r.sec ? esc(r.sec) + (r.ind ? `<br><span class="mut">${esc(r.ind)}</span>` : '') : nd)
+    + cell('Capitalisation', r.mc == null ? nd : nf0.format(r.mc) + ' M$')
+    + cell('Bourse', r.ex ? esc(r.ex) : nd)
+    + (r.note ? cell('Note', esc(r.note)) : '')
+    + (r.new ? cell('Par rapport à la v1', esc(r.new)) : '')
+    + (r.split ? cell('Attention', 'regroupement d\'actions probable : perf. mesurée depuis la 1re clôture') : '')
+    + '</div><div class="links">'
+    + `<a href="https://finance.yahoo.com/quote/${encodeURIComponent(r.t)}" target="_blank" rel="noopener">Yahoo Finance ↗</a>`
+    + `<a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${encodeURIComponent(r.t)}" target="_blank" rel="noopener">Dépôts EDGAR ↗</a>`
+    + '</div>';
+  $('close').onclick = () => $('dlg').close();
+  $('dlg').showModal();
+}
+$('dlg').onclick = e => { if (e.target === $('dlg')) $('dlg').close(); };
+
+// ------------------------------------------------------------ backtest et notes
+$('btnote').textContent = `Achat de chaque titre (hors SPAC) à cotation + ${D.months} mois, conservé ${D.hold} séances. `
+  + 'Petit échantillon et biais du survivant (les titres radiés n\'ont plus de cours sur Yahoo) : indicatif seulement.';
+$('bt').innerHTML = D.bt.length
+  ? '<thead><tr>' + D.btCols.map((c, i) => `<th class="${i ? 'num' : ''}">${esc(c)}</th>`).join('') + '</tr></thead><tbody>'
+    + D.bt.map(row => '<tr>' + row.map((v, i) => i === 0 ? `<td>${esc(v)}</td>`
+      : `<td class="num">${/%/.test(D.btCols[i]) && !/gagnantes/.test(D.btCols[i]) ? pct(v) : esc(v)}</td>`).join('') + '</tr>').join('') + '</tbody>'
+  : '<tbody><tr><td class="mut">Pas assez d\'historique.</td></tr></tbody>';
+$('notes').innerHTML = [
+  `Règle Fresh Tape : âge ≥ ${D.months} mois, hors SPAC, cours au-dessus de la référence, cours ≥ ${nf2.format(D.minPrice)} $. Les filtres ci-dessus la reproduisent par défaut et se retrouvent dans l'adresse de la page (à mettre en favori).`,
+  'Référence = prix d\'IPO, ou première clôture pour les spin-offs (qui n\'ont pas de prix d\'introduction).',
+  '« Tendance » = au-dessus de la moyenne 50 séances et 3 mois positif. Une perf. 3 mois à 0,0 % signale souvent un titre qui ne traite presque pas.',
+  `« Entrée » = candidat absent du passage précédent. Notes v1 : « seuil franchi » = a passé ${D.months} mois depuis la v1 du 24/09/2026 ; « absent v1 » = manquait dans la v1 ; « avant v1 » = cotation antérieure à juillet 2025.`,
+  '« Conversion mutualiste » = banque introduite à 10 $ avec un code SIC de caisse d\'épargne ; « ? » = indice par le nom seulement.',
+  'Secteur et capitalisation ne sont relevés que pour les candidats de la règle. Mini-graphiques : clôtures hebdomadaires, pointillé = référence.',
+  'Sources : calendrier IPO Nasdaq, EDGAR (formulaires 10-12B), Yahoo Finance. Valeur inconnue = n/d. Données brutes : <a href="fresh_tape.csv">fresh_tape.csv</a>.',
+].map(s => `<li>${s}</li>`).join('');
+
+readHash(); render();
+window.addEventListener('hashchange', () => { F = {...RULE}; sortKey = 'ret'; sortAsc = false; readHash(); render(); });
+})();
+</script>
+</body>
+</html>

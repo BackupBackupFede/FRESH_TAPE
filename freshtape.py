@@ -17,11 +17,10 @@ Usage :
 Sorties :
   fresh_tape.md    rapport lisible sur GitHub (candidats, entrées depuis le dernier passage, backtest)
   fresh_tape.csv   tout l'univers ; la colonne `candidat` sert à repérer les entrées au passage suivant
-  output/freshtape_AAAA-MM-JJ.html   tableau triable, en local
+  index.html       page interactive (GitHub Pages), générée depuis page_template.html
 Ce n'est pas un conseil d'investissement.
 """
 import argparse
-import html
 import json
 import os
 import re
@@ -39,7 +38,6 @@ warnings.filterwarnings("ignore")
 
 ROOT = Path(__file__).resolve().parent
 CACHE = ROOT / "cache"
-OUT = ROOT / "output"
 V1_DATA = ROOT / "freshtape_v1_data.json"
 V1_SNAPSHOT = date(2026, 9, 24)
 V1_START = date(2025, 7, 1)
@@ -47,6 +45,8 @@ SEC_CONTACT = ROOT / "sec_contact.txt"
 SPIN_OVERRIDES = ROOT / "spinoff_overrides.json"
 REPORT_MD = ROOT / "fresh_tape.md"
 REPORT_CSV = ROOT / "fresh_tape.csv"
+REPORT_HTML = ROOT / "index.html"
+PAGE_TEMPLATE = ROOT / "page_template.html"
 
 NASDAQ_URL = "https://api.nasdaq.com/api/ipo/calendar?date={ym}"
 SEC_INDEX_URL = "https://www.sec.gov/Archives/edgar/full-index/{y}/QTR{q}/form.idx"
@@ -380,74 +380,40 @@ def fmt(v, suffix=""):
     return f"{v}{suffix}"
 
 
-def write_html(cand: pd.DataFrame, bt, args, today: date, path: Path, n_universe: int):
-    cols = [("ticker", "Ticker"), ("name", "Société"), ("kind", "Type"), ("date", "Cotation"),
-            ("age", "Âge (mois)"), ("refPrice", "Prix IPO"), ("price", "Cours"), ("ret", "Perf. réf."),
-            ("retFirstClose", "Perf. 1re clôture"), ("ret3m", "3 mois"), ("ret1m", "1 mois"),
-            ("fromHigh", "Depuis plus haut"), ("trend", "Tendance"), ("sector", "Secteur"),
-            ("mc", "Cap. (M$)"), ("exch", "Bourse"), ("parent", "Maison mère"), ("note", "Note"),
-            ("new", "Nouveau")]
-    pct_cols = {"ret", "retFirstClose", "ret3m", "ret1m", "fromHigh"}
-    body = []
-    for _, r in cand.iterrows():
-        tds = []
-        for k, _ in cols:
-            v = r.get(k)
-            if k in pct_cols:
-                txt = fmt(v, " %")
-                cls = "" if txt == "n/d" else ("pos" if v > 0 else "neg")
-                sort = "" if txt == "n/d" else v
-                tds.append(f'<td class="num {cls}" data-v="{sort}">{txt}</td>')
-            elif k in ("refPrice", "price", "age"):
-                tds.append(f'<td class="num" data-v="{"" if pd.isna(v) else v}">{fmt(v)}</td>')
-            elif k == "mc":
-                tds.append(f'<td class="num" data-v="{"" if pd.isna(v) else v}">'
-                           f'{"n/d" if pd.isna(v) else f"{int(v):,}".replace(",", " ")}</td>')
-            elif k in ("note", "new") and (v is None or pd.isna(v)):
-                tds.append("<td></td>")
-            else:
-                tds.append(f"<td>{html.escape(fmt(v))}</td>")
-        body.append("<tr>" + "".join(tds) + "</tr>")
-    head = "".join(f'<th data-k="{i}">{html.escape(t)}</th>' for i, (_, t) in enumerate(cols))
-    bt_html = bt.to_html(index=False, border=0, classes="bt") if bt is not None else "<p>n/d</p>"
-    n_ipo, n_spin = (cand["type"] == "ipo").sum(), (cand["type"] == "spinoff").sum()
-    page = f"""<!doctype html><html lang="fr"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1"><title>Fresh Tape v2</title>
-<style>
-:root{{--bg:#fafaf8;--fg:#1d1d1b;--mut:#6b6b66;--line:#e3e2dc;--pos:#137a3d;--neg:#b42318;--hd:#f0efe9}}
-@media (prefers-color-scheme:dark){{:root{{--bg:#151514;--fg:#ecebe6;--mut:#9a9992;--line:#2c2c2a;--pos:#4cc47a;--neg:#f07267;--hd:#1f1f1d}}}}
-body{{background:var(--bg);color:var(--fg);font:14px/1.45 system-ui,sans-serif;margin:0;padding:24px 16px}}
-h1{{margin:0 0 4px;font-size:22px}} .mut{{color:var(--mut)}} .wrap{{overflow-x:auto}}
-table{{border-collapse:collapse;width:100%;margin-top:12px}} th,td{{padding:6px 8px;border-bottom:1px solid var(--line);white-space:nowrap;text-align:left}}
-th{{background:var(--hd);cursor:pointer;position:sticky;top:0}} td.num{{text-align:right;font-variant-numeric:tabular-nums}}
-.pos{{color:var(--pos)}} .neg{{color:var(--neg)}} table.bt{{width:auto}}
-</style></head><body>
-<h1>Fresh Tape v2 — snapshot du {today:%d/%m/%Y}</h1>
-<p class="mut">IPO et spin-offs US depuis {args.start}, âge ≥ {args.months:g} mois, hors SPAC, perf. depuis la référence &gt; 0,
-cours ≥ {args.min_price:g} $. {len(cand)} titres ({n_ipo} IPO, {n_spin} spin-offs) sur {n_universe} cotations.
-Cours figés à la date du snapshot (relancer le script pour les mettre à jour).
-Référence = prix d'IPO, ou première clôture pour les spin-offs (qui n'ont pas de prix d'introduction).
-« Tendance » = au-dessus de la moyenne 50 séances et 3 mois positif.
-« Nouveau » : « seuil franchi » = a passé {args.months:g} mois depuis la v1 du 24/09/2026 ; « absent v1 » = manquait dans la v1 ; « avant v1 » = cotation antérieure à juillet 2025, hors du périmètre de la v1.
-« Conversion mutualiste » = banque introduite à 10 $ avec un code SIC de caisse d'épargne ; « ? » = indice par le nom seulement.
-Une perf. 3 mois à 0,0 % signale souvent un titre qui ne traite presque pas.
-Sources : calendrier IPO Nasdaq, EDGAR (formulaires 10-12B), Yahoo Finance (yfinance). Valeur inconnue = n/d.</p>
-<div class="wrap"><table id="t"><thead><tr>{head}</tr></thead><tbody>{''.join(body)}</tbody></table></div>
-<h2>Backtest rapide</h2>
-<p class="mut">Achat de chaque titre (hors SPAC) à cotation + {args.months:g} mois, conservé {args.hold} séances. Petit échantillon, biais du survivant
-(les titres radiés n'ont plus de cours sur Yahoo) : indicatif seulement.</p>
-{bt_html}
-<p class="mut">Ce document n'est pas un conseil d'investissement.</p>
-<script>
-document.querySelectorAll('#t th').forEach(th=>th.onclick=()=>{{
- const i=+th.dataset.k, tb=document.querySelector('#t tbody'), rows=[...tb.rows];
- const dir=th.dataset.d=th.dataset.d==='1'?'-1':'1';
- const val=r=>{{const c=r.cells[i];return c.dataset.v!==undefined?(c.dataset.v===''?null:+c.dataset.v):c.textContent}};
- rows.sort((a,b)=>{{const x=val(a),y=val(b);if(x===null)return 1;if(y===null)return -1;
-  return (typeof x==='number'?x-y:String(x).localeCompare(y))*dir}});
- rows.forEach(r=>tb.appendChild(r));}});
-</script></body></html>"""
-    path.write_text(page, encoding="utf-8")
+def write_html(df: pd.DataFrame, closes: pd.DataFrame, entrants, bt, args, today: date, first_run: bool):
+    """Page interactive pour GitHub Pages : tout l'univers coté, filtré dans le navigateur."""
+    def clean(v):
+        if v is None or (isinstance(v, float) and pd.isna(v)):
+            return None
+        if isinstance(v, (date, pd.Timestamp)):
+            return v.isoformat()[:10]
+        return v.item() if hasattr(v, "item") else v
+
+    keys = {"t": "ticker", "n": "name", "k": "kind", "d": "date", "age": "age", "ref": "refPrice",
+            "fc": "firstClose", "p": "price", "ld": "lastDate", "ret": "ret", "rfc": "retFirstClose",
+            "r1": "ret1m", "r3": "ret3m", "fh": "fromHigh", "tr": "trend", "sec": "sector", "ind": "industry",
+            "mc": "mc", "ex": "exch", "par": "parent", "note": "note", "new": "new", "split": "splitSuspect"}
+    rows = []
+    for _, r in df[(df["status"] == "ok") & ~df["spac"]].iterrows():
+        rec = {k: clean(r.get(c)) for k, c in keys.items()}
+        rec["split"] = bool(rec["split"])
+        # Clôtures hebdomadaires depuis la cotation, pour les mini-graphiques.
+        s = closes[r["ticker"]].dropna() if r["ticker"] in closes else pd.Series(dtype=float)
+        s = s[s.index.date >= r["date"]].resample("W-FRI").last().ffill()
+        rec["h"] = [float(f"{v:.4g}") for v in s]
+        rec["h0"] = s.index[0].date().isoformat() if len(s) else None
+        rows.append(rec)
+    data = {
+        "asof": today.isoformat(), "start": args.start, "months": args.months, "minPrice": args.min_price,
+        "hold": args.hold, "nUniverse": len(df), "nSpac": int(df["spac"].sum()), "firstRun": first_run,
+        "entrants": entrants["ticker"].tolist(),
+        "btCols": [] if bt is None else list(bt.columns),
+        "bt": [] if bt is None else [[clean(v) for v in row] for row in bt.itertuples(index=False)],
+        "rows": rows,
+    }
+    payload = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", r"<\/")
+    page = PAGE_TEMPLATE.read_text(encoding="utf-8").replace("/*__DATA__*/", payload)
+    REPORT_HTML.write_text(page, encoding="utf-8")
 
 
 def md_table(rows: pd.DataFrame) -> str:
@@ -535,7 +501,6 @@ def main():
     today = date.today()
     start_day = date.fromisoformat(args.start + "-01")
     CACHE.mkdir(exist_ok=True)
-    OUT.mkdir(exist_ok=True)
 
     print(f"1/5 Calendrier Nasdaq depuis {args.start}…")
     ipos = load_ipos(args.start, today)
@@ -615,7 +580,6 @@ def main():
             first_run = True
     entrants = cand.iloc[0:0] if first_run else cand[~cand["ticker"].isin(prev)]
 
-    stamp = today.isoformat()
     df["candidat"] = cand_mask
     csv_cols = ["ticker", "name", "kind", "candidat", "date", "age", "exch", "parent", "refPrice", "firstClose",
                 "price", "lastDate", "ret", "retFirstClose", "ret1m", "ret3m", "fromHigh", "aboveMa50", "trend",
@@ -623,7 +587,7 @@ def main():
     df[csv_cols].sort_values(["candidat", "ret"], ascending=False).to_csv(
         REPORT_CSV, index=False, encoding="utf-8-sig", sep=";", decimal=",")
     write_md(cand, entrants, bt, args, today, len(df), first_run)
-    write_html(cand, bt, args, today, OUT / f"freshtape_{stamp}.html", len(df))
+    write_html(df, closes, entrants, bt, args, today, first_run)
 
     show = cand[["ticker", "name", "kind", "date", "age", "ret", "ret3m", "trend", "note", "new"]].copy()
     show["name"] = show["name"].str.slice(0, 30)
@@ -632,7 +596,7 @@ def main():
     print("\nPar rapport à la v1 : " + ", ".join(f"{k} = {v}" for k, v in cand["new"].value_counts().items()))
     print("Entrées depuis le dernier passage : "
           + ("premier passage" if first_run else (", ".join(entrants["ticker"]) or "aucune")))
-    print(f"Fichiers : {REPORT_MD}\n           {REPORT_CSV}\n           {OUT / f'freshtape_{stamp}.html'}")
+    print(f"Fichiers : {REPORT_MD}\n           {REPORT_CSV}\n           {REPORT_HTML}")
 
 
 if __name__ == "__main__":

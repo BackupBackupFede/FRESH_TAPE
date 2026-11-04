@@ -373,5 +373,35 @@
   "sector": "Consumer Defensive",
   "industry": "Packaged Foods",
   "longName": "The Magnum Ice Cream Company N.V."
+ },
+ "MWH": {
+  "sector": "Utilities",
+  "industry": "Utilities - Renewable",
+  "longName": "SOLV Energy, Inc."
+ },
+ "BOBS": {
+  "sector": "Consumer Cyclical",
+  "industry": "Specialty Retail",
+  "longName": "Bob's Discount Furniture, Inc."
+ },
+ "ALH": {
+  "sector": "Consumer Cyclical",
+  "industry": "Furnishings, Fixtures & Appliances",
+  "longName": "Alliance Laundry Holdings Inc."
+ },
+ "CARL": {
+  "sector": "Healthcare",
+  "industry": "Health Information Services",
+  "longName": "Carlsmed, Inc."
+ },
+ "EGG": {
+  "sector": "Industrials",
+  "industry": "Consulting Services",
+  "longName": "Enigmatig Limited"
+ },
+ "OMDA": {
+  "sector": "Healthcare",
+  "industry": "Health Information Services",
+  "longName": "Omada Health, Inc."
  }
 }

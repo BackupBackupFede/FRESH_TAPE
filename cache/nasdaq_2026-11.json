@@ -1,1 +1,13 @@
-[]
+[
+ {
+  "dealID": "1390143-118358",
+  "proposedTickerSymbol": "NARA",
+  "companyName": "Narragansett Bancorp, Inc.",
+  "proposedExchange": "NASDAQ Capital",
+  "proposedSharePrice": "10.00",
+  "sharesOffered": "9,098,800",
+  "pricedDate": "11/02/2026",
+  "dollarValueOfSharesOffered": "$90,988,000",
+  "dealStatus": "Priced"
+ }
+]

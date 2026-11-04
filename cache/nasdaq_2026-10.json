@@ -1,13 +1,24 @@
 [
  {
-  "dealID": "1404187-119517",
-  "proposedTickerSymbol": "BHAIU",
-  "companyName": "BHAV Acquisition Corp II",
-  "proposedExchange": "NASDAQ Global",
-  "proposedSharePrice": "10.00",
-  "sharesOffered": "10,000,000",
-  "pricedDate": "10/29/2026",
-  "dollarValueOfSharesOffered": "$100,000,000",
+  "dealID": "1320589-119617",
+  "proposedTickerSymbol": "BBTX",
+  "companyName": "Bambusa Therapeutics, Inc.",
+  "proposedExchange": "NASDAQ Global Select",
+  "proposedSharePrice": "16.00",
+  "sharesOffered": "10,555,555",
+  "pricedDate": "10/30/2026",
+  "dollarValueOfSharesOffered": "$168,888,880",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1405733-119610",
+  "proposedTickerSymbol": "ASPE",
+  "companyName": "Aspen Neuroscience, Inc.",
+  "proposedExchange": "NASDAQ Global Select",
+  "proposedSharePrice": "15.00",
+  "sharesOffered": "9,375,000",
+  "pricedDate": "10/30/2026",
+  "dollarValueOfSharesOffered": "$140,625,000",
   "dealStatus": "Priced"
  },
  {
@@ -19,6 +30,17 @@
   "sharesOffered": "7,074,016",
   "pricedDate": "10/29/2026",
   "dollarValueOfSharesOffered": "",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1404187-119517",
+  "proposedTickerSymbol": "BHAIU",
+  "companyName": "BHAV Acquisition Corp II",
+  "proposedExchange": "NASDAQ Global",
+  "proposedSharePrice": "10.00",
+  "sharesOffered": "10,000,000",
+  "pricedDate": "10/29/2026",
+  "dollarValueOfSharesOffered": "$100,000,000",
   "dealStatus": "Priced"
  },
  {

@@ -403,5 +403,15 @@
   "sector": "Healthcare",
   "industry": "Health Information Services",
   "longName": "Omada Health, Inc."
+ },
+ "PS": {
+  "sector": "Financial Services",
+  "industry": "Asset Management",
+  "longName": "Pershing Square Inc."
+ },
+ "PPHC": {
+  "sector": "Industrials",
+  "industry": "Consulting Services",
+  "longName": "Public Policy Holding Company, Inc."
  }
 }

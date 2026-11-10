@@ -418,5 +418,10 @@
   "sector": "Healthcare",
   "industry": "Biotechnology",
   "longName": "Odyssey Therapeutics, Inc."
+ },
+ "STAK": {
+  "sector": "Energy",
+  "industry": "Oil & Gas Equipment & Services",
+  "longName": "STAK Inc."
  }
 }

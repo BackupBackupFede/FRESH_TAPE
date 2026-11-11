@@ -423,5 +423,20 @@
   "sector": "Energy",
   "industry": "Oil & Gas Equipment & Services",
   "longName": "STAK Inc."
+ },
+ "NIQ": {
+  "sector": null,
+  "industry": null,
+  "longName": "NIQ Global Intelligence plc"
+ },
+ "MSGY": {
+  "sector": "Industrials",
+  "industry": "Engineering & Construction",
+  "longName": "Masonglory Ltd"
+ },
+ "BBNX": {
+  "sector": "Healthcare",
+  "industry": "Medical Devices",
+  "longName": "Beta Bionics, Inc."
  }
 }

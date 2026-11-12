@@ -1,4 +1,4 @@
-# Fresh Tape — snapshot du 11/11/2026
+# Fresh Tape — snapshot du 12/11/2026
 
 IPO et spin-offs US cotées depuis 2025-01, âge ≥ 6 mois, hors SPAC, au-dessus de leur
 référence, cours ≥ 1 $ : **76 titres** (67 IPO, 9 spin-offs) sur 682 cotations.
@@ -7,10 +7,9 @@ référence, cours ≥ 1 $ : **76 titres** (67 IPO, 9 spin-offs) sur 682 cotatio
 
 | Ticker | Société | Type | Cotation | Âge (mois) | Perf. réf. | 3 mois | Tendance | Secteur | Cap. (M$) | Maison mère | Note | Nouveau |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| CARL | CARLSMED, INC. | IPO | 2025-07-23 | 15.6 | +16.4 % | +24.8 % | oui | Healthcare | 477 |  |  |  |
-| BBNX | Beta Bionics, Inc. | IPO | 2025-01-30 | 21.4 | +4.1 % | -2.1 % | non | Healthcare | 960 |  |  | avant v1 |
-| MSGY | Masonglory Ltd | IPO | 2025-07-08 | 16.1 | +1.3 % | +37.3 % | oui | Industrials | 9 |  |  |  |
-| NIQ | NIQ Global Intelligence plc | IPO | 2025-07-23 | 15.6 | +0.3 % | +24.9 % | oui | n/d | 6 206 |  |  |  |
+| BUUU | BUUU Group Ltd | IPO | 2025-08-14 | 14.9 | +23.5 % | +67.8 % | oui | Industrials | 982 |  |  |  |
+| EROK | EagleRock Land, LLC | IPO | 2026-05-14 | 6.0 | +15.6 % | -14.5 % | non | Energy | 2 812 |  |  | seuil franchi |
+| FIGR | Figure Technology Solutions, Inc. | IPO | 2025-09-11 | 14.0 | +8.2 % | -14.0 % | non | Financial Services | 6 067 |  |  |  |
 
 ## Tous les candidats
 
@@ -18,82 +17,82 @@ Triés par performance depuis la référence (prix d'IPO, ou première clôture 
 
 | Ticker | Société | Type | Cotation | Âge (mois) | Perf. réf. | 3 mois | Tendance | Secteur | Cap. (M$) | Maison mère | Note | Nouveau |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| MGRT | Mega Fortune Co Ltd | IPO | 2025-07-16 | 15.9 | +2755.1 % | +15.4 % | oui | Technology | 1 570 |  |  |  |
-| SNDK | Sandisk Corp | Spin-off | 2025-02-24 | 20.5 | +1979.0 % | -33.9 % | non | Technology | 143 569 | Western Digital |  | avant v1 |
-| MANE | VeraDermics, Inc | IPO | 2026-02-04 | 9.2 | +794.3 % | +37.0 % | oui | Healthcare | 6 352 |  |  |  |
+| MGRT | Mega Fortune Co Ltd | IPO | 2025-07-16 | 15.9 | +2827.5 % | +18.3 % | oui | Technology | 1 610 |  |  |  |
+| SNDK | Sandisk Corp | Spin-off | 2025-02-24 | 20.6 | +1848.3 % | -42.3 % | non | Technology | 134 523 | Western Digital |  | avant v1 |
+| MANE | VeraDermics, Inc | IPO | 2026-02-04 | 9.2 | +725.9 % | +24.6 % | oui | Healthcare | 5 924 |  |  |  |
 | MCTA | Charming Medical Ltd | IPO | 2025-10-21 | 12.7 | +633.9 % | +0.0 % | non | Healthcare | 446 |  |  |  |
-| PHOE | Phoenix Asia Holdings Ltd | IPO | 2025-04-25 | 18.6 | +332.3 % | -21.6 % | non | Industrials | 373 |  |  | avant v1 |
-| ANDG | Andersen Group Inc. | IPO | 2025-12-17 | 10.8 | +308.4 % | +35.3 % | oui | Consumer Cyclical | 1 275 |  |  |  |
-| HNGE | Hinge Health, Inc. | IPO | 2025-05-22 | 17.7 | +281.3 % | +39.6 % | oui | Healthcare | 9 917 |  |  | avant v1 |
+| ANDG | Andersen Group Inc. | IPO | 2025-12-17 | 10.8 | +316.5 % | +36.3 % | oui | Consumer Cyclical | 1 300 |  |  |  |
+| PHOE | Phoenix Asia Holdings Ltd | IPO | 2025-04-25 | 18.6 | +301.5 % | -27.1 % | non | Industrials | 347 |  |  | avant v1 |
+| HNGE | Hinge Health, Inc. | IPO | 2025-05-22 | 17.7 | +277.2 % | +36.4 % | oui | Healthcare | 9 809 |  |  | avant v1 |
 | EFTY | ETOILES CAPITAL GROUP CO., LTD | IPO | 2025-08-08 | 15.1 | +275.5 % | +0.0 % | non | Industrials | 302 |  |  |  |
-| AGCC | Agencia Comercial Spirits Ltd. | IPO | 2025-10-22 | 12.6 | +257.3 % | -3.6 % | non | Consumer Defensive | 611 |  |  |  |
-| AUGO | Aura Minerals Inc. | IPO | 2025-07-16 | 15.9 | +244.3 % | +11.6 % | oui | Basic Materials | 7 002 |  |  | absent v1 |
-| RHLD | Resolute Holdings Management, Inc. | Spin-off | 2025-02-28 | 20.4 | +241.6 % | +21.8 % | oui | Industrials | 1 251 | Gpgi |  | avant v1 |
+| AGCC | Agencia Comercial Spirits Ltd. | IPO | 2025-10-22 | 12.7 | +250.1 % | -4.1 % | non | Consumer Defensive | 599 |  |  |  |
+| RHLD | Resolute Holdings Management, Inc. | Spin-off | 2025-02-28 | 20.4 | +244.6 % | +20.9 % | oui | Industrials | 1 262 | Gpgi |  | avant v1 |
+| AUGO | Aura Minerals Inc. | IPO | 2025-07-16 | 15.9 | +228.6 % | +4.8 % | non | Basic Materials | 6 682 |  |  | absent v1 |
 | MAMK | MaxsMaking Inc. | IPO | 2025-07-07 | 16.2 | +225.0 % | +0.0 % | non | Industrials | 219 |  |  |  |
-| HTFL | Heartflow, Inc. | IPO | 2025-08-08 | 15.1 | +217.8 % | +94.7 % | oui | Healthcare | 5 250 |  |  |  |
-| LBRX | LB PHARMACEUTICALS INC | IPO | 2025-09-11 | 14.0 | +197.7 % | +0.9 % | oui | Healthcare | 1 445 |  |  |  |
-| TRAX | First Tracks Biotherapeutics, Inc. | Spin-off | 2026-04-20 | 6.7 | +175.5 % | +16.4 % | oui | Healthcare | 2 145 | AnaptysBio |  | seuil franchi |
-| MAZE | Maze Therapeutics, Inc. | IPO | 2025-01-31 | 21.3 | +131.8 % | +34.1 % | oui | Healthcare | 2 021 |  |  | avant v1 |
-| CRCL | Circle Internet Group, Inc. | IPO | 2025-06-05 | 17.2 | +119.7 % | -9.7 % | non | Financial Services | 17 479 |  |  | avant v1 |
-| COAG | Hemab Therapeutics Holdings, Inc. | IPO | 2026-05-01 | 6.4 | +112.8 % | -29.0 % | non | Healthcare | 1 789 |  |  | seuil franchi |
-| SGP | SpyGlass Pharma, Inc. | IPO | 2026-02-06 | 9.1 | +111.9 % | +34.7 % | oui | Healthcare | 1 134 |  |  |  |
-| KRMN | Karman Holdings Inc. | IPO | 2025-02-13 | 20.9 | +99.0 % | -27.6 % | non | Industrials | 5 797 |  |  | avant v1 |
-| LIFE | Ethos Technologies Inc. | IPO | 2026-01-29 | 9.4 | +98.2 % | +8.2 % | non | Financial Services | 2 448 |  |  | absent v1 |
-| AMBQ | Ambiq Micro, Inc. | IPO | 2025-07-30 | 15.4 | +95.7 % | -27.0 % | non | Technology | 1 151 |  |  |  |
-| HYNE | Hoyne Bancorp, Inc. | IPO | 2025-12-04 | 11.2 | +89.9 % | +16.5 % | oui | Financial Services | 142 |  | conversion mutualiste | absent v1 |
-| BLLN | BillionToOne, Inc. | IPO | 2025-11-06 | 12.2 | +89.0 % | +20.6 % | oui | Healthcare | 5 419 |  |  |  |
-| ALMR | Alamar Biosciences, Inc. | IPO | 2026-04-17 | 6.8 | +87.0 % | -3.4 % | non | Healthcare | 2 203 |  |  | seuil franchi |
-| ARXS | Arxis, Inc. | IPO | 2026-04-16 | 6.9 | +86.2 % | -9.6 % | non | Industrials | 22 454 |  |  | seuil franchi |
-| AII | American Integrity Insurance Group, Inc. | IPO | 2025-05-08 | 18.1 | +86.2 % | +24.1 % | oui | Financial Services | 584 |  |  | avant v1 |
-| CBC | Central Bancompany, Inc. | IPO | 2025-11-20 | 11.7 | +82.6 % | +15.6 % | oui | Financial Services | 9 180 |  |  | absent v1 |
-| KMTS | KESTRA MEDICAL TECHNOLOGIES, LTD. | IPO | 2025-03-06 | 20.2 | +78.8 % | +9.6 % | oui | Healthcare | 1 808 |  |  | avant v1 |
-| AVLN | Avalyn Pharma Inc. | IPO | 2026-04-30 | 6.4 | +75.0 % | -13.9 % | non | Healthcare | 1 397 |  |  | seuil franchi |
-| SWMR | Swarmer, Inc | IPO | 2026-03-17 | 7.9 | +71.7 % | -80.0 % | non | Technology | 123 |  |  |  |
+| HTFL | Heartflow, Inc. | IPO | 2025-08-08 | 15.1 | +214.1 % | +41.8 % | oui | Healthcare | 5 191 |  |  |  |
+| LBRX | LB PHARMACEUTICALS INC | IPO | 2025-09-11 | 14.0 | +193.4 % | -7.9 % | non | Healthcare | 1 424 |  |  |  |
+| TRAX | First Tracks Biotherapeutics, Inc. | Spin-off | 2026-04-20 | 6.8 | +161.9 % | +10.6 % | oui | Healthcare | 2 047 | AnaptysBio |  | seuil franchi |
+| MAZE | Maze Therapeutics, Inc. | IPO | 2025-01-31 | 21.4 | +127.8 % | +34.1 % | oui | Healthcare | 1 993 |  |  | avant v1 |
+| SGP | SpyGlass Pharma, Inc. | IPO | 2026-02-06 | 9.2 | +114.4 % | +30.9 % | oui | Healthcare | 1 147 |  |  |  |
+| AMBQ | Ambiq Micro, Inc. | IPO | 2025-07-30 | 15.4 | +113.1 % | -20.7 % | non | Technology | 1 273 |  |  |  |
+| COAG | Hemab Therapeutics Holdings, Inc. | IPO | 2026-05-01 | 6.4 | +112.9 % | -30.3 % | non | Healthcare | 1 791 |  |  | seuil franchi |
+| CRCL | Circle Internet Group, Inc. | IPO | 2025-06-05 | 17.2 | +110.5 % | -8.9 % | non | Financial Services | 16 727 |  |  | avant v1 |
+| ARXS | Arxis, Inc. | IPO | 2026-04-16 | 6.9 | +95.8 % | -4.3 % | non | Industrials | 23 619 |  |  | seuil franchi |
+| KRMN | Karman Holdings Inc. | IPO | 2025-02-13 | 20.9 | +92.7 % | -31.6 % | non | Industrials | 5 617 |  |  | avant v1 |
+| HYNE | Hoyne Bancorp, Inc. | IPO | 2025-12-04 | 11.3 | +88.5 % | +15.7 % | oui | Financial Services | 141 |  | conversion mutualiste | absent v1 |
+| LIFE | Ethos Technologies Inc. | IPO | 2026-01-29 | 9.4 | +84.6 % | +3.1 % | non | Financial Services | 2 281 |  |  | absent v1 |
+| AII | American Integrity Insurance Group, Inc. | IPO | 2025-05-08 | 18.2 | +83.9 % | +22.6 % | oui | Financial Services | 576 |  |  | avant v1 |
+| SWMR | Swarmer, Inc | IPO | 2026-03-17 | 7.9 | +82.8 % | -78.0 % | non | Technology | 131 |  |  |  |
+| CBC | Central Bancompany, Inc. | IPO | 2025-11-20 | 11.7 | +81.3 % | +16.5 % | oui | Financial Services | 9 113 |  |  | absent v1 |
+| ALMR | Alamar Biosciences, Inc. | IPO | 2026-04-17 | 6.9 | +81.2 % | -7.1 % | non | Healthcare | 2 140 |  |  | seuil franchi |
+| BLLN | BillionToOne, Inc. | IPO | 2025-11-06 | 12.2 | +81.2 % | +16.5 % | oui | Healthcare | 5 196 |  |  |  |
+| KMTS | KESTRA MEDICAL TECHNOLOGIES, LTD. | IPO | 2025-03-06 | 20.2 | +76.6 % | +7.1 % | oui | Healthcare | 1 788 |  |  | avant v1 |
+| PARK | Park Dental Partners, Inc. | IPO | 2025-12-03 | 11.3 | +70.0 % | -3.8 % | non | Healthcare | 105 |  |  |  |
+| AVLN | Avalyn Pharma Inc. | IPO | 2026-04-30 | 6.4 | +69.5 % | -22.3 % | non | Healthcare | 1 353 |  |  | seuil franchi |
 | MAGH | Magnitude International Ltd | IPO | 2025-08-12 | 15.0 | +69.0 % | +0.0 % | non | Industrials | 237 |  |  |  |
-| PARK | Park Dental Partners, Inc. | IPO | 2025-12-03 | 11.3 | +64.2 % | -7.4 % | non | Healthcare | 102 |  |  |  |
-| JAN | Janus Living, Inc. | IPO | 2026-03-20 | 7.8 | +61.5 % | +7.9 % | oui | Real Estate | 11 012 |  |  |  |
-| ELMT | Elmet Group Co. | IPO | 2026-04-23 | 6.6 | +59.5 % | +30.2 % | oui | Industrials | 685 |  |  | seuil franchi |
-| MIAX | MIAMI INTERNATIONAL HOLDINGS, INC. | IPO | 2025-08-14 | 14.9 | +59.2 % | -16.6 % | non | Financial Services | 3 661 |  |  |  |
-| SLDE | Slide Insurance Holdings, Inc. | IPO | 2025-06-18 | 16.8 | +53.6 % | +20.9 % | oui | Financial Services | 3 061 |  |  | avant v1 |
-| CRWV | CoreWeave, Inc. | IPO | 2025-03-28 | 19.5 | +53.4 % | -42.3 % | non | Technology | 33 884 |  |  | avant v1 |
-| VGNT | Versigent PLC | Spin-off | 2026-04-01 | 7.4 | +52.6 % | -6.7 % | non | Consumer Cyclical | 3 018 | Aptiv |  | seuil franchi |
-| RAL | Ralliant Corp | Spin-off | 2025-06-30 | 16.4 | +49.5 % | +1.5 % | oui | Technology | 8 031 | Fortive |  | avant v1 |
-| PTRN | Pattern Group Inc. | IPO | 2025-09-19 | 13.7 | +46.2 % | -10.3 % | non | Consumer Cyclical | 3 616 |  |  |  |
-| EHLD | Euroholdings Ltd. | Spin-off | 2025-03-18 | 19.8 | +45.5 % | +26.5 % | non | Industrials | 33 | Euroseas |  | avant v1 |
-| MDLN | Medline Inc. | IPO | 2025-12-17 | 10.8 | +44.1 % | +17.5 % | oui | Healthcare | 55 036 |  |  |  |
-| SI | SHOULDER INNOVATIONS, INC. | IPO | 2025-07-31 | 15.4 | +44.1 % | +12.4 % | oui | n/d | 452 |  |  |  |
-| ASIC | Ategrity Specialty Insurance Co Holdings | IPO | 2025-06-11 | 17.0 | +42.2 % | -3.6 % | non | Financial Services | 1 156 |  |  | avant v1 |
-| NP | Neptune Insurance Holdings Inc. | IPO | 2025-10-01 | 13.3 | +41.0 % | -12.0 % | non | Financial Services | 3 898 |  |  |  |
-| WBI | WaterBridge Infrastructure LLC | IPO | 2025-09-17 | 13.8 | +38.9 % | -11.1 % | non | Energy | 3 426 |  |  |  |
-| SOLS | Solstice Advanced Materials Inc. | Spin-off | 2025-10-30 | 12.4 | +38.2 % | +7.6 % | oui | Basic Materials | 10 587 | Honeywell |  |  |
-| CBK | Commercial Bancgroup, Inc. | IPO | 2025-10-02 | 13.3 | +38.1 % | -6.5 % | non | Financial Services | 454 |  |  |  |
-| WSBK | Winchester Bancorp, Inc./MD/ | IPO | 2025-05-02 | 18.3 | +37.2 % | +5.8 % | oui | Financial Services | 123 |  | conversion mutualiste | avant v1 |
-| JLHL | Julong Holding Ltd | IPO | 2025-06-26 | 16.5 | +36.5 % | -28.3 % | non | Industrials | 121 |  |  | avant v1 |
-| COSO | CoastalSouth Bancshares, Inc. | IPO | 2025-07-02 | 16.3 | +33.5 % | +2.5 % | oui | Financial Services | 335 |  |  | absent v1 |
-| MICC | Magnum Ice Cream Co NV | Spin-off | 2025-12-08 | 11.1 | +31.8 % | -2.1 % | non | Consumer Defensive | 11 871 | Unilever |  |  |
-| Q | Qnity Electronics, Inc. | Spin-off | 2025-11-03 | 12.3 | +31.8 % | -10.4 % | non | Technology | 26 720 | DuPont |  |  |
-| JCAP | Jefferson Capital, Inc. / DE | IPO | 2025-06-26 | 16.5 | +30.8 % | -9.2 % | non | Financial Services | 1 127 |  |  | avant v1 |
-| CV | CapsoVision, Inc | IPO | 2025-07-02 | 16.3 | +29.4 % | -4.7 % | non | Healthcare | 344 |  |  |  |
-| SMA | SmartStop Self Storage REIT, Inc. | IPO | 2025-04-02 | 19.3 | +28.9 % | +12.9 % | oui | Real Estate | 2 220 |  |  | avant v1 |
-| NHP | National Healthcare Properties, Inc. | IPO | 2026-04-22 | 6.7 | +28.3 % | -5.6 % | non | Real Estate | 1 124 |  |  | seuil franchi |
-| YSWY | Yesway, Inc. | IPO | 2026-04-22 | 6.7 | +28.1 % | +5.2 % | oui | Consumer Defensive | 799 |  |  | seuil franchi |
-| LGN | Legence Corp. | IPO | 2025-09-12 | 14.0 | +27.6 % | -43.5 % | non | Industrials | 5 863 |  |  |  |
-| BOBS | Bob's Discount Furniture, Inc. | IPO | 2026-02-05 | 9.2 | +25.4 % | +9.7 % | oui | Consumer Cyclical | 2 788 |  |  |  |
-| CHYM | Chime Financial, Inc. | IPO | 2025-06-12 | 17.0 | +21.6 % | +2.0 % | oui | Technology | 12 598 |  |  | avant v1 |
+| JAN | Janus Living, Inc. | IPO | 2026-03-20 | 7.8 | +62.6 % | +6.2 % | oui | Real Estate | 11 085 |  |  |  |
+| MIAX | MIAMI INTERNATIONAL HOLDINGS, INC. | IPO | 2025-08-14 | 14.9 | +60.6 % | -15.1 % | non | Financial Services | 3 692 |  |  |  |
+| SLDE | Slide Insurance Holdings, Inc. | IPO | 2025-06-18 | 16.8 | +55.1 % | +20.2 % | oui | Financial Services | 3 092 |  |  | avant v1 |
+| PTRN | Pattern Group Inc. | IPO | 2025-09-19 | 13.8 | +55.0 % | +1.2 % | oui | Consumer Cyclical | 3 831 |  |  |  |
+| ELMT | Elmet Group Co. | IPO | 2026-04-23 | 6.7 | +54.6 % | +15.0 % | oui | Industrials | 664 |  |  | seuil franchi |
+| VGNT | Versigent PLC | Spin-off | 2026-04-01 | 7.4 | +51.3 % | -8.8 % | non | Consumer Cyclical | 2 986 | Aptiv |  | seuil franchi |
+| RAL | Ralliant Corp | Spin-off | 2025-06-30 | 16.4 | +47.6 % | -1.0 % | non | Technology | 7 935 | Fortive |  | avant v1 |
+| CRWV | CoreWeave, Inc. | IPO | 2025-03-28 | 19.5 | +45.0 % | -44.9 % | non | Technology | 31 962 |  |  | avant v1 |
+| ASIC | Ategrity Specialty Insurance Co Holdings | IPO | 2025-06-11 | 17.0 | +44.6 % | -0.5 % | non | Financial Services | 1 176 |  |  | avant v1 |
+| NP | Neptune Insurance Holdings Inc. | IPO | 2025-10-01 | 13.4 | +43.3 % | -9.6 % | non | Financial Services | 3 960 |  |  |  |
+| MDLN | Medline Inc. | IPO | 2025-12-17 | 10.8 | +43.2 % | +16.2 % | oui | Healthcare | 54 667 |  |  |  |
+| EHLD | Euroholdings Ltd. | Spin-off | 2025-03-18 | 19.8 | +41.9 % | +15.5 % | non | Industrials | 32 | Euroseas |  | avant v1 |
+| SI | SHOULDER INNOVATIONS, INC. | IPO | 2025-07-31 | 15.4 | +41.5 % | +2.4 % | oui | n/d | 444 |  |  |  |
+| WBI | WaterBridge Infrastructure LLC | IPO | 2025-09-17 | 13.8 | +40.9 % | -11.2 % | non | Energy | 3 486 |  |  |  |
+| WSBK | Winchester Bancorp, Inc./MD/ | IPO | 2025-05-02 | 18.4 | +37.9 % | +6.1 % | oui | Financial Services | 124 |  | conversion mutualiste | avant v1 |
+| CBK | Commercial Bancgroup, Inc. | IPO | 2025-10-02 | 13.3 | +37.2 % | -7.0 % | non | Financial Services | 452 |  |  |  |
+| SOLS | Solstice Advanced Materials Inc. | Spin-off | 2025-10-30 | 12.4 | +36.6 % | +6.3 % | oui | Basic Materials | 10 469 | Honeywell |  |  |
+| JLHL | Julong Holding Ltd | IPO | 2025-06-26 | 16.6 | +35.5 % | -24.6 % | non | Industrials | 120 |  |  | avant v1 |
+| COSO | CoastalSouth Bancshares, Inc. | IPO | 2025-07-02 | 16.4 | +33.5 % | +3.2 % | oui | Financial Services | 335 |  |  | absent v1 |
+| MICC | Magnum Ice Cream Co NV | Spin-off | 2025-12-08 | 11.1 | +32.8 % | +1.2 % | oui | Consumer Defensive | 11 958 | Unilever |  |  |
+| SMA | SmartStop Self Storage REIT, Inc. | IPO | 2025-04-02 | 19.3 | +31.5 % | +15.5 % | oui | Real Estate | 2 264 |  |  | avant v1 |
+| Q | Qnity Electronics, Inc. | Spin-off | 2025-11-03 | 12.3 | +30.5 % | -11.1 % | non | Technology | 26 470 | DuPont |  |  |
+| JCAP | Jefferson Capital, Inc. / DE | IPO | 2025-06-26 | 16.6 | +29.9 % | -18.8 % | non | Financial Services | 1 119 |  |  | avant v1 |
+| NHP | National Healthcare Properties, Inc. | IPO | 2026-04-22 | 6.7 | +29.7 % | -5.0 % | non | Real Estate | 1 135 |  |  | seuil franchi |
+| LGN | Legence Corp. | IPO | 2025-09-12 | 14.0 | +28.2 % | -45.9 % | non | Industrials | 5 898 |  |  |  |
+| CV | CapsoVision, Inc | IPO | 2025-07-02 | 16.4 | +23.6 % | -4.3 % | non | Healthcare | 329 |  |  |  |
+| BUUU | BUUU Group Ltd | IPO | 2025-08-14 | 14.9 | +23.5 % | +67.8 % | oui | Industrials | 982 |  |  |  |
+| CARL | CARLSMED, INC. | IPO | 2025-07-23 | 15.7 | +23.5 % | +29.3 % | oui | Healthcare | 508 |  |  |  |
+| CHYM | Chime Financial, Inc. | IPO | 2025-06-12 | 17.0 | +22.7 % | +3.5 % | oui | Technology | 12 719 |  |  | avant v1 |
+| BOBS | Bob's Discount Furniture, Inc. | IPO | 2026-02-05 | 9.2 | +21.5 % | +9.1 % | oui | Consumer Cyclical | 2 700 |  |  |  |
+| EGG | ENIGMATIG LTD | IPO | 2025-06-18 | 16.8 | +21.2 % | +86.5 % | oui | Industrials | 170 |  |  | avant v1 |
 | JFB | JFB Construction Holdings | IPO | 2025-03-06 | 20.2 | +19.9 % | n/d | non | Real Estate | 100 |  |  | avant v1 |
-| NTSK | Netskope Inc | IPO | 2025-09-18 | 13.8 | +18.8 % | +39.4 % | oui | Technology | 9 218 |  |  |  |
-| CAI | Caris Life Sciences, Inc. | IPO | 2025-06-18 | 16.8 | +17.9 % | +11.6 % | non | Healthcare | 7 105 |  |  | avant v1 |
-| EGG | ENIGMATIG LTD | IPO | 2025-06-18 | 16.8 | +16.8 % | +88.4 % | oui | Industrials | 164 |  |  | avant v1 |
-| SPTX | Seaport Therapeutics, Inc. | IPO | 2026-05-01 | 6.4 | +16.4 % | -11.6 % | non | Healthcare | 1 122 |  |  | seuil franchi |
-| CARL | CARLSMED, INC. | IPO | 2025-07-23 | 15.6 | +16.4 % | +24.8 % | oui | Healthcare | 477 |  |  |  |
-| ODTX | Odyssey Therapeutics, Inc. | IPO | 2026-05-08 | 6.1 | +15.1 % | -0.0 % | non | Healthcare | 995 |  |  | seuil franchi |
-| MWH | SOLV Energy, Inc. | IPO | 2026-02-11 | 9.0 | +13.7 % | -13.1 % | non | Utilities | 5 758 |  |  |  |
-| ALH | Alliance Laundry Holdings Inc. | IPO | 2025-10-09 | 13.1 | +9.2 % | -6.8 % | non | Consumer Cyclical | 4 714 |  |  |  |
-| NPB | NORTHPOINTE BANCSHARES INC | IPO | 2025-02-14 | 20.9 | +8.8 % | -9.5 % | non | Financial Services | 546 |  |  | avant v1 |
-| BBNX | Beta Bionics, Inc. | IPO | 2025-01-30 | 21.4 | +4.1 % | -2.1 % | non | Healthcare | 960 |  |  | avant v1 |
-| NAVN | Navan, Inc. | IPO | 2025-10-30 | 12.4 | +3.2 % | -13.2 % | non | Technology | 6 706 |  |  |  |
-| MSGY | Masonglory Ltd | IPO | 2025-07-08 | 16.1 | +1.3 % | +37.3 % | oui | Industrials | 9 |  |  |  |
-| NIQ | NIQ Global Intelligence plc | IPO | 2025-07-23 | 15.6 | +0.3 % | +24.9 % | oui | n/d | 6 206 |  |  |  |
+| YSWY | Yesway, Inc. | IPO | 2026-04-22 | 6.7 | +18.6 % | -5.8 % | non | Consumer Defensive | 740 |  |  | seuil franchi |
+| EROK | EagleRock Land, LLC | IPO | 2026-05-14 | 6.0 | +15.6 % | -14.5 % | non | Energy | 2 812 |  |  | seuil franchi |
+| NTSK | Netskope Inc | IPO | 2025-09-18 | 13.8 | +15.0 % | +38.2 % | oui | Technology | 8 926 |  |  |  |
+| CAI | Caris Life Sciences, Inc. | IPO | 2025-06-18 | 16.8 | +14.4 % | +10.2 % | non | Healthcare | 6 877 |  |  | avant v1 |
+| SPTX | Seaport Therapeutics, Inc. | IPO | 2026-05-01 | 6.4 | +14.1 % | -15.2 % | non | Healthcare | 1 100 |  |  | seuil franchi |
+| MWH | SOLV Energy, Inc. | IPO | 2026-02-11 | 9.0 | +12.9 % | -11.8 % | non | Utilities | 5 695 |  |  |  |
+| ODTX | Odyssey Therapeutics, Inc. | IPO | 2026-05-08 | 6.2 | +11.6 % | -3.1 % | non | Healthcare | 965 |  |  | seuil franchi |
+| ALH | Alliance Laundry Holdings Inc. | IPO | 2025-10-09 | 13.1 | +10.1 % | -4.9 % | non | Consumer Cyclical | 4 759 |  |  |  |
+| FIGR | Figure Technology Solutions, Inc. | IPO | 2025-09-11 | 14.0 | +8.2 % | -14.0 % | non | Financial Services | 6 067 |  |  |  |
+| NPB | NORTHPOINTE BANCSHARES INC | IPO | 2025-02-14 | 20.9 | +8.0 % | -10.5 % | non | Financial Services | 541 |  |  | avant v1 |
+| NAVN | Navan, Inc. | IPO | 2025-10-30 | 12.4 | +6.4 % | -9.1 % | non | Technology | 6 927 |  |  |  |
 
 ## Backtest rapide
 
@@ -102,9 +101,9 @@ Petit échantillon et biais du survivant (les titres radiés n'ont plus de cours
 
 | groupe | n | moyenne % | médiane % | % gagnantes | vs SPY moy. % | vs SPY méd. % |
 |---|---|---|---|---|---|---|
-| IPO positives à M+6 (signal) | 77 | 24.1 | -9.7 | 42 | 20.6 | -10.7 |
-| IPO négatives à M+6 | 139 | -14.1 | -17.7 | 31 | -19.0 | -23.4 |
-| IPO toutes | 229 | -2.0 | -16.8 | 34 | -6.4 | -19.6 |
+| IPO positives à M+6 (signal) | 78 | 23.5 | -10.6 | 41 | 20.0 | -13.7 |
+| IPO négatives à M+6 | 138 | -14.5 | -17.9 | 30 | -19.4 | -23.7 |
+| IPO toutes | 230 | -2.5 | -17.6 | 33 | -6.9 | -19.7 |
 | Spin-offs positives à M+6 (signal) | 9 | 12.0 | -3.0 | 33 | 9.8 | -4.6 |
 | Spin-offs négatives à M+6 | 3 | 119.3 | -4.5 | 33 | 115.8 | -7.5 |
 | Spin-offs toutes | 12 | 38.8 | -3.8 | 33 | 36.3 | -6.0 |

@@ -438,5 +438,15 @@
   "sector": "Healthcare",
   "industry": "Medical Devices",
   "longName": "Beta Bionics, Inc."
+ },
+ "EROK": {
+  "sector": "Energy",
+  "industry": "Oil & Gas Equipment & Services",
+  "longName": "EagleRock Land LLC"
+ },
+ "FIGR": {
+  "sector": "Financial Services",
+  "industry": "Capital Markets",
+  "longName": "Figure Technology Solutions, Inc."
  }
 }

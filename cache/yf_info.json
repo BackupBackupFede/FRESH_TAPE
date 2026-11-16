@@ -448,5 +448,10 @@
   "sector": "Financial Services",
   "industry": "Capital Markets",
   "longName": "Figure Technology Solutions, Inc."
+ },
+ "NCT": {
+  "sector": "Industrials",
+  "industry": "Marine Shipping",
+  "longName": "Intercont (Cayman) Limited"
  }
 }

@@ -1,5 +1,38 @@
 [
  {
+  "dealID": "1212697-115511",
+  "proposedTickerSymbol": "MDRN",
+  "companyName": "Modern Mining Technology Corp.",
+  "proposedExchange": "NYSE MKT",
+  "proposedSharePrice": "4.25",
+  "sharesOffered": "9,411,764",
+  "pricedDate": "11/13/2026",
+  "dollarValueOfSharesOffered": "$39,999,997",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1235548-119602",
+  "proposedTickerSymbol": "VVVV",
+  "companyName": "vVARDIS Holding AG",
+  "proposedExchange": "NYSE",
+  "proposedSharePrice": "18.00",
+  "sharesOffered": "9,722,223",
+  "pricedDate": "11/13/2026",
+  "dollarValueOfSharesOffered": "$175,000,014",
+  "dealStatus": "Priced"
+ },
+ {
+  "dealID": "1407588-119709",
+  "proposedTickerSymbol": "WWB",
+  "companyName": "WINDWARD BIO GROUP AG",
+  "proposedExchange": "NASDAQ Global",
+  "proposedSharePrice": "17.00",
+  "sharesOffered": "10,294,117",
+  "pricedDate": "11/13/2026",
+  "dollarValueOfSharesOffered": "$174,999,989",
+  "dealStatus": "Priced"
+ },
+ {
   "dealID": "1390143-118358",
   "proposedTickerSymbol": "NARA",
   "companyName": "Narragansett Bancorp, Inc.",

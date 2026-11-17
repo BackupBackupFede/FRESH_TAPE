@@ -453,5 +453,10 @@
   "sector": "Industrials",
   "industry": "Marine Shipping",
   "longName": "Intercont (Cayman) Limited"
+ },
+ "LUD": {
+  "sector": "Basic Materials",
+  "industry": "Steel",
+  "longName": "Luda Technology Group Limited"
  }
 }

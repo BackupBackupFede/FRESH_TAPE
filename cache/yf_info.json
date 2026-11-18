@@ -458,5 +458,15 @@
   "sector": "Basic Materials",
   "industry": "Steel",
   "longName": "Luda Technology Group Limited"
+ },
+ "RACC": {
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "longName": "Research Alliance Corporation III"
+ },
+ "LCLN": {
+  "sector": "Financial Services",
+  "industry": "Capital Markets",
+  "longName": "Lincoln International, Inc."
  }
 }

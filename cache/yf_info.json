@@ -468,5 +468,15 @@
   "sector": "Financial Services",
   "industry": "Capital Markets",
   "longName": "Lincoln International, Inc."
+ },
+ "VIA": {
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "longName": "Via Transportation, Inc."
+ },
+ "SAIL": {
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "longName": "SailPoint, Inc."
  }
 }

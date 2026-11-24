@@ -1,278 +1,278 @@
 ﻿ticker;name;kind;candidat;date;age;exch;parent;refPrice;firstClose;price;lastDate;ret;retFirstClose;ret1m;ret3m;fromHigh;aboveMa50;trend;splitSuspect;spac;note;sector;industry;mc;dealSize;status;new
 MGRT;Mega Fortune Co Ltd;IPO;True;2025-07-16;16,3;NASDAQ Capital;;4.0;3,81;136,05;2026-11-23;3301,3;3470,9;15,7;46,4;-4,3;True;oui;False;False;;Technology;Information Technology Services;1871,0;15000000.0;ok;
-SNDK;Sandisk Corp;Spin-off;True;2025-02-24;21,0;Nasdaq;Western Digital;;6,07;78,17;2026-11-24;1186,7;1186,7;-50,4;-58,1;-73,2;False;non;False;False;;Technology;Computer Hardware;88925,0;;ok;avant v1
-MANE;VeraDermics, Inc;IPO;True;2026-02-04;9,6;NYSE;;17.0;37,75;132,75;2026-11-24;680,9;251,7;-3,4;29,1;-15,2;True;oui;False;False;;Healthcare;Biotechnology;5601,0;256319999.0;ok;
+SNDK;Sandisk Corp;Spin-off;True;2025-02-24;21,0;Nasdaq;Western Digital;;6,07;77,38;2026-11-24;1173,7;1173,7;-50,9;-58,5;-73,5;False;non;False;False;;Technology;Computer Hardware;88083,0;;ok;avant v1
+MANE;VeraDermics, Inc;IPO;True;2026-02-04;9,6;NYSE;;17.0;37,75;131,53;2026-11-24;673,7;248,4;-4,3;27,9;-16,0;True;oui;False;False;;Healthcare;Biotechnology;5550,0;256319999.0;ok;
 MCTA;Charming Medical Ltd;IPO;True;2025-10-21;13,1;NASDAQ Capital;;4.0;7,0;29,35;2026-11-20;633,9;319,4;0,0;0,0;0,0;False;non;False;False;;Healthcare;Medical Care Facilities;446,0;6400000.0;ok;
 EFTY;ETOILES CAPITAL GROUP CO., LTD;IPO;True;2025-08-08;15,5;NASDAQ Capital;;4.0;4,88;15,02;2026-11-23;275,5;207,8;0,0;0,0;-11,5;False;non;False;False;;Industrials;Consulting Services;302,0;5600000.0;ok;
 PHOE;Phoenix Asia Holdings Ltd;IPO;True;2025-04-25;19,0;NASDAQ Capital;;4.0;3,65;15,0;2026-11-23;275,0;311,0;0,0;-27,6;-88,7;False;non;False;False;;Industrials;Engineering & Construction;324,0;6400000.0;ok;avant v1
-ANDG;Andersen Group Inc.;IPO;True;2025-12-17;11,2;NYSE;;16.0;23,5;58,65;2026-11-24;266,5;149,6;-8,6;10,4;-13,1;False;non;False;False;;Consumer Cyclical;Personal Services;1157,0;176000000.0;ok;
-HNGE;Hinge Health, Inc.;IPO;True;2025-05-22;18,1;NYSE;;32.0;37,56;109,2;2026-11-24;241,2;190,7;-2,2;20,7;-11,4;True;oui;False;False;;Healthcare;Health Information Services;8881,0;437312000.0;ok;avant v1
+ANDG;Andersen Group Inc.;IPO;True;2025-12-17;11,2;NYSE;;16.0;23,5;58,36;2026-11-24;264,7;148,3;-9,1;9,8;-13,5;False;non;False;False;;Consumer Cyclical;Personal Services;1151,0;176000000.0;ok;
+HNGE;Hinge Health, Inc.;IPO;True;2025-05-22;18,1;NYSE;;32.0;37,56;108,94;2026-11-24;240,5;190,1;-2,5;20,4;-11,6;True;oui;False;False;;Healthcare;Health Information Services;8854,0;437312000.0;ok;avant v1
 MAMK;MaxsMaking Inc.;IPO;True;2025-07-07;16,6;NASDAQ Capital;;4.0;13,16;13,16;2026-10-06;229,0;0,0;;;0,0;;non;False;False;;Industrials;Conglomerates;219,0;6500000.0;ok;
-RHLD;Resolute Holdings Management, Inc.;Spin-off;True;2025-02-28;20,8;NYSE;Gpgi;;46,82;139,89;2026-11-24;198,8;198,8;16,9;1,9;-38,2;True;oui;False;False;;Industrials;Specialty Business Services;1094,0;;ok;avant v1
-LBRX;LB PHARMACEUTICALS INC;IPO;True;2025-09-11;14,4;NASDAQ Global;;15.0;17,3;41,5;2026-11-24;176,7;139,9;5,5;-13,8;-16,1;True;non;False;False;;Healthcare;Biotechnology;1343,0;285000000.0;ok;
-TRAX;First Tracks Biotherapeutics, Inc.;Spin-off;True;2026-04-20;7,2;Nasdaq;AnaptysBio;;18,6;49,23;2026-11-24;164,7;164,7;13,2;11,4;-5,9;True;oui;False;False;;Healthcare;Biotechnology;2069,0;;ok;seuil franchi
-AUGO;Aura Minerals Inc.;IPO;True;2025-07-16;16,3;NASDAQ Global Select;;24.25;24,25;61,26;2026-11-24;152,6;152,6;-20,6;-31,4;-43,9;False;non;False;False;;Basic Materials;Gold;5137,0;196437368.0;ok;absent v1
-HTFL;Heartflow, Inc.;IPO;True;2025-08-08;15,5;NASDAQ Global Select;;19.0;29,99;46,22;2026-11-24;143,3;54,1;-18,9;-5,6;-23,6;False;non;False;False;;Healthcare;Health Information Services;4062,0;316666673.0;ok;
-COAG;Hemab Therapeutics Holdings, Inc.;IPO;True;2026-05-01;6,8;NASDAQ Global Select;;18.0;34,0;42,0;2026-11-24;133,3;23,5;16,6;-14,6;-23,6;True;non;False;False;;Healthcare;Biotechnology;1963,0;301500000.0;ok;seuil franchi
-AGCC;Agencia Comercial Spirits Ltd.;IPO;True;2025-10-22;13,1;NASDAQ Capital;;4.0;6,05;9,25;2026-11-24;131,2;52,9;-37,7;-35,8;-61,4;False;non;False;False;;Consumer Defensive;Beverages - Wineries & Distilleries;396,0;7000000.0;ok;
-MAZE;Maze Therapeutics, Inc.;IPO;True;2025-01-31;21,7;NASDAQ Global;;16.0;15,95;34,69;2026-11-24;116,8;117,5;11,7;17,3;-33,1;True;oui;False;False;;Healthcare;Biotechnology;1897,0;140000000.0;ok;avant v1
-SGP;SpyGlass Pharma, Inc.;IPO;True;2026-02-06;9,6;NASDAQ Global Select;;16.0;26,4;32,72;2026-11-24;104,5;24,0;9,4;22,8;-14,7;True;oui;False;False;;Healthcare;Biotechnology;1095,0;150000000.0;ok;
-AII;American Integrity Insurance Group, Inc.;IPO;True;2025-05-08;18,6;NYSE;;16.0;16,9;30,2;2026-11-24;88,8;78,7;2,3;13,4;0,0;True;oui;False;False;;Financial Services;Insurance - Property & Casualty;592,0;110000000.0;ok;avant v1
+RHLD;Resolute Holdings Management, Inc.;Spin-off;True;2025-02-28;20,8;NYSE;Gpgi;;46,82;140,05;2026-11-24;199,1;199,1;17,1;2,0;-38,1;True;oui;False;False;;Industrials;Specialty Business Services;1095,0;;ok;avant v1
+LBRX;LB PHARMACEUTICALS INC;IPO;True;2025-09-11;14,4;NASDAQ Global;;15.0;17,3;41,45;2026-11-24;176,3;139,6;5,4;-13,9;-16,2;True;non;False;False;;Healthcare;Biotechnology;1341,0;285000000.0;ok;
+TRAX;First Tracks Biotherapeutics, Inc.;Spin-off;True;2026-04-20;7,2;Nasdaq;AnaptysBio;;18,6;49,37;2026-11-24;165,4;165,4;13,5;11,7;-5,7;True;oui;False;False;;Healthcare;Biotechnology;2074,0;;ok;seuil franchi
+AUGO;Aura Minerals Inc.;IPO;True;2025-07-16;16,3;NASDAQ Global Select;;24.25;24,25;61,14;2026-11-24;152,1;152,1;-20,7;-31,5;-44,0;False;non;False;False;;Basic Materials;Gold;5127,0;196437368.0;ok;absent v1
+HTFL;Heartflow, Inc.;IPO;True;2025-08-08;15,5;NASDAQ Global Select;;19.0;29,99;46,06;2026-11-24;142,4;53,6;-19,2;-5,9;-23,9;False;non;False;False;;Healthcare;Health Information Services;4050,0;316666673.0;ok;
+COAG;Hemab Therapeutics Holdings, Inc.;IPO;True;2026-05-01;6,8;NASDAQ Global Select;;18.0;34,0;42,12;2026-11-24;134,0;23,9;16,9;-14,4;-23,3;True;non;False;False;;Healthcare;Biotechnology;1968,0;301500000.0;ok;seuil franchi
+AGCC;Agencia Comercial Spirits Ltd.;IPO;True;2025-10-22;13,1;NASDAQ Capital;;4.0;6,05;9,35;2026-11-24;133,8;54,5;-37,0;-35,1;-61,0;False;non;False;False;;Consumer Defensive;Beverages - Wineries & Distilleries;400,0;7000000.0;ok;
+MAZE;Maze Therapeutics, Inc.;IPO;True;2025-01-31;21,7;NASDAQ Global;;16.0;15,95;34,65;2026-11-24;116,6;117,2;11,5;17,1;-33,2;True;oui;False;False;;Healthcare;Biotechnology;1895,0;140000000.0;ok;avant v1
+SGP;SpyGlass Pharma, Inc.;IPO;True;2026-02-06;9,6;NASDAQ Global Select;;16.0;26,4;33,0;2026-11-24;106,2;25,0;10,3;23,9;-14,0;True;oui;False;False;;Healthcare;Biotechnology;1104,0;150000000.0;ok;
+AII;American Integrity Insurance Group, Inc.;IPO;True;2025-05-08;18,6;NYSE;;16.0;16,9;30,21;2026-11-24;88,8;78,8;2,3;13,4;0,0;True;oui;False;False;;Financial Services;Insurance - Property & Casualty;592,0;110000000.0;ok;avant v1
 HYNE;Hoyne Bancorp, Inc.;IPO;True;2025-12-04;11,7;NASDAQ Capital;;10.0;14,0;18,1;2026-11-24;81,0;29,3;-2,0;9,3;-5,1;True;oui;False;False;conversion mutualiste;Financial Services;Banks - Regional;135,0;79350000.0;ok;absent v1
-CBC;Central Bancompany, Inc.;IPO;True;2025-11-20;12,1;NASDAQ Global Select;;21.0;23,57;37,62;2026-11-24;79,1;59,6;8,0;16,3;-2,5;True;oui;False;False;;Financial Services;Banks - Regional;9006,0;373338000.0;ok;absent v1
-ARXS;Arxis, Inc.;IPO;True;2026-04-16;7,3;NASDAQ Global Select;;28.0;38,75;49,57;2026-11-24;77,0;27,9;-6,0;-7,9;-17,4;False;non;False;False;;Industrials;Aerospace & Defense;21351,0;1134000000.0;ok;seuil franchi
-AMBQ;Ambiq Micro, Inc.;IPO;True;2025-07-30;15,8;NYSE;;24.0;38,53;41,15;2026-11-24;71,4;6,8;-19,4;-30,2;-54,5;False;non;False;False;;Technology;Semiconductors;1024,0;96000000.0;ok;
-LIFE;Ethos Technologies Inc.;IPO;True;2026-01-29;9,8;NASDAQ Global Select;;19.0;16,85;32,49;2026-11-24;71,0;92,8;-23,2;-16,9;-26,5;False;non;False;False;;Financial Services;Insurance Brokers;2112,0;199999985.0;ok;absent v1
+CBC;Central Bancompany, Inc.;IPO;True;2025-11-20;12,1;NASDAQ Global Select;;21.0;23,57;37,63;2026-11-24;79,2;59,6;8,0;16,3;-2,4;True;oui;False;False;;Financial Services;Banks - Regional;9008,0;373338000.0;ok;absent v1
+ARXS;Arxis, Inc.;IPO;True;2026-04-16;7,3;NASDAQ Global Select;;28.0;38,75;49,44;2026-11-24;76,6;27,6;-6,2;-8,2;-17,6;False;non;False;False;;Industrials;Aerospace & Defense;21295,0;1134000000.0;ok;seuil franchi
+LIFE;Ethos Technologies Inc.;IPO;True;2026-01-29;9,8;NASDAQ Global Select;;19.0;16,85;32,37;2026-11-24;70,3;92,1;-23,5;-17,2;-26,8;False;non;False;False;;Financial Services;Insurance Brokers;2104,0;199999985.0;ok;absent v1
+AMBQ;Ambiq Micro, Inc.;IPO;True;2025-07-30;15,8;NYSE;;24.0;38,53;40,58;2026-11-24;69,1;5,3;-20,5;-31,2;-55,2;False;non;False;False;;Technology;Semiconductors;1010,0;96000000.0;ok;
 MAGH;Magnitude International Ltd;IPO;True;2025-08-12;15,4;NASDAQ Capital;;4.0;4,06;6,76;2026-11-23;69,0;66,5;0,0;0,0;0,0;False;non;False;False;;Industrials;Engineering & Construction;237,0;8800000.0;ok;
-ALMR;Alamar Biosciences, Inc.;IPO;True;2026-04-17;7,3;NASDAQ Global Select;;17.0;22,0;28,68;2026-11-24;68,7;30,4;-5,6;-15,8;-24,8;False;non;False;False;;Healthcare;Medical Devices;1993,0;191250000.0;ok;seuil franchi
-AVLN;Avalyn Pharma Inc.;IPO;True;2026-04-30;6,8;NASDAQ Global Select;;18.0;29,49;30,18;2026-11-24;67,7;2,3;11,2;-18,5;-23,1;True;non;False;False;;Healthcare;Biotechnology;1344,0;300000006.0;ok;seuil franchi
-JAN;Janus Living, Inc.;IPO;True;2026-03-20;8,2;NYSE;;20.0;23,6;33,32;2026-11-24;66,6;41,2;16,5;4,9;0,0;True;oui;False;False;;Real Estate;REIT - Residential;11349,0;840000000.0;ok;
-MIAX;MIAMI INTERNATIONAL HOLDINGS, INC.;IPO;True;2025-08-14;15,3;NYSE;;23.0;30,74;37,69;2026-11-24;63,9;22,6;13,7;-13,1;-33,7;True;non;False;False;;Financial Services;Capital Markets;3773,0;345000000.0;ok;
-VGNT;Versigent PLC;Spin-off;True;2026-04-01;7,8;NYSE;Aptiv;;27,85;44,02;2026-11-24;58,1;58,1;6,3;-7,1;-12,3;True;non;False;False;;Consumer Cyclical;Auto Parts;3114,0;;ok;seuil franchi
-BLLN;BillionToOne, Inc.;IPO;True;2025-11-06;12,6;NASDAQ Global Select;;60.0;108,94;94,4;2026-11-24;57,3;-13,3;-15,3;-1,9;-37,1;False;non;False;False;;Healthcare;Diagnostics & Research;4503,0;273066000.0;ok;
-CRCL;Circle Internet Group, Inc.;IPO;True;2025-06-05;17,6;NYSE;;31.0;83,23;48,5;2026-11-24;56,5;-41,7;-39,3;-46,1;-81,6;False;non;False;False;;Financial Services;Capital Markets;12443,0;1054000000.0;ok;avant v1
-KMTS;KESTRA MEDICAL TECHNOLOGIES, LTD.;IPO;True;2025-03-06;20,6;NASDAQ Global Select;;17.0;21,84;26,4;2026-11-24;55,3;20,9;-10,3;-0,7;-16,6;False;non;False;False;;Healthcare;Medical Instruments & Supplies;1572,0;201999984.0;ok;avant v1
+ALMR;Alamar Biosciences, Inc.;IPO;True;2026-04-17;7,3;NASDAQ Global Select;;17.0;22,0;28,62;2026-11-24;68,4;30,1;-5,8;-16,0;-24,9;False;non;False;False;;Healthcare;Medical Devices;1989,0;191250000.0;ok;seuil franchi
+AVLN;Avalyn Pharma Inc.;IPO;True;2026-04-30;6,8;NASDAQ Global Select;;18.0;29,49;30,15;2026-11-24;67,5;2,2;11,1;-18,6;-23,2;True;non;False;False;;Healthcare;Biotechnology;1342,0;300000006.0;ok;seuil franchi
+JAN;Janus Living, Inc.;IPO;True;2026-03-20;8,2;NYSE;;20.0;23,6;33,28;2026-11-24;66,4;41,0;16,3;4,8;0,0;True;oui;False;False;;Real Estate;REIT - Residential;11351,0;840000000.0;ok;
+MIAX;MIAMI INTERNATIONAL HOLDINGS, INC.;IPO;True;2025-08-14;15,3;NYSE;;23.0;30,74;37,63;2026-11-24;63,6;22,4;13,5;-13,3;-33,8;True;non;False;False;;Financial Services;Capital Markets;3765,0;345000000.0;ok;
+VGNT;Versigent PLC;Spin-off;True;2026-04-01;7,8;NYSE;Aptiv;;27,85;43,9;2026-11-24;57,6;57,6;6,0;-7,3;-12,6;True;non;False;False;;Consumer Cyclical;Auto Parts;3110,0;;ok;seuil franchi
+BLLN;BillionToOne, Inc.;IPO;True;2025-11-06;12,6;NASDAQ Global Select;;60.0;108,94;94,08;2026-11-24;56,8;-13,6;-15,6;-2,2;-37,3;False;non;False;False;;Healthcare;Diagnostics & Research;4495,0;273066000.0;ok;
+CRCL;Circle Internet Group, Inc.;IPO;True;2025-06-05;17,6;NYSE;;31.0;83,23;48,09;2026-11-24;55,1;-42,2;-39,8;-46,5;-81,7;False;non;False;False;;Financial Services;Capital Markets;12344,0;1054000000.0;ok;avant v1
+KMTS;KESTRA MEDICAL TECHNOLOGIES, LTD.;IPO;True;2025-03-06;20,6;NASDAQ Global Select;;17.0;21,84;26,31;2026-11-24;54,8;20,5;-10,6;-1,0;-16,8;False;non;False;False;;Healthcare;Medical Instruments & Supplies;1567,0;201999984.0;ok;avant v1
 EHLD;Euroholdings Ltd.;Spin-off;True;2025-03-18;20,2;Nasdaq;Euroseas;;8,0;12,13;2026-11-23;51,6;51,6;1,3;21,4;-22,7;True;oui;False;False;;Industrials;Marine Shipping;33,0;;ok;avant v1
 ASIC;Ategrity Specialty Insurance Co Holdings;IPO;True;2025-06-11;17,4;NYSE;;17.0;24,68;25,58;2026-11-24;50,5;3,6;6,9;-4,3;-10,7;True;non;False;False;;Financial Services;Insurance - Property & Casualty;1224,0;113333339.0;ok;avant v1
-SLDE;Slide Insurance Holdings, Inc.;IPO;True;2025-06-18;17,2;NASDAQ Global Select;;17.0;20,25;25,45;2026-11-24;49,7;25,7;-12,5;9,0;-12,5;False;non;False;False;;Financial Services;Insurance - Property & Casualty;2984,0;408000000.0;ok;avant v1
-PTRN;Pattern Group Inc.;IPO;True;2025-09-19;14,2;NASDAQ Global Select;;14.0;15,63;20,2;2026-11-24;44,3;29,2;27,3;-4,3;-31,3;True;non;False;False;;Consumer Cyclical;Internet Retail;3569,0;300000008.0;ok;
+SLDE;Slide Insurance Holdings, Inc.;IPO;True;2025-06-18;17,2;NASDAQ Global Select;;17.0;20,25;25,45;2026-11-24;49,7;25,7;-12,5;9,0;-12,5;False;non;False;False;;Financial Services;Insurance - Property & Casualty;2985,0;408000000.0;ok;avant v1
+EGG;ENIGMATIG LTD;IPO;True;2025-06-18;17,2;NYSE MKT;;5.0;6,53;7,31;2026-11-24;46,2;11,9;41,9;140,5;-32,6;True;oui;False;False;;Industrials;Consulting Services;205,0;14226000.0;ok;avant v1
+PTRN;Pattern Group Inc.;IPO;True;2025-09-19;14,2;NASDAQ Global Select;;14.0;15,63;20,22;2026-11-24;44,4;29,4;27,4;-4,2;-31,2;True;non;False;False;;Consumer Cyclical;Internet Retail;3573,0;300000008.0;ok;
 SI;SHOULDER INNOVATIONS, INC.;IPO;True;2025-07-31;15,8;NYSE;;15.0;15,05;21,54;2026-11-24;43,6;43,1;11,1;-4,0;-11,2;True;non;False;False;;;;451,0;75000000.0;ok;
-EGG;ENIGMATIG LTD;IPO;True;2025-06-18;17,2;NYSE MKT;;5.0;6,53;7,09;2026-11-24;41,8;8,6;37,7;133,2;-34,7;True;oui;False;False;;Industrials;Consulting Services;199,0;14226000.0;ok;avant v1
-NP;Neptune Insurance Holdings Inc.;IPO;True;2025-10-01;13,8;NYSE;;20.0;24,8;28,25;2026-11-24;41,3;13,9;-0,4;-17,4;-19,5;False;non;False;False;;Financial Services;Insurance Brokers;3903,0;368421060.0;ok;
-JCAP;Jefferson Capital, Inc. / DE;IPO;True;2025-06-26;17,0;NASDAQ Global Select;;15.0;18,54;21,11;2026-11-24;40,7;13,9;4,8;-0,5;-12,0;True;non;False;False;;Financial Services;Credit Services;1213,0;150000000.0;ok;avant v1
-LCLN;Lincoln International, Inc.;IPO;True;2026-05-20;6,2;NYSE;;20.0;22,52;27,89;2026-11-24;39,4;23,8;19,0;10,8;-1,0;True;oui;False;False;;Financial Services;Capital Markets;2977,0;420999760.0;ok;seuil franchi
+NP;Neptune Insurance Holdings Inc.;IPO;True;2025-10-01;13,8;NYSE;;20.0;24,8;28,2;2026-11-24;41,0;13,7;-0,6;-17,5;-19,7;False;non;False;False;;Financial Services;Insurance Brokers;3896,0;368421060.0;ok;
+JCAP;Jefferson Capital, Inc. / DE;IPO;True;2025-06-26;17,0;NASDAQ Global Select;;15.0;18,54;21,1;2026-11-24;40,7;13,8;4,8;-0,5;-12,1;True;non;False;False;;Financial Services;Credit Services;1213,0;150000000.0;ok;avant v1
+LCLN;Lincoln International, Inc.;IPO;True;2026-05-20;6,2;NYSE;;20.0;22,52;27,86;2026-11-24;39,3;23,7;18,9;10,7;-1,1;True;oui;False;False;;Financial Services;Capital Markets;2974,0;420999760.0;ok;seuil franchi
 WSBK;Winchester Bancorp, Inc./MD/;IPO;True;2025-05-02;18,8;NASDAQ Capital;;10.0;9,3;13,84;2026-11-24;38,4;48,8;3,3;6,5;-0,4;True;oui;False;False;conversion mutualiste;Financial Services;Banks - Regional;124,0;39970120.0;ok;avant v1
-NTSK;Netskope Inc;IPO;True;2025-09-18;14,2;NASDAQ Global Select;;19.0;22,49;25,86;2026-11-24;36,1;15,0;2,6;85,8;-2,5;True;oui;False;False;;Technology;Software - Infrastructure;10560,0;908200000.0;ok;
+NTSK;Netskope Inc;IPO;True;2025-09-18;14,2;NASDAQ Global Select;;19.0;22,49;25,79;2026-11-24;35,7;14,7;2,3;85,3;-2,8;True;oui;False;False;;Technology;Software - Infrastructure;10537,0;908200000.0;ok;
 PARK;Park Dental Partners, Inc.;IPO;True;2025-12-03;11,7;NASDAQ Capital;;13.0;10,25;17,62;2026-11-24;35,5;71,9;-9,1;-15,5;-23,6;False;non;False;False;;Healthcare;Medical Care Facilities;98,0;19955000.0;ok;
-MDLN;Medline Inc.;IPO;True;2025-12-17;11,2;NASDAQ Global Select;;29.0;41,0;39,02;2026-11-24;34,6;-4,8;15,8;12,8;-21,9;True;oui;False;False;;Healthcare;Medical Instruments & Supplies;51318,0;6264999978.0;ok;
-KRMN;Karman Holdings Inc.;IPO;True;2025-02-13;21,3;NYSE;;22.0;30,05;29,59;2026-11-24;34,5;-1,5;-20,0;-38,8;-74,3;False;non;False;False;;Industrials;Aerospace & Defense;3918,0;506000000.0;ok;avant v1
-RAL;Ralliant Corp;Spin-off;True;2025-06-30;16,8;NYSE;Fortive;;48,49;64,86;2026-11-24;33,8;33,8;-4,4;1,5;-12,3;False;non;False;False;;Technology;Electronic Components;7187,0;;ok;avant v1
-CBK;Commercial Bancgroup, Inc.;IPO;True;2025-10-02;13,7;NASDAQ Capital;;24.0;24,0;31,99;2026-11-24;33,3;33,3;-0,0;-5,4;-9,7;False;non;False;False;;Financial Services;Banks - Regional;439,0;172154208.0;ok;
-SMA;SmartStop Self Storage REIT, Inc.;IPO;True;2025-04-02;19,7;NYSE;;30.0;32,75;39,05;2026-11-24;30,2;19,2;11,0;15,0;-2,4;True;oui;False;False;;Real Estate;REIT - Industrial;2242,0;810000000.0;ok;avant v1
-SOLS;Solstice Advanced Materials Inc.;Spin-off;True;2025-10-30;12,8;Nasdaq;Honeywell;;48,74;63,45;2026-11-24;30,2;30,2;5,1;12,6;-28,4;True;oui;False;False;;Basic Materials;Specialty Chemicals;9975,0;;ok;
-COSO;CoastalSouth Bancshares, Inc.;IPO;True;2025-07-02;16,8;NYSE;;21.5;21,5;27,75;2026-11-24;29,1;29,1;0,6;1,5;-3,6;True;oui;False;False;;Financial Services;Banks - Regional;324,0;43752500.0;ok;absent v1
-SWMR;Swarmer, Inc;IPO;True;2026-03-17;8,3;NASDAQ Capital;;5.0;31,0;6,44;2026-11-24;28,8;-79,2;-29,0;-82,6;-91,8;False;non;False;False;;Technology;Software - Infrastructure;125,0;15000000.0;ok;
-WBI;WaterBridge Infrastructure LLC;IPO;True;2025-09-17;14,2;NYSE;;20.0;22,83;25,45;2026-11-24;27,3;11,5;-14,4;-19,5;-29,7;False;non;False;False;;Energy;Oil & Gas Equipment & Services;3134,0;634000000.0;ok;
-MICC;Magnum Ice Cream Co NV;Spin-off;True;2025-12-08;11,5;NYSE;Unilever;;14,92;18,92;2026-11-24;26,8;26,8;-2,6;-6,7;-7,4;True;non;False;False;;Consumer Defensive;Packaged Foods;11421,0;;ok;
-CV;CapsoVision, Inc;IPO;True;2025-07-02;16,8;NASDAQ Capital;;5.0;3,5;6,33;2026-11-24;26,7;80,9;-8,1;8,8;-56,1;False;non;False;False;;Healthcare;Medical Devices;340,0;27500000.0;ok;
-NHP;National Healthcare Properties, Inc.;IPO;True;2026-04-22;7,1;NASDAQ Global;;12.0;12,0;15,15;2026-11-24;26,2;26,2;-0,8;-8,7;-11,3;False;non;False;False;;Real Estate;REIT - Healthcare Facilities;1539,0;462000000.0;ok;seuil franchi
-CHYM;Chime Financial, Inc.;IPO;True;2025-06-12;17,4;NASDAQ Global Select;;27.0;37,11;33,02;2026-11-24;22,3;-11,0;15,7;-0,4;-11,0;True;non;False;False;;Technology;Software - Application;12663,0;864000000.0;ok;avant v1
-BOBS;Bob's Discount Furniture, Inc.;IPO;True;2026-02-05;9,6;NYSE;;17.0;17,02;20,67;2026-11-24;21,6;21,4;29,1;20,7;-8,3;True;oui;False;False;;Consumer Cyclical;Specialty Retail;2703,0;330650000.0;ok;
-ELMT;Elmet Group Co.;IPO;True;2026-04-23;7,1;NASDAQ Capital;;14.0;17,91;16,93;2026-11-24;21,0;-5,4;-22,5;-5,7;-29,7;False;non;False;False;;Industrials;Aerospace & Defense;519,0;119999992.0;ok;seuil franchi
-LGN;Legence Corp.;IPO;True;2025-09-12;14,4;NASDAQ Global Select;;28.0;30,5;33,6;2026-11-24;20,0;10,2;-9,3;-42,0;-67,1;False;non;False;False;;Industrials;Engineering & Construction;5202,0;728000000.0;ok;
+MDLN;Medline Inc.;IPO;True;2025-12-17;11,2;NASDAQ Global Select;;29.0;41,0;38,99;2026-11-24;34,4;-4,9;15,7;12,8;-22,0;True;oui;False;False;;Healthcare;Medical Instruments & Supplies;51325,0;6264999978.0;ok;
+CBK;Commercial Bancgroup, Inc.;IPO;True;2025-10-02;13,7;NASDAQ Capital;;24.0;24,0;32,23;2026-11-24;34,3;34,3;0,7;-4,7;-9,1;True;non;False;False;;Financial Services;Banks - Regional;442,0;172154208.0;ok;
+KRMN;Karman Holdings Inc.;IPO;True;2025-02-13;21,3;NYSE;;22.0;30,05;29,37;2026-11-24;33,5;-2,3;-20,6;-39,3;-74,5;False;non;False;False;;Industrials;Aerospace & Defense;3896,0;506000000.0;ok;avant v1
+RAL;Ralliant Corp;Spin-off;True;2025-06-30;16,8;NYSE;Fortive;;48,49;64,63;2026-11-24;33,3;33,3;-4,8;1,1;-12,6;False;non;False;False;;Technology;Electronic Components;7166,0;;ok;avant v1
+COSO;CoastalSouth Bancshares, Inc.;IPO;True;2025-07-02;16,8;NYSE;;21.5;21,5;28,02;2026-11-24;30,3;30,3;1,6;2,4;-2,7;True;oui;False;False;;Financial Services;Banks - Regional;327,0;43752500.0;ok;absent v1
+SWMR;Swarmer, Inc;IPO;True;2026-03-17;8,3;NASDAQ Capital;;5.0;31,0;6,49;2026-11-24;29,9;-79,0;-28,4;-82,5;-91,7;False;non;False;False;;Technology;Software - Infrastructure;126,0;15000000.0;ok;
+SMA;SmartStop Self Storage REIT, Inc.;IPO;True;2025-04-02;19,7;NYSE;;30.0;32,75;38,98;2026-11-24;29,9;19,0;10,8;14,8;-2,5;True;oui;False;False;;Real Estate;REIT - Industrial;2238,0;810000000.0;ok;avant v1
+SOLS;Solstice Advanced Materials Inc.;Spin-off;True;2025-10-30;12,8;Nasdaq;Honeywell;;48,74;63,13;2026-11-24;29,5;29,5;4,6;12,0;-28,7;True;oui;False;False;;Basic Materials;Specialty Chemicals;9925,0;;ok;
+WBI;WaterBridge Infrastructure LLC;IPO;True;2025-09-17;14,2;NYSE;;20.0;22,83;25,36;2026-11-24;26,8;11,1;-14,7;-19,8;-30,0;False;non;False;False;;Energy;Oil & Gas Equipment & Services;3136,0;634000000.0;ok;
+CV;CapsoVision, Inc;IPO;True;2025-07-02;16,8;NASDAQ Capital;;5.0;3,5;6,34;2026-11-24;26,8;81,1;-8,0;8,9;-56,0;False;non;False;False;;Healthcare;Medical Devices;340,0;27500000.0;ok;
+MICC;Magnum Ice Cream Co NV;Spin-off;True;2025-12-08;11,5;NYSE;Unilever;;14,92;18,91;2026-11-24;26,7;26,7;-2,7;-6,7;-7,4;True;non;False;False;;Consumer Defensive;Packaged Foods;11415,0;;ok;
+NHP;National Healthcare Properties, Inc.;IPO;True;2026-04-22;7,1;NASDAQ Global;;12.0;12,0;15,15;2026-11-24;26,2;26,2;-0,8;-8,8;-11,3;False;non;False;False;;Real Estate;REIT - Healthcare Facilities;1539,0;462000000.0;ok;seuil franchi
+CHYM;Chime Financial, Inc.;IPO;True;2025-06-12;17,4;NASDAQ Global Select;;27.0;37,11;33,03;2026-11-24;22,3;-11,0;15,7;-0,4;-11,0;True;non;False;False;;Technology;Software - Application;12676,0;864000000.0;ok;avant v1
+BOBS;Bob's Discount Furniture, Inc.;IPO;True;2026-02-05;9,6;NYSE;;17.0;17,02;20,64;2026-11-24;21,4;21,3;28,9;20,5;-8,4;True;oui;False;False;;Consumer Cyclical;Specialty Retail;2695,0;330650000.0;ok;
+ELMT;Elmet Group Co.;IPO;True;2026-04-23;7,1;NASDAQ Capital;;14.0;17,91;16,82;2026-11-24;20,1;-6,1;-23,0;-6,3;-30,1;False;non;False;False;;Industrials;Aerospace & Defense;516,0;119999992.0;ok;seuil franchi
 JFB;JFB Construction Holdings;IPO;True;2025-03-06;20,6;NASDAQ Capital;;4.125;4,95;4,95;2026-09-03;19,9;0,0;;;0,0;;non;False;False;;Real Estate;Real Estate - Development;100,0;5162500.0;ok;avant v1
-CARL;CARLSMED, INC.;IPO;True;2025-07-23;16,1;NASDAQ Global Select;;15.0;14,5;17,85;2026-11-24;19,0;23,1;19,7;10,3;-4,0;True;oui;False;False;;Healthcare;Health Information Services;489,0;100500000.0;ok;
-ALH;Alliance Laundry Holdings Inc.;IPO;True;2025-10-09;13,5;NYSE;;22.0;24,82;25,47;2026-11-24;15,8;2,6;20,4;6,3;-9,1;True;oui;False;False;;Consumer Cyclical;Furnishings, Fixtures & Appliances;5004,0;826341428.0;ok;
-Q;Qnity Electronics, Inc.;Spin-off;True;2025-11-03;12,7;NYSE;DuPont;;97,0;109,89;2026-11-24;13,3;13,3;-3,7;-12,9;-37,4;False;non;False;False;;Technology;Semiconductor Equipment & Materials;22957,0;;ok;
-EROK;EagleRock Land, LLC;IPO;True;2026-05-14;6,4;NYSE;;18.5;21,84;20,88;2026-11-24;12,9;-4,4;6,2;-15,1;-21,5;True;non;False;False;;Energy;Oil & Gas Equipment & Services;2748,0;320050000.0;ok;seuil franchi
+LGN;Legence Corp.;IPO;True;2025-09-12;14,4;NASDAQ Global Select;;28.0;30,5;33,33;2026-11-24;19,0;9,3;-10,0;-42,5;-67,4;False;non;False;False;;Industrials;Engineering & Construction;5171,0;728000000.0;ok;
+CARL;CARLSMED, INC.;IPO;True;2025-07-23;16,1;NASDAQ Global Select;;15.0;14,5;17,78;2026-11-24;18,5;22,6;19,2;9,9;-4,4;True;oui;False;False;;Healthcare;Health Information Services;487,0;100500000.0;ok;
+ALH;Alliance Laundry Holdings Inc.;IPO;True;2025-10-09;13,5;NYSE;;22.0;24,82;25,38;2026-11-24;15,4;2,3;20,0;5,9;-9,4;True;oui;False;False;;Consumer Cyclical;Furnishings, Fixtures & Appliances;4987,0;826341428.0;ok;
+Q;Qnity Electronics, Inc.;Spin-off;True;2025-11-03;12,7;NYSE;DuPont;;97,0;109,43;2026-11-24;12,8;12,8;-4,1;-13,3;-37,7;False;non;False;False;;Technology;Semiconductor Equipment & Materials;22876,0;;ok;
+EROK;EagleRock Land, LLC;IPO;True;2026-05-14;6,4;NYSE;;18.5;21,84;20,83;2026-11-24;12,6;-4,6;5,9;-15,3;-21,7;True;non;False;False;;Energy;Oil & Gas Equipment & Services;2736,0;320050000.0;ok;seuil franchi
+SPTX;Seaport Therapeutics, Inc.;IPO;True;2026-05-01;6,8;NASDAQ Global Select;;18.0;19,84;20,21;2026-11-24;12,3;1,9;-3,0;-27,4;-27,4;True;non;False;False;;Healthcare;Biotechnology;1082,0;254880000.0;ok;seuil franchi
 JLHL;Julong Holding Ltd;IPO;True;2025-06-26;17,0;NASDAQ Capital;;4.0;4,23;4,45;2026-11-24;11,2;5,2;-12,7;-29,5;-90,1;False;non;False;False;;Industrials;Building Products & Equipment;109,0;5000000.0;ok;avant v1
-SPTX;Seaport Therapeutics, Inc.;IPO;True;2026-05-01;6,8;NASDAQ Global Select;;18.0;19,84;19,94;2026-11-24;10,8;0,5;-4,3;-28,4;-28,4;True;non;False;False;;Healthcare;Biotechnology;1067,0;254880000.0;ok;seuil franchi
-CRWV;CoreWeave, Inc.;IPO;True;2025-03-28;19,9;NASDAQ Global Select;;40.0;40,0;42,94;2026-11-24;7,3;7,3;-22,2;-51,2;-76,6;False;non;False;False;;Technology;Software - Infrastructure;23814,0;1500000000.0;ok;avant v1
-NAVN;Navan, Inc.;IPO;True;2025-10-30;12,8;NASDAQ Global Select;;25.0;20,0;26,64;2026-11-24;6,6;33,2;-2,1;-9,2;-12,9;True;non;False;False;;Technology;Software - Application;6935,0;923110150.0;ok;
-MWH;SOLV Energy, Inc.;IPO;True;2026-02-11;9,4;NASDAQ Global Select;;25.0;30,91;26,01;2026-11-24;4,0;-15,9;18,1;-8,2;-44,4;True;non;False;False;;Utilities;Utilities - Renewable;5272,0;512500000.0;ok;
-VIA;Via Transportation, Inc.;IPO;True;2025-09-12;14,4;NYSE;;46.0;49,51;47,65;2026-11-24;3,6;-3,8;34,0;72,6;-11,7;True;oui;False;False;;Technology;Software - Application;3921,0;492857110.0;ok;
-NPB;NORTHPOINTE BANCSHARES INC;IPO;True;2025-02-14;21,3;NYSE;;14.5;14,59;14,85;2026-11-24;2,4;1,7;-2,5;-12,1;-23,1;False;non;False;False;;Financial Services;Banks - Regional;513,0;151090000.0;ok;avant v1
-ODTX;Odyssey Therapeutics, Inc.;IPO;True;2026-05-08;6,6;NASDAQ Capital;;18.0;16,42;18,12;2026-11-24;0,7;10,4;-6,1;-29,3;-37,0;False;non;False;False;;Healthcare;Biotechnology;871,0;279000000.0;ok;seuil franchi
-LYCA;Lycia Therapeutics, Inc.;IPO;False;2026-10-23;1,1;NASDAQ Global Select;;18.0;30,0;31,67;2026-11-24;75,9;5,6;9,8;;-4,2;;non;False;False;;;;;317520000.0;ok;seuil franchi
-PBLS;Parabilis Medicines, Inc.;IPO;False;2026-06-10;5,5;NASDAQ Global Select;;20.0;31,6;33,28;2026-11-24;66,4;5,3;33,0;-15,2;-20,2;True;non;False;False;;;;;670000000.0;ok;seuil franchi
+NAVN;Navan, Inc.;IPO;True;2025-10-30;12,8;NASDAQ Global Select;;25.0;20,0;26,54;2026-11-24;6,2;32,7;-2,4;-9,5;-13,2;True;non;False;False;;Technology;Software - Application;6915,0;923110150.0;ok;
+CRWV;CoreWeave, Inc.;IPO;True;2025-03-28;19,9;NASDAQ Global Select;;40.0;40,0;42,44;2026-11-24;6,1;6,1;-23,1;-51,8;-76,9;False;non;False;False;;Technology;Software - Infrastructure;23624,0;1500000000.0;ok;avant v1
+MWH;SOLV Energy, Inc.;IPO;True;2026-02-11;9,4;NASDAQ Global Select;;25.0;30,91;25,87;2026-11-24;3,5;-16,3;17,4;-8,7;-44,7;True;non;False;False;;Utilities;Utilities - Renewable;5244,0;512500000.0;ok;
+VIA;Via Transportation, Inc.;IPO;True;2025-09-12;14,4;NYSE;;46.0;49,51;47,6;2026-11-24;3,5;-3,8;33,9;72,4;-11,7;True;oui;False;False;;Technology;Software - Application;3918,0;492857110.0;ok;
+NPB;NORTHPOINTE BANCSHARES INC;IPO;True;2025-02-14;21,3;NYSE;;14.5;14,59;14,86;2026-11-24;2,5;1,9;-2,4;-12,0;-23,0;False;non;False;False;;Financial Services;Banks - Regional;514,0;151090000.0;ok;avant v1
+LYCA;Lycia Therapeutics, Inc.;IPO;False;2026-10-23;1,1;NASDAQ Global Select;;18.0;30,0;31,68;2026-11-24;76,0;5,6;9,8;;-4,2;;non;False;False;;;;;317520000.0;ok;seuil franchi
+PBLS;Parabilis Medicines, Inc.;IPO;False;2026-06-10;5,5;NASDAQ Global Select;;20.0;31,6;33,2;2026-11-24;66,0;5,1;32,6;-15,4;-20,4;True;non;False;False;;;;;670000000.0;ok;seuil franchi
 WWB;WINDWARD BIO GROUP AG;IPO;False;2026-11-13;0,4;NASDAQ Global;;17.0;28,5;25,75;2026-11-24;51,5;-9,6;;;-14,3;;non;False;False;;;;;174999989.0;ok;seuil franchi
-BSP;Bending Spoons S.p.A.;IPO;False;2026-07-01;4,8;NASDAQ Global Select;;29.0;40,5;41,69;2026-11-24;43,7;2,9;-10,6;-1,7;-25,3;True;non;False;False;;;;;1681159435.0;ok;seuil franchi
+BSP;Bending Spoons S.p.A.;IPO;False;2026-07-01;4,8;NASDAQ Global Select;;29.0;40,5;41,8;2026-11-24;44,1;3,2;-10,4;-1,4;-25,0;True;non;False;False;;;;;1681159435.0;ok;seuil franchi
 IMC;IMC Rare Earths Ltd;IPO;False;2026-07-29;3,9;NYSE MKT;;5.0;5,13;7,15;2026-11-24;43,0;39,4;-29,6;-35,6;-40,4;False;non;False;False;;;;;20000000.0;ok;seuil franchi
-AMRO;Amaero Inc.;IPO;False;2026-10-15;1,3;NASDAQ Capital;;4.25;4,41;5,74;2026-11-24;35,2;30,3;7,0;;-10,5;;non;False;False;;;;;20000003.0;ok;seuil franchi
-REF;Reformation Inc.;IPO;False;2026-07-30;3,8;NYSE;;15.0;15,08;19,88;2026-11-24;32,5;31,8;25,4;45,3;-2,3;True;oui;False;False;;;;;210937500.0;ok;seuil franchi
-MSGR;MSG Rangers Corp.;Spin-off;False;2026-10-21;1,1;NYSE;;;219,3;277,04;2026-11-24;26,3;26,3;45,8;;0,0;;non;False;False;;;;;;ok;seuil franchi
-ELOX;Eloxx Pharmaceuticals, Inc.;IPO;False;2026-06-09;5,5;NASDAQ Capital;;11.0;11,01;13,57;2026-11-24;23,4;23,3;3,1;-26,7;-35,3;False;non;False;False;;;;;32725000.0;ok;seuil franchi
-BRVE;Braveheart Bio, Inc.;IPO;False;2026-08-06;3,6;NASDAQ Global;;18.0;29,8;22,18;2026-11-24;23,2;-25,6;1,4;-20,1;-26,1;True;non;False;False;;;;;382500000.0;ok;seuil franchi
+AMRO;Amaero Inc.;IPO;False;2026-10-15;1,3;NASDAQ Capital;;4.25;4,41;5,88;2026-11-24;38,4;33,3;9,5;;-8,4;;non;False;False;;;;;20000003.0;ok;seuil franchi
+REF;Reformation Inc.;IPO;False;2026-07-30;3,8;NYSE;;15.0;15,08;19,75;2026-11-24;31,6;30,9;24,6;44,3;-2,9;True;oui;False;False;;;;;210937500.0;ok;seuil franchi
+MSGR;MSG Rangers Corp.;Spin-off;False;2026-10-21;1,1;NYSE;;;219,3;277,46;2026-11-24;26,5;26,5;46,0;;0,0;;non;False;False;;;;;;ok;seuil franchi
+BRVE;Braveheart Bio, Inc.;IPO;False;2026-08-06;3,6;NASDAQ Global;;18.0;29,8;22,11;2026-11-24;22,8;-25,8;1,1;-20,4;-26,3;True;non;False;False;;;;;382500000.0;ok;seuil franchi
+ELOX;Eloxx Pharmaceuticals, Inc.;IPO;False;2026-06-09;5,5;NASDAQ Capital;;11.0;11,01;13,26;2026-11-24;20,5;20,4;0,7;-28,4;-36,8;False;non;False;False;;;;;32725000.0;ok;seuil franchi
 RACC;Research Alliance Corp III;IPO;False;2026-05-20;6,2;NASDAQ Capital;;10.0;10,3;11,86;2026-11-24;18,6;15,1;17,7;-46,1;-59,5;True;non;False;True;;Financial Services;Shell Companies;108,0;75000000.0;ok;seuil franchi
-MBGL;Mobility Global Inc.;Spin-off;False;2026-07-01;4,8;NYSE;S&P Global;;21,19;23,47;2026-11-24;10,8;10,8;25,6;14,2;-2,4;True;oui;False;False;;;;;;ok;seuil franchi
-APMD;Apnimed, Inc.;IPO;False;2026-07-31;3,8;NASDAQ Global Select;;16.0;25,0;17,59;2026-11-24;9,9;-29,6;-7,2;-40,5;-46,0;False;non;False;False;;;;;192000000.0;ok;seuil franchi
+MBGL;Mobility Global Inc.;Spin-off;False;2026-07-01;4,8;NYSE;S&P Global;;21,19;23,42;2026-11-24;10,5;10,5;25,4;14,0;-2,6;True;oui;False;False;;;;;;ok;seuil franchi
 CTY;CITY THERAPEUTICS, INC.;IPO;False;2026-10-16;1,3;NASDAQ Global;;18.0;22,4;19,75;2026-11-24;9,7;-11,8;-5,0;;-11,8;;non;False;False;;;;;199999998.0;ok;seuil franchi
+APMD;Apnimed, Inc.;IPO;False;2026-07-31;3,8;NASDAQ Global Select;;16.0;25,0;17,47;2026-11-24;9,2;-30,1;-7,8;-40,9;-46,3;False;non;False;False;;;;;192000000.0;ok;seuil franchi
 CEPO;Cantor Equity Partners I, Inc.;IPO;False;2025-01-07;22,5;NASDAQ Global;;10.0;10,05;10,84;2026-11-23;8,4;7,9;0,6;0,6;-28,9;True;oui;False;True;;Financial Services;Shell Companies;276,0;200000000.0;ok;avant v1
-FCBM;First Carolina Financial Services, Inc.;IPO;False;2026-06-18;5,2;NYSE;;12.5;12,6;13,07;2026-11-24;4,6;3,7;1,1;3,2;-3,2;True;oui;False;False;;;;;68750000.0;ok;seuil franchi
+FCBM;First Carolina Financial Services, Inc.;IPO;False;2026-06-18;5,2;NYSE;;12.5;12,6;13,06;2026-11-24;4,5;3,7;1,0;3,2;-3,2;True;oui;False;False;;;;;68750000.0;ok;seuil franchi
+TP;Ticketplus Ltd.;IPO;False;2026-08-07;3,6;NYSE MKT;;8.0;7,0;8,34;2026-11-24;4,3;19,1;-3,0;6,8;-18,6;False;non;False;False;;;;;15000000.0;ok;seuil franchi
 RACD;Research Alliance Corp IV;IPO;False;2026-07-13;4,4;NASDAQ Capital;;10.0;10,34;10,34;2026-11-23;3,4;0,0;-1,3;-19,8;-20,5;False;non;False;False;;;;;75000000.0;ok;seuil franchi
 CEPF;Cantor Equity Partners IV, Inc.;IPO;False;2025-08-21;15,1;NASDAQ Global;;10.0;10,12;10,33;2026-11-24;3,3;2,1;0,4;-0,6;-2,7;True;non;False;True;;Financial Services;Shell Companies;590,0;400000000.0;ok;
-BBTX;Bambusa Therapeutics, Inc.;IPO;False;2026-10-30;0,8;NASDAQ Global Select;;16.0;14,99;16,49;2026-11-24;3,1;10,0;;;-3,9;;non;False;False;;;;;168888880.0;ok;seuil franchi
-TP;Ticketplus Ltd.;IPO;False;2026-08-07;3,6;NYSE MKT;;8.0;7,0;8,25;2026-11-24;3,1;17,9;-4,1;5,6;-19,5;False;non;False;False;;;;;15000000.0;ok;seuil franchi
 CEPV;Cantor Equity Partners V, Inc.;IPO;False;2025-11-04;12,6;NASDAQ Global;;10.0;10,3;10,21;2026-11-24;2,1;-0,9;0,2;-1,7;-2,3;False;non;False;True;;Financial Services;Shell Companies;325,0;220000000.0;ok;
-VYLR;Vylor Inc.;Spin-off;False;2026-10-01;1,8;NYSE;;;68,26;69,71;2026-11-24;2,1;2,1;-5,7;;-9,4;;non;False;False;;;;;;ok;seuil franchi
+BBTX;Bambusa Therapeutics, Inc.;IPO;False;2026-10-30;0,8;NASDAQ Global Select;;16.0;14,99;16,32;2026-11-24;2,0;8,9;;;-4,9;;non;False;False;;;;;168888880.0;ok;seuil franchi
+VYLR;Vylor Inc.;Spin-off;False;2026-10-01;1,8;NYSE;;;68,26;69,6;2026-11-24;2,0;2,0;-5,9;;-9,5;;non;False;False;;;;;;ok;seuil franchi
 CEPS;Cantor Equity Partners VI, Inc.;IPO;False;2026-02-05;9,6;NASDAQ Global;;10.0;10,15;10,11;2026-11-23;1,1;-0,4;-0,1;-2,2;-3,2;False;non;False;True;;Financial Services;Shell Companies;148,0;100000000.0;ok;
 CAES;Cantor Equity Partners VII, Inc.;IPO;False;2026-06-17;5,3;NASDAQ Global;;10.0;10,11;10,04;2026-11-23;0,4;-0,7;0,3;-0,6;-0,7;True;non;False;False;;;;;250000000.0;ok;seuil franchi
-NARA;Narragansett Bancorp, Inc.;IPO;False;2026-11-02;0,7;NASDAQ Capital;;10.0;10,8;10,0;2026-11-24;0,0;-7,4;;;-8,3;;non;False;False;conversion mutualiste;;;;90988000.0;ok;seuil franchi
 BUUU;BUUU Group Ltd;IPO;False;2025-08-14;15,3;NASDAQ Capital;;4.0;0,4;4,0;2026-11-24;-0,0;899,7;-37,2;42,0;-45,8;False;non;False;False;;;;;6000000.0;ok;
-YSWY;Yesway, Inc.;IPO;False;2026-04-22;7,1;NASDAQ Global Select;;20.0;21,23;19,96;2026-11-24;-0,2;-6,0;-20,0;-20,4;-29,1;False;non;False;False;;;;;280000000.0;ok;seuil franchi
-LFTO;Liftoff Mobile, Inc.;IPO;False;2026-06-04;5,7;NASDAQ Global Select;;23.0;28,45;22,91;2026-11-24;-0,4;-19,5;36,8;24,2;-19,5;True;oui;False;False;;;;;437000000.0;ok;seuil franchi
-FIGR;Figure Technology Solutions, Inc.;IPO;False;2025-09-11;14,4;NASDAQ Global Select;;25.0;31,11;24,89;2026-11-24;-0,4;-20,0;13,6;-32,9;-66,3;False;non;False;False;;;;;787500000.0;ok;
-ANT;Anthropic, PBC;IPO;False;2026-11-19;0,2;NASDAQ Global Select;;83.0;97,17;81,25;2026-11-24;-2,1;-16,4;;;-16,4;;non;False;False;;;;;81340000000.0;ok;seuil franchi
-FRBT;Forbright, Inc.;IPO;False;2026-06-11;5,5;NASDAQ Global Select;;18.0;18,1;17,5;2026-11-24;-2,8;-3,3;1,2;-5,5;-13,5;False;non;False;False;;;;;142200000.0;ok;seuil franchi
-SAIL;SailPoint, Inc.;IPO;False;2025-02-13;21,3;NASDAQ Global Select;;23.0;22,0;22,24;2026-11-24;-3,3;1,1;2,3;22,1;-13,5;True;oui;False;False;;;;;1380000000.0;ok;avant v1
-MMED;MiniMed Group, Inc.;IPO;False;2026-03-06;8,6;NASDAQ Global Select;;20.0;18,49;19,25;2026-11-24;-3,8;4,1;3,1;-1,3;-19,3;True;non;False;False;;;;;560000000.0;ok;
+NARA;Narragansett Bancorp, Inc.;IPO;False;2026-11-02;0,7;NASDAQ Capital;;10.0;10,8;9,99;2026-11-24;-0,1;-7,5;;;-8,4;;non;False;False;conversion mutualiste;;;;90988000.0;ok;seuil franchi
+ODTX;Odyssey Therapeutics, Inc.;IPO;False;2026-05-08;6,6;NASDAQ Capital;;18.0;16,42;17,98;2026-11-24;-0,1;9,5;-6,8;-29,8;-37,5;False;non;False;False;;;;;279000000.0;ok;seuil franchi
+YSWY;Yesway, Inc.;IPO;False;2026-04-22;7,1;NASDAQ Global Select;;20.0;21,23;19,91;2026-11-24;-0,5;-6,2;-20,2;-20,6;-29,3;False;non;False;False;;;;;280000000.0;ok;seuil franchi
+FIGR;Figure Technology Solutions, Inc.;IPO;False;2025-09-11;14,4;NASDAQ Global Select;;25.0;31,11;24,82;2026-11-24;-0,7;-20,2;13,3;-33,1;-66,4;False;non;False;False;;;;;787500000.0;ok;
+LFTO;Liftoff Mobile, Inc.;IPO;False;2026-06-04;5,7;NASDAQ Global Select;;23.0;28,45;22,76;2026-11-24;-1,0;-20,0;35,9;23,5;-20,0;True;oui;False;False;;;;;437000000.0;ok;seuil franchi
+FRBT;Forbright, Inc.;IPO;False;2026-06-11;5,5;NASDAQ Global Select;;18.0;18,1;17,43;2026-11-24;-3,2;-3,7;0,8;-5,9;-13,8;False;non;False;False;;;;;142200000.0;ok;seuil franchi
+SAIL;SailPoint, Inc.;IPO;False;2025-02-13;21,3;NASDAQ Global Select;;23.0;22,0;22,22;2026-11-24;-3,4;1,0;2,2;22,0;-13,5;True;oui;False;False;;;;;1380000000.0;ok;avant v1
+ANT;Anthropic, PBC;IPO;False;2026-11-19;0,2;NASDAQ Global Select;;83.0;97,17;80,03;2026-11-24;-3,6;-17,6;;;-17,6;;non;False;False;;;;;81340000000.0;ok;seuil franchi
 RTSN;Retension Pharmaceuticals, Inc.;IPO;False;2026-10-09;1,5;NASDAQ Capital;;12.0;10,53;11,52;2026-11-24;-4,0;9,4;-19,1;;-29,4;;non;False;False;;;;;45000000.0;ok;seuil franchi
-MRP;Millrose Properties Inc.;Spin-off;False;2025-02-07;21,5;NYSE;Lennar;;26,74;25,62;2026-11-24;-4,2;-4,2;7,2;-16,5;-27,8;True;non;False;False;;;;;;ok;avant v1
-AKTS;Aktis Oncology, Inc.;IPO;False;2026-01-09;10,5;NASDAQ Global Select;;18.0;22,4;17,11;2026-11-24;-4,9;-23,6;8,8;-35,5;-46,9;False;non;False;False;;;;;317700000.0;ok;absent v1
-VOGX;Vogenx, Inc.;IPO;False;2026-08-12;3,4;NASDAQ Capital;;13.0;13,0;12,35;2026-11-24;-5,0;-5,0;-28,8;-62,5;-63,8;False;non;False;False;;;;;81250000.0;ok;seuil franchi
+MRP;Millrose Properties Inc.;Spin-off;False;2025-02-07;21,5;NYSE;Lennar;;26,74;25,58;2026-11-24;-4,4;-4,4;7,0;-16,6;-28,0;True;non;False;False;;;;;;ok;avant v1
+MMED;MiniMed Group, Inc.;IPO;False;2026-03-06;8,6;NASDAQ Global Select;;20.0;18,49;19,09;2026-11-24;-4,5;3,3;2,3;-2,0;-19,9;True;non;False;False;;;;;560000000.0;ok;
+VOGX;Vogenx, Inc.;IPO;False;2026-08-12;3,4;NASDAQ Capital;;13.0;13,0;12,35;2026-11-24;-5,0;-5,0;-28,8;-62,4;-63,8;False;non;False;False;;;;;81250000.0;ok;seuil franchi
+AKTS;Aktis Oncology, Inc.;IPO;False;2026-01-09;10,5;NASDAQ Global Select;;18.0;22,4;17,08;2026-11-24;-5,1;-23,8;8,6;-35,6;-47,0;False;non;False;False;;;;;317700000.0;ok;absent v1
 ARX;Accelerant Holdings;IPO;False;2025-07-24;16,0;NYSE;;21.0;26,5;19,92;2026-11-24;-5,1;-24,8;0,5;1,3;-33,7;True;oui;False;False;;;;;723684192.0;ok;
-DPC;DPC Holdings PLC;IPO;False;2026-06-25;5,0;NYSE;;33.0;46,88;31,22;2026-11-24;-5,4;-33,4;22,4;-30,2;-45,1;False;non;False;False;;;;;919333305.0;ok;seuil franchi
+DPC;DPC Holdings PLC;IPO;False;2026-06-25;5,0;NYSE;;33.0;46,88;31,11;2026-11-24;-5,7;-33,6;22,0;-30,4;-45,3;False;non;False;False;;;;;919333305.0;ok;seuil franchi
 LUD;Luda Technology Group Ltd;IPO;False;2025-02-27;20,9;NYSE MKT;;4.0;4,0;3,77;2026-11-24;-5,8;-5,8;-2,7;-12,1;-80,9;False;non;False;False;;;;;10000000.0;ok;avant v1
-SPCX;SPACE EXPLORATION TECHNOLOGIES CORP;IPO;False;2026-06-12;5,4;NASDAQ Global Select;;135.0;160,95;126,68;2026-11-24;-6,2;-21,3;-13,8;-9,3;-40,1;False;non;False;False;;;;;74999999925.0;ok;seuil franchi
 LAWR;Robot Consulting Co., Ltd.;IPO;False;2025-07-17;16,3;NASDAQ Capital;;4.0;3,52;3,75;2026-11-23;-6,2;6,5;0,0;0,0;0,0;False;non;False;False;;;;;15000000.0;ok;
-SFD;SMITHFIELD FOODS INC;IPO;False;2025-01-28;21,8;NASDAQ Global Select;;20.0;19,75;18,75;2026-11-24;-6,3;-5,1;2,4;-15,0;-36,7;False;non;False;False;;;;;521739160.0;ok;avant v1
-ATTO;Attovia Therapeutics, Inc.;IPO;False;2026-08-05;3,6;NASDAQ Global;;17.0;21,9;15,81;2026-11-24;-7,0;-27,8;13,9;-19,1;-38,1;False;non;False;False;;;;;289000000.0;ok;seuil franchi
-BBNX;Beta Bionics, Inc.;IPO;False;2025-01-30;21,8;NASDAQ Global;;17.0;23,63;15,61;2026-11-24;-8,1;-33,9;-23,9;-19,3;-51,2;False;non;False;False;;;;;204000000.0;ok;avant v1
-WHK;WhiteHawk Minerals Corp.;IPO;False;2026-06-09;5,5;NYSE;;26.0;26,0;23,67;2026-11-24;-9,0;-9,0;-9,1;-9,4;-17,4;False;non;False;False;;;;;200200000.0;ok;seuil franchi
-BLSM;BlossomHill Therapeutics, Inc.;IPO;False;2026-08-07;3,6;NASDAQ Global Select;;16.0;16,0;14,5;2026-11-24;-9,4;-9,4;-11,5;-21,5;-45,9;False;non;False;False;;;;;150000000.0;ok;seuil franchi
-CAI;Caris Life Sciences, Inc.;IPO;False;2025-06-18;17,2;NASDAQ Global Select;;21.0;28,0;18,48;2026-11-24;-12,0;-34,0;-43,1;-31,1;-53,0;False;non;False;False;;;;;494117652.0;ok;avant v1
-GLIBK;Liberty Capital Corporation;Spin-off;False;2025-07-15;16,3;Nasdaq;Liberty Broadband;;31,0;27,18;2026-11-24;-12,3;-12,3;28,3;3,2;-32,1;True;oui;False;False;;;;;;ok;
-VSNT;Versant Media Group, Inc.;Spin-off;False;2026-01-05;10,6;Nasdaq;Comcast;;40,57;35,54;2026-11-24;-12,4;-12,4;16,0;-9,5;-20,0;True;non;False;False;;;;;;ok;
+SFD;SMITHFIELD FOODS INC;IPO;False;2025-01-28;21,8;NASDAQ Global Select;;20.0;19,75;18,74;2026-11-24;-6,3;-5,1;2,3;-15,0;-36,7;False;non;False;False;;;;;521739160.0;ok;avant v1
+ATTO;Attovia Therapeutics, Inc.;IPO;False;2026-08-05;3,6;NASDAQ Global;;17.0;21,9;15,9;2026-11-24;-6,5;-27,4;14,6;-18,7;-37,8;False;non;False;False;;;;;289000000.0;ok;seuil franchi
+SPCX;SPACE EXPLORATION TECHNOLOGIES CORP;IPO;False;2026-06-12;5,4;NASDAQ Global Select;;135.0;160,95;126,2;2026-11-24;-6,5;-21,6;-14,1;-9,6;-40,3;False;non;False;False;;;;;74999999925.0;ok;seuil franchi
+BBNX;Beta Bionics, Inc.;IPO;False;2025-01-30;21,8;NASDAQ Global;;17.0;23,63;15,48;2026-11-24;-8,9;-34,5;-24,5;-19,9;-51,6;False;non;False;False;;;;;204000000.0;ok;avant v1
+WHK;WhiteHawk Minerals Corp.;IPO;False;2026-06-09;5,5;NYSE;;26.0;26,0;23,59;2026-11-24;-9,3;-9,3;-9,4;-9,7;-17,7;False;non;False;False;;;;;200200000.0;ok;seuil franchi
+BLSM;BlossomHill Therapeutics, Inc.;IPO;False;2026-08-07;3,6;NASDAQ Global Select;;16.0;16,0;14,45;2026-11-24;-9,7;-9,7;-11,8;-21,7;-46,1;False;non;False;False;;;;;150000000.0;ok;seuil franchi
+CAI;Caris Life Sciences, Inc.;IPO;False;2025-06-18;17,2;NASDAQ Global Select;;21.0;28,0;18,41;2026-11-24;-12,3;-34,3;-43,3;-31,4;-53,2;False;non;False;False;;;;;494117652.0;ok;avant v1
+VSNT;Versant Media Group, Inc.;Spin-off;False;2026-01-05;10,6;Nasdaq;Comcast;;40,57;35,52;2026-11-24;-12,4;-12,4;16,0;-9,5;-20,1;True;non;False;False;;;;;;ok;
+GLIBK;Liberty Capital Corporation;Spin-off;False;2025-07-15;16,3;Nasdaq;Liberty Broadband;;31,0;27,11;2026-11-24;-12,5;-12,5;28,0;2,9;-32,3;True;oui;False;False;;;;;;ok;
 MOBI;Mobia Medical, Inc.;IPO;False;2026-05-08;6,6;NASDAQ Global Select;;15.0;11,75;13,1;2026-11-24;-12,7;11,5;22,1;12,4;-10,5;True;oui;False;False;;;;;150000000.0;ok;seuil franchi
-IAM;Iambic Therapeutics, Inc.;IPO;False;2026-10-15;1,3;NASDAQ Global Select;;16.0;18,91;13,92;2026-11-24;-13,0;-26,4;-3,4;;-41,5;;non;False;False;;;;;150000000.0;ok;seuil franchi
+BGIN;BGIN BLOCKCHAIN Ltd;IPO;False;2025-10-21;13,1;NASDAQ Global;;6.0;4,96;5,24;2026-11-24;-12,7;5,6;201,1;166,0;-6,6;True;oui;False;False;;;;;30000000.0;ok;
 BMHL;Bluemount Holdings Ltd;IPO;False;2025-07-11;16,5;NASDAQ Capital;;4.0;4,0;3,47;2026-11-23;-13,2;-13,2;2,4;-42,0;-43,6;False;non;False;False;;;;;5500000.0;ok;
-BGIN;BGIN BLOCKCHAIN Ltd;IPO;False;2025-10-21;13,1;NASDAQ Global;;6.0;4,96;5,2;2026-11-24;-13,3;4,8;198,9;164,0;-7,3;True;oui;False;False;;;;;30000000.0;ok;
-KARD;Kardigan, Inc.;IPO;False;2026-06-18;5,2;NASDAQ Global;;16.0;22,0;13,79;2026-11-24;-13,8;-37,3;9,2;-34,9;-46,8;False;non;False;False;;;;;400000000.0;ok;seuil franchi
-OIG;Orion180 Insurance Group Inc.;IPO;False;2026-09-18;2,2;NASDAQ Global Select;;12.0;11,66;10,27;2026-11-24;-14,4;-11,9;12,4;;-11,9;;non;False;False;;;;;240000000.0;ok;seuil franchi
-AERO;Grupo Aeromexico, S.A.B. de C.V.;IPO;False;2025-11-06;12,6;NYSE;;19.0;20,35;16,24;2026-11-24;-14,5;-20,2;15,8;9,6;-29,1;True;oui;False;False;;;;;222819175.0;ok;
-SCTX;Scribe Therapeutics, Inc.;IPO;False;2026-07-24;4,0;NASDAQ Global;;15.0;18,97;12,71;2026-11-24;-15,3;-33,0;-18,5;-59,9;-65,9;False;non;False;False;;;;;128700000.0;ok;seuil franchi
-MAIR;Madison Air Solutions Corp;IPO;False;2026-04-16;7,3;NYSE;;27.0;31,75;22,79;2026-11-24;-15,6;-28,2;-0,6;-20,1;-48,0;False;non;False;False;;;;;2232692316.0;ok;seuil franchi
+IAM;Iambic Therapeutics, Inc.;IPO;False;2026-10-15;1,3;NASDAQ Global Select;;16.0;18,91;13,85;2026-11-24;-13,4;-26,8;-3,9;;-41,8;;non;False;False;;;;;150000000.0;ok;seuil franchi
+AERO;Grupo Aeromexico, S.A.B. de C.V.;IPO;False;2025-11-06;12,6;NYSE;;19.0;20,35;16,3;2026-11-24;-14,2;-19,9;16,1;10,0;-28,9;True;oui;False;False;;;;;222819175.0;ok;
+OIG;Orion180 Insurance Group Inc.;IPO;False;2026-09-18;2,2;NASDAQ Global Select;;12.0;11,66;10,28;2026-11-24;-14,3;-11,8;12,5;;-11,8;;non;False;False;;;;;240000000.0;ok;seuil franchi
+KARD;Kardigan, Inc.;IPO;False;2026-06-18;5,2;NASDAQ Global;;16.0;22,0;13,55;2026-11-24;-15,3;-38,4;7,3;-36,0;-47,7;False;non;False;False;;;;;400000000.0;ok;seuil franchi
+SCTX;Scribe Therapeutics, Inc.;IPO;False;2026-07-24;4,0;NASDAQ Global;;15.0;18,97;12,61;2026-11-24;-15,9;-33,5;-19,2;-60,2;-66,1;False;non;False;False;;;;;128700000.0;ok;seuil franchi
+MAIR;Madison Air Solutions Corp;IPO;False;2026-04-16;7,3;NYSE;;27.0;31,75;22,5;2026-11-24;-16,6;-29,1;-1,8;-21,1;-48,7;False;non;False;False;;;;;2232692316.0;ok;seuil franchi
 ASPE;Aspen Neuroscience, Inc.;IPO;False;2026-10-30;0,8;NASDAQ Global Select;;15.0;14,89;12,46;2026-11-24;-16,9;-16,3;;;-16,3;;non;False;False;;;;;140625000.0;ok;seuil franchi
-FLOC;Flowco Holdings Inc.;IPO;False;2025-01-16;22,2;NYSE;;24.0;29,7;19,77;2026-11-24;-17,6;-33,4;0,4;-3,6;-34,6;True;non;False;False;;;;;427200000.0;ok;avant v1
-VVVV;vVARDIS Holding AG;IPO;False;2026-11-13;0,4;NYSE;;18.0;16,5;14,81;2026-11-24;-17,7;-10,2;;;-10,2;;non;False;False;;;;;175000014.0;ok;seuil franchi
-ADRX;ADARx Pharmaceuticals, Inc.;IPO;False;2026-09-25;2,0;NASDAQ Global Select;;17.0;19,35;13,78;2026-11-24;-18,9;-28,8;-22,6;;-33,2;;non;False;False;;;;;446250000.0;ok;seuil franchi
-LMRI;Lumexa Imaging Holdings, Inc.;IPO;False;2025-12-11;11,4;NASDAQ Global Select;;18.5;18,52;14,86;2026-11-24;-19,7;-19,8;26,6;24,2;-19,8;True;oui;False;False;;;;;462500000.0;ok;
-LIME;Neutron Holdings, Inc.;IPO;False;2026-07-01;4,8;NASDAQ Global Select;;25.0;26,0;20,0;2026-11-24;-20,0;-23,1;-14,4;-53,8;-53,8;False;non;False;False;;;;;173913050.0;ok;seuil franchi
+FLOC;Flowco Holdings Inc.;IPO;False;2025-01-16;22,2;NYSE;;24.0;29,7;19,67;2026-11-24;-18,0;-33,8;-0,1;-4,0;-35,0;True;non;False;False;;;;;427200000.0;ok;avant v1
+ADRX;ADARx Pharmaceuticals, Inc.;IPO;False;2026-09-25;2,0;NASDAQ Global Select;;17.0;19,35;13,69;2026-11-24;-19,4;-29,2;-23,1;;-33,6;;non;False;False;;;;;446250000.0;ok;seuil franchi
+LMRI;Lumexa Imaging Holdings, Inc.;IPO;False;2025-12-11;11,4;NASDAQ Global Select;;18.5;18,52;14,87;2026-11-24;-19,6;-19,7;26,7;24,3;-19,8;True;oui;False;False;;;;;462500000.0;ok;
+LIME;Neutron Holdings, Inc.;IPO;False;2026-07-01;4,8;NASDAQ Global Select;;25.0;26,0;20,03;2026-11-24;-19,9;-22,9;-14,2;-53,7;-53,7;False;non;False;False;;;;;173913050.0;ok;seuil franchi
 PAYP;PayPay Corp;IPO;False;2026-03-12;8,4;NASDAQ Global Select;;16.0;18,16;12,8;2026-11-24;-20,0;-29,5;-10,7;-18,1;-47,9;False;non;False;False;;;;;879795424.0;ok;
+VVVV;vVARDIS Holding AG;IPO;False;2026-11-13;0,4;NYSE;;18.0;16,5;14,34;2026-11-24;-20,3;-13,1;;;-13,1;;non;False;False;;;;;175000014.0;ok;seuil franchi
 NIQ;NIQ Global Intelligence plc;IPO;False;2025-07-23;16,1;NYSE;;21.0;19,01;16,72;2026-11-24;-20,4;-12,0;-16,0;-10,8;-21,9;False;non;False;False;;;;;1050000000.0;ok;
-AMRZ;Amrize Ltd;Spin-off;False;2025-06-23;17,0;NYSE;Holcim;;51,99;41,23;2026-11-24;-20,7;-20,7;5,1;-7,8;-37,4;True;non;False;False;;;;;;ok;avant v1
 HCHL;Happy City Holdings Ltd;IPO;False;2025-06-24;17,0;NASDAQ Capital;;5.0;5,0;3,96;2026-11-23;-20,8;-20,8;0,0;0,0;-29,3;False;non;False;False;;;;;5500000.0;ok;avant v1
-KLRA;Kailera Therapeutics, Inc.;IPO;False;2026-04-17;7,3;NASDAQ Global Select;;16.0;26,0;12,56;2026-11-24;-21,5;-51,7;-1,6;-31,9;-51,7;True;non;False;False;;;;;625000000.0;ok;seuil franchi
-BXDC;Blackstone Digital Infrastructure Trust Inc.;IPO;False;2026-05-14;6,4;NYSE;;20.0;19,81;15,48;2026-11-24;-22,6;-21,9;-4,3;-26,4;-30,7;False;non;False;False;;;;;1750000000.0;ok;seuil franchi
-FDXF;FedEx Freight Holding Company, Inc.;Spin-off;False;2026-06-01;5,8;NYSE;FedEx;;149,53;115,79;2026-11-24;-22,6;-22,6;5,8;-11,8;-38,6;False;non;False;False;;;;;;ok;seuil franchi
-SSMR;Sunshine Silver Mining & Refining Co;IPO;False;2026-06-04;5,7;NYSE;;13.5;17,15;10,41;2026-11-24;-22,9;-39,3;-20,5;-43,2;-45,0;False;non;False;False;;;;;270000000.0;ok;seuil franchi
-JMKE;Jersey Mike's Subs Inc.;IPO;False;2026-07-30;3,8;NYSE;;23.0;21,63;17,68;2026-11-24;-23,1;-18,3;4,6;-20,8;-27,7;False;non;False;False;;;;;1000000003.0;ok;seuil franchi
-APC;ARKO Petroleum Corp.;IPO;False;2026-02-12;9,4;NASDAQ Capital;;18.0;17,55;13,77;2026-11-24;-23,5;-21,5;-13,9;-26,5;-36,1;False;non;False;False;;;;;199999998.0;ok;
-SKHY;SK hynix Inc.;IPO;False;2026-07-10;4,5;NASDAQ Global Select;;149.0;168,01;113,79;2026-11-24;-23,6;-32,3;-20,2;-28,0;-42,7;False;non;False;False;;;;;26507100000.0;ok;seuil franchi
+AMRZ;Amrize Ltd;Spin-off;False;2025-06-23;17,0;NYSE;Holcim;;51,99;41,13;2026-11-24;-20,9;-20,9;4,8;-8,1;-37,5;True;non;False;False;;;;;;ok;avant v1
+KLRA;Kailera Therapeutics, Inc.;IPO;False;2026-04-17;7,3;NASDAQ Global Select;;16.0;26,0;12,51;2026-11-24;-21,8;-51,9;-2,0;-32,2;-51,9;True;non;False;False;;;;;625000000.0;ok;seuil franchi
+FDXF;FedEx Freight Holding Company, Inc.;Spin-off;False;2026-06-01;5,8;NYSE;FedEx;;149,53;115,33;2026-11-24;-22,9;-22,9;5,4;-12,1;-38,8;False;non;False;False;;;;;;ok;seuil franchi
+BXDC;Blackstone Digital Infrastructure Trust Inc.;IPO;False;2026-05-14;6,4;NYSE;;20.0;19,81;15,4;2026-11-24;-23,0;-22,3;-4,8;-26,8;-31,1;False;non;False;False;;;;;1750000000.0;ok;seuil franchi
+JMKE;Jersey Mike's Subs Inc.;IPO;False;2026-07-30;3,8;NYSE;;23.0;21,63;17,62;2026-11-24;-23,4;-18,5;4,2;-21,0;-28,0;False;non;False;False;;;;;1000000003.0;ok;seuil franchi
+SSMR;Sunshine Silver Mining & Refining Co;IPO;False;2026-06-04;5,7;NYSE;;13.5;17,15;10,35;2026-11-24;-23,4;-39,7;-21,0;-43,6;-45,4;False;non;False;False;;;;;270000000.0;ok;seuil franchi
+APC;ARKO Petroleum Corp.;IPO;False;2026-02-12;9,4;NASDAQ Capital;;18.0;17,55;13,72;2026-11-24;-23,8;-21,9;-14,3;-26,8;-36,4;False;non;False;False;;;;;199999998.0;ok;
 MB;MASTERBEEF GROUP;IPO;False;2025-04-10;19,5;NASDAQ Capital;;4.0;4,1;3,05;2026-11-23;-23,8;-25,6;-23,4;-36,1;-80,0;False;non;False;False;;;;;8000000.0;ok;avant v1
+SKHY;SK hynix Inc.;IPO;False;2026-07-10;4,5;NASDAQ Global Select;;149.0;168,01;112,88;2026-11-24;-24,2;-32,8;-20,9;-28,6;-43,2;False;non;False;False;;;;;26507100000.0;ok;seuil franchi
 PPHC;Public Policy Holding Company, Inc.;IPO;False;2026-01-28;9,9;NASDAQ Global;;12.25;11,28;9,29;2026-11-24;-24,2;-17,6;-5,0;-12,7;-36,4;False;non;False;False;;;;;50837500.0;ok;absent v1
-MH;McGraw Hill, Inc.;IPO;False;2025-07-24;16,0;NYSE;;17.0;17,0;12,83;2026-11-24;-24,5;-24,5;-11,1;-1,6;-28,7;False;non;False;False;;;;;414630000.0;ok;
-LTGO;Latigo Biotherapeutics, Inc.;IPO;False;2026-08-07;3,6;NASDAQ Global Select;;18.0;18,25;13,56;2026-11-24;-24,7;-25,7;-11,1;-43,8;-45,8;False;non;False;False;;;;;345600000.0;ok;seuil franchi
 GMRS;GMR Solutions Inc.;IPO;False;2026-05-13;6,4;NYSE;;15.0;13,98;11,3;2026-11-24;-24,7;-19,2;4,5;-11,9;-28,2;True;non;False;False;;;;;478723395.0;ok;seuil franchi
-WLTH;WEALTHFRONT CORP;IPO;False;2025-12-12;11,4;NASDAQ Global Select;;14.0;13,95;10,26;2026-11-24;-26,7;-26,5;-4,5;10,3;-26,5;False;non;False;False;;;;;484615376.0;ok;
+LTGO;Latigo Biotherapeutics, Inc.;IPO;False;2026-08-07;3,6;NASDAQ Global Select;;18.0;18,25;13,54;2026-11-24;-24,8;-25,8;-11,3;-43,9;-45,8;False;non;False;False;;;;;345600000.0;ok;seuil franchi
+MH;McGraw Hill, Inc.;IPO;False;2025-07-24;16,0;NYSE;;17.0;17,0;12,76;2026-11-24;-24,9;-24,9;-11,6;-2,1;-29,1;False;non;False;False;;;;;414630000.0;ok;
+WLTH;WEALTHFRONT CORP;IPO;False;2025-12-12;11,4;NASDAQ Global Select;;14.0;13,95;10,23;2026-11-24;-26,9;-26,7;-4,7;10,0;-26,7;False;non;False;False;;;;;484615376.0;ok;
 BUDA;BUDA JUICE, INC.;IPO;False;2026-01-08;10,5;NYSE MKT;;7.5;8,11;5,44;2026-11-24;-27,5;-32,9;-18,2;-34,1;-49,9;False;non;False;False;;;;;20000003.0;ok;absent v1
 YB;Yuanbao Inc.;IPO;False;2025-04-30;18,8;NASDAQ Global;;15.0;15,96;10,85;2026-11-24;-27,7;-32,0;-4,1;-18,4;-64,8;False;non;False;False;;;;;30000000.0;ok;avant v1
-SIND;Sinda Ltd.;IPO;False;2026-06-26;5,0;NYSE;;12.0;12,0;8,59;2026-11-24;-28,4;-28,4;-24,6;-49,5;-52,1;False;non;False;False;;;;;213000000.0;ok;seuil franchi
 AAPG;ASCENTAGE PHARMA GROUP INTERNATIONAL;IPO;False;2025-01-24;22,0;NASDAQ Global;;17.25;17,38;12,27;2026-11-24;-28,9;-29,4;-20,6;-27,4;-74,4;False;non;False;False;;;;;126356250.0;ok;avant v1
-HONA;Honeywell Aerospace Inc.;Spin-off;False;2026-06-29;4,9;Nasdaq;Honeywell;;220,19;156,61;2026-11-24;-28,9;-28,9;-7,1;-4,5;-36,6;False;non;False;False;;;;;;ok;seuil franchi
-CSQR;Csquare, Inc.;IPO;False;2026-07-16;4,3;NYSE;;21.0;20,67;14,86;2026-11-24;-29,2;-28,1;3,6;-27,5;-35,3;False;non;False;False;;;;;1050000000.0;ok;seuil franchi
-XZO;Exzeo Group, Inc.;IPO;False;2025-11-05;12,6;NYSE;;21.0;21,01;14,79;2026-11-24;-29,6;-29,6;-10,1;-11,2;-39,0;False;non;False;False;;;;;168000000.0;ok;
+HONA;Honeywell Aerospace Inc.;Spin-off;False;2026-06-29;4,9;Nasdaq;Honeywell;;220,19;155,53;2026-11-24;-29,4;-29,4;-7,8;-5,2;-37,1;False;non;False;False;;;;;;ok;seuil franchi
+XZO;Exzeo Group, Inc.;IPO;False;2025-11-05;12,6;NYSE;;21.0;21,01;14,81;2026-11-24;-29,5;-29,5;-10,0;-11,1;-38,9;False;non;False;False;;;;;168000000.0;ok;
+CSQR;Csquare, Inc.;IPO;False;2026-07-16;4,3;NYSE;;21.0;20,67;14,78;2026-11-24;-29,6;-28,5;3,1;-27,9;-35,7;False;non;False;False;;;;;1050000000.0;ok;seuil franchi
 MSGY;Masonglory Ltd;IPO;False;2025-07-08;16,6;NASDAQ Capital;;4.0;3,12;2,8;2026-11-23;-30,0;-10,3;2,6;24,4;-65,3;False;non;False;False;;;;;6000000.0;ok;
-FPS;Forgent Power Solutions, Inc.;IPO;False;2026-02-05;9,6;NYSE;;27.0;29,0;18,74;2026-11-24;-30,6;-35,4;-25,4;-41,8;-71,0;False;non;False;False;;;;;1512000000.0;ok;
+MDRN;Modern Mining Technology Corp.;IPO;False;2026-11-13;0,4;NYSE MKT;;4.25;4,1;2,97;2026-11-24;-30,1;-27,6;;;-27,6;;non;False;False;;;;;39999997.0;ok;seuil franchi
+SIND;Sinda Ltd.;IPO;False;2026-06-26;5,0;NYSE;;12.0;12,0;8,32;2026-11-24;-30,7;-30,7;-27,0;-51,1;-53,6;False;non;False;False;;;;;213000000.0;ok;seuil franchi
 TRXB;TRex Bio, Inc.;IPO;False;2026-10-09;1,5;NASDAQ Global Select;;14.0;14,0;9,69;2026-11-24;-30,8;-30,8;-30,1;;-37,5;;non;False;False;;;;;116666676.0;ok;seuil franchi
-LYNX;Lyntris Inc.;IPO;False;2026-08-19;3,2;NYSE;;17.5;15,01;12,09;2026-11-24;-30,9;-19,5;12,9;-11,4;-23,0;False;non;False;False;;;;;297500000.0;ok;seuil franchi
-MDRN;Modern Mining Technology Corp.;IPO;False;2026-11-13;0,4;NYSE MKT;;4.25;4,1;2,92;2026-11-24;-31,3;-28,8;;;-28,8;;non;False;False;;;;;39999997.0;ok;seuil franchi
-OFRM;Once Upon a Farm, PBC;IPO;False;2026-02-06;9,6;NYSE;;18.0;21,05;12,34;2026-11-24;-31,4;-41,4;-22,4;-26,9;-52,4;False;non;False;False;;;;;197949762.0;ok;
-TTAM;Titan America SA;IPO;False;2025-02-07;21,5;NYSE;;16.0;16,7;10,92;2026-11-24;-31,7;-34,6;-18,6;-28,7;-43,5;False;non;False;False;;;;;384000000.0;ok;avant v1
-GENB;Generate Biomedicines, Inc.;IPO;False;2026-02-27;8,9;NASDAQ Global Select;;16.0;12,65;10,81;2026-11-24;-32,4;-14,5;-12,5;-33,0;-47,0;False;non;False;False;;;;;400000000.0;ok;
-STAK;STAK Inc.;IPO;False;2025-02-26;20,9;NASDAQ Capital;;4.0;3,73;2,64;2026-11-24;-33,9;-29,1;72,9;95,9;-71,5;True;oui;False;False;;;;;5000000.0;ok;avant v1
-HAWK;HawkEye 360, Inc.;IPO;False;2026-05-07;6,6;NYSE;;26.0;34,0;17,01;2026-11-24;-34,6;-50,0;33,3;-20,3;-50,9;True;non;False;False;;;;;416000000.0;ok;seuil franchi
+LYNX;Lyntris Inc.;IPO;False;2026-08-19;3,2;NYSE;;17.5;15,01;12,08;2026-11-24;-31,0;-19,5;12,8;-11,5;-23,1;False;non;False;False;;;;;297500000.0;ok;seuil franchi
+FPS;Forgent Power Solutions, Inc.;IPO;False;2026-02-05;9,6;NYSE;;27.0;29,0;18,51;2026-11-24;-31,4;-36,2;-26,3;-42,5;-71,3;False;non;False;False;;;;;1512000000.0;ok;
+OFRM;Once Upon a Farm, PBC;IPO;False;2026-02-06;9,6;NYSE;;18.0;21,05;12,3;2026-11-24;-31,7;-41,6;-22,7;-27,2;-52,5;False;non;False;False;;;;;197949762.0;ok;
+TTAM;Titan America SA;IPO;False;2025-02-07;21,5;NYSE;;16.0;16,7;10,89;2026-11-24;-31,9;-34,8;-18,9;-28,9;-43,6;False;non;False;False;;;;;384000000.0;ok;avant v1
+STAK;STAK Inc.;IPO;False;2025-02-26;20,9;NASDAQ Capital;;4.0;3,73;2,7;2026-11-24;-32,5;-27,6;76,4;99,9;-70,9;True;oui;False;False;;;;;5000000.0;ok;avant v1
+GENB;Generate Biomedicines, Inc.;IPO;False;2026-02-27;8,9;NASDAQ Global Select;;16.0;12,65;10,75;2026-11-24;-32,8;-15,0;-13,0;-33,4;-47,3;False;non;False;False;;;;;400000000.0;ok;
 CHWM;Chilwa Minerals Ltd;IPO;False;2026-10-01;1,8;NASDAQ Capital;;5.6;6,6;3,65;2026-11-24;-34,8;-44,7;-28,9;;-44,7;;non;False;False;;;;;3500000.0;ok;seuil franchi
-PS;PERSHING SQUARE INC.;IPO;False;2026-04-29;6,9;NYSE;;50.0;24,2;32,31;2026-11-24;-35,4;33,5;-29,1;-23,3;-45,9;False;non;False;False;;;;;2025848000.0;ok;seuil franchi
-FATN;Fatpipe Inc/UT;IPO;False;2025-04-08;19,5;NASDAQ Capital;;5.75;13,0;3,69;2026-11-24;-35,8;-71,6;-31,8;-37,8;-71,6;False;non;False;False;;;;;4000022.0;ok;avant v1
-OMDA;Omada Health, Inc.;IPO;False;2025-06-06;17,6;NASDAQ Global Select;;19.0;23,0;12,13;2026-11-24;-36,2;-47,3;-37,0;-49,4;-54,7;False;non;False;False;;;;;150100000.0;ok;avant v1
-VOYG;Voyager Technologies, Inc./TX;IPO;False;2025-06-11;17,4;NYSE;;31.0;56,48;18,52;2026-11-24;-40,3;-67,2;-25,3;-46,5;-67,2;False;non;False;False;;;;;382799997.0;ok;avant v1
-PXED;Phoenix Education Partners, Inc.;IPO;False;2025-10-09;13,5;NYSE;;32.0;38,15;19,06;2026-11-24;-40,4;-50,0;-22,9;-33,8;-50,0;False;non;False;False;;;;;136000000.0;ok;
-APUS;Apimeds Pharmaceuticals US, Inc.;IPO;False;2025-05-09;18,5;NYSE MKT;;4.0;22,0;2,37;2026-11-24;-40,8;-89,2;-18,1;-48,5;-93,9;False;non;False;False;;;;;13500000.0;ok;avant v1
-AVEX;AEVEX Corp.;IPO;False;2026-04-17;7,3;NYSE;;20.0;26,93;11,82;2026-11-24;-40,9;-56,1;10,7;-35,6;-70,8;False;non;False;False;;;;;320000000.0;ok;seuil franchi
-ACCL;Acco Group Holdings Ltd;IPO;False;2025-10-17;13,2;NASDAQ Capital;;4.0;4,05;2,35;2026-11-24;-41,3;-42,0;-10,0;-16,7;-47,9;False;non;False;False;;;;;5600000.0;ok;
+HAWK;HawkEye 360, Inc.;IPO;False;2026-05-07;6,6;NYSE;;26.0;34,0;16,92;2026-11-24;-34,9;-50,2;32,6;-20,7;-51,2;True;non;False;False;;;;;416000000.0;ok;seuil franchi
+PS;PERSHING SQUARE INC.;IPO;False;2026-04-29;6,9;NYSE;;50.0;24,2;32,0;2026-11-24;-36,0;32,2;-29,7;-24,0;-46,4;False;non;False;False;;;;;2025848000.0;ok;seuil franchi
+OMDA;Omada Health, Inc.;IPO;False;2025-06-06;17,6;NASDAQ Global Select;;19.0;23,0;12,16;2026-11-24;-36,0;-47,1;-36,8;-49,2;-54,6;False;non;False;False;;;;;150100000.0;ok;avant v1
+FATN;Fatpipe Inc/UT;IPO;False;2025-04-08;19,5;NASDAQ Capital;;5.75;13,0;3,67;2026-11-24;-36,2;-71,8;-32,2;-38,1;-71,8;False;non;False;False;;;;;4000022.0;ok;avant v1
+PXED;Phoenix Education Partners, Inc.;IPO;False;2025-10-09;13,5;NYSE;;32.0;38,15;18,96;2026-11-24;-40,8;-50,3;-23,3;-34,2;-50,3;False;non;False;False;;;;;136000000.0;ok;
+VOYG;Voyager Technologies, Inc./TX;IPO;False;2025-06-11;17,4;NYSE;;31.0;56,48;18,28;2026-11-24;-41,0;-67,6;-26,2;-47,2;-67,6;False;non;False;False;;;;;382799997.0;ok;avant v1
+AVEX;AEVEX Corp.;IPO;False;2026-04-17;7,3;NYSE;;20.0;26,93;11,78;2026-11-24;-41,1;-56,3;10,3;-35,8;-70,9;False;non;False;False;;;;;320000000.0;ok;seuil franchi
+ACCL;Acco Group Holdings Ltd;IPO;False;2025-10-17;13,2;NASDAQ Capital;;4.0;4,05;2,34;2026-11-24;-41,5;-42,2;-10,3;-17,0;-48,1;False;non;False;False;;;;;5600000.0;ok;
 PFAI;Pinnacle Food Group Ltd;IPO;False;2025-04-22;19,1;NASDAQ Capital;;4.0;3,35;2,33;2026-11-24;-41,8;-30,4;-31,5;-14,3;-54,3;False;non;False;False;;;;;7200000.0;ok;avant v1
-EQPT;EquipmentShare.com Inc;IPO;False;2026-01-23;10,0;NASDAQ Global Select;;24.5;32,56;14,2;2026-11-24;-42,0;-56,4;-12,6;-21,3;-59,0;False;non;False;False;;;;;747250000.0;ok;absent v1
 FOIL;Londian Wason New Energy Tech Inc.;IPO;False;2026-08-12;3,4;NYSE;;22.0;24,5;12,7;2026-11-24;-42,3;-48,1;-24,9;-42,8;-48,1;False;non;False;False;;;;;94285708.0;ok;seuil franchi
-ROC;Rank One Computing Corp;IPO;False;2026-02-20;9,1;NASDAQ Capital;;6.0;5,3;3,45;2026-11-24;-42,4;-34,8;0,1;-17,1;-52,7;False;non;False;False;;;;;24000000.0;ok;
-TOPW;AsiaStrategy;IPO;False;2025-04-02;19,7;NASDAQ Capital;;4.0;51,29;28,71;2026-11-24;-44,0;-44,0;-11,3;-13,1;-48,7;False;non;True;False;;;;;10656000.0;ok;avant v1
-SHAZ;SharonAI Holdings Inc.;IPO;False;2026-02-18;9,2;NASDAQ Capital;;30.0;31,7;16,76;2026-11-24;-44,1;-47,1;-28,7;-71,9;-81,9;False;non;False;False;;;;;124999980.0;ok;absent v1
+EQPT;EquipmentShare.com Inc;IPO;False;2026-01-23;10,0;NASDAQ Global Select;;24.5;32,56;14,01;2026-11-24;-42,8;-57,0;-13,8;-22,4;-59,5;False;non;False;False;;;;;747250000.0;ok;absent v1
+APUS;Apimeds Pharmaceuticals US, Inc.;IPO;False;2025-05-09;18,5;NYSE MKT;;4.0;22,0;2,28;2026-11-24;-42,9;-89,6;-21,1;-50,3;-94,1;False;non;False;False;;;;;13500000.0;ok;avant v1
+ROC;Rank One Computing Corp;IPO;False;2026-02-20;9,1;NASDAQ Capital;;6.0;5,3;3,39;2026-11-24;-43,5;-36,0;-1,7;-18,7;-53,6;False;non;False;False;;;;;24000000.0;ok;
+TOPW;AsiaStrategy;IPO;False;2025-04-02;19,7;NASDAQ Capital;;4.0;51,29;28,67;2026-11-24;-44,1;-44,1;-11,4;-13,3;-48,8;False;non;True;False;;;;;10656000.0;ok;avant v1
+INR;INFINITY NATURAL RESOURCES, INC.;IPO;False;2025-01-31;21,7;NYSE;;20.0;21,07;11,17;2026-11-24;-44,1;-47,0;-23,2;-24,0;-49,0;False;non;False;False;;;;;265000000.0;ok;avant v1
 BLIV;BeLive Holdings;IPO;False;2025-04-04;19,7;NASDAQ Capital;;4.0;3,54;2,23;2026-11-23;-44,2;-37,0;-3,0;3,7;-65,2;False;non;False;False;;;;;9800000.0;ok;avant v1
-INR;INFINITY NATURAL RESOURCES, INC.;IPO;False;2025-01-31;21,7;NYSE;;20.0;21,07;11,15;2026-11-24;-44,3;-47,1;-23,3;-24,1;-49,1;False;non;False;False;;;;;265000000.0;ok;avant v1
-HMH;HMH Holding Inc;IPO;False;2026-04-01;7,8;NASDAQ Global Select;;20.0;19,28;11,11;2026-11-24;-44,5;-42,4;-39,7;-40,8;-54,2;False;non;False;False;;;;;210400000.0;ok;seuil franchi
-ETRA;Electra Therapeutics, Inc.;IPO;False;2026-09-18;2,2;NASDAQ Global Select;;15.0;13,25;8,15;2026-11-24;-45,7;-38,5;-2,7;;-41,5;;non;False;False;;;;;350000010.0;ok;seuil franchi
-ACCV;Accelevation Holdings Corp.;IPO;False;2026-09-30;1,8;NASDAQ Global Select;;18.0;16,4;9,73;2026-11-24;-46,0;-40,7;-25,5;;-41,8;;non;False;False;;;;;540000000.0;ok;seuil franchi
+HMH;HMH Holding Inc;IPO;False;2026-04-01;7,8;NASDAQ Global Select;;20.0;19,28;11,05;2026-11-24;-44,7;-42,7;-40,0;-41,1;-54,5;False;non;False;False;;;;;210400000.0;ok;seuil franchi
+SHAZ;SharonAI Holdings Inc.;IPO;False;2026-02-18;9,2;NASDAQ Capital;;30.0;31,7;16,58;2026-11-24;-44,7;-47,7;-29,4;-72,2;-82,1;False;non;False;False;;;;;124999980.0;ok;absent v1
+NNNN;Anbio Biotechnology;IPO;False;2025-02-19;21,1;NASDAQ Global;;5.0;5,77;2,71;2026-11-24;-45,8;-53,0;-26,8;-64,9;-94,8;False;non;False;False;;;;;8000000.0;ok;avant v1
+ETRA;Electra Therapeutics, Inc.;IPO;False;2026-09-18;2,2;NASDAQ Global Select;;15.0;13,25;8,08;2026-11-24;-46,1;-39,0;-3,5;;-42,0;;non;False;False;;;;;350000010.0;ok;seuil franchi
 RYOJ;rYojbaba Co., Ltd.;IPO;False;2025-08-14;15,3;NASDAQ Capital;;4.0;2,9;2,15;2026-11-24;-46,2;-25,9;-0,9;-63,3;-76,4;False;non;False;False;;;;;5000000.0;ok;
-NNNN;Anbio Biotechnology;IPO;False;2025-02-19;21,1;NASDAQ Global;;5.0;5,77;2,68;2026-11-24;-46,4;-53,6;-27,6;-65,3;-94,9;False;non;False;False;;;;;8000000.0;ok;avant v1
-BLSH;Bullish;IPO;False;2025-08-13;15,4;NYSE;;37.0;68,0;19,72;2026-11-24;-46,7;-71,0;-28,6;-40,4;-73,6;False;non;False;False;;;;;1110000000.0;ok;
+ACCV;Accelevation Holdings Corp.;IPO;False;2026-09-30;1,8;NASDAQ Global Select;;18.0;16,4;9,62;2026-11-24;-46,6;-41,3;-26,3;;-42,5;;non;False;False;;;;;540000000.0;ok;seuil franchi
+BLSH;Bullish;IPO;False;2025-08-13;15,4;NYSE;;37.0;68,0;19,62;2026-11-24;-47,0;-71,1;-28,9;-40,7;-73,7;False;non;False;False;;;;;1110000000.0;ok;
 FIG;Figma, Inc.;IPO;False;2025-07-31;15,8;NYSE;;33.0;115,5;17,33;2026-11-24;-47,5;-85,0;-26,3;-35,9;-85,8;False;non;False;False;;;;;1218923640.0;ok;
-STDN;Standard Nuclear, Inc.;IPO;False;2026-07-16;4,3;NYSE;;15.0;12,3;7,82;2026-11-24;-47,9;-36,5;-36,9;-43,0;-52,8;False;non;False;False;;;;;150000000.0;ok;seuil franchi
-ELOG;Eastern International Ltd.;IPO;False;2025-08-28;14,9;NASDAQ Capital;;4.0;2,96;2,08;2026-11-24;-48,0;-29,7;116,0;179,9;-30,0;True;oui;False;False;;;;;6400000.0;ok;
-BRCB;Black Rock Coffee Bar, Inc.;IPO;False;2025-09-12;14,4;NASDAQ Global;;20.0;27,53;10,24;2026-11-24;-48,8;-62,8;3,2;12,3;-63,2;True;oui;False;False;;;;;294117640.0;ok;
-RNA;Atrium Therapeutics, Inc.;Spin-off;False;2026-02-26;8,9;Nasdaq;Avidity Biosciences;;14,75;7,45;2026-11-24;-49,5;-49,5;-7,5;-46,2;-55,0;False;non;False;False;;;;;;ok;
-EVMN;Evommune, Inc.;IPO;False;2025-11-06;12,6;NYSE;;16.0;20,23;8,0;2026-11-24;-50,0;-60,5;55,9;-43,3;-74,7;True;non;False;False;;;;;150000000.0;ok;
-QNT;Quantinuum Inc.;IPO;False;2026-06-04;5,7;NASDAQ Global;;60.0;60,38;29,85;2026-11-24;-50,2;-50,6;-20,5;-44,0;-64,1;False;non;False;False;;;;;1680000000.0;ok;seuil franchi
+STDN;Standard Nuclear, Inc.;IPO;False;2026-07-16;4,3;NYSE;;15.0;12,3;7,85;2026-11-24;-47,6;-36,2;-36,6;-42,7;-52,6;False;non;False;False;;;;;150000000.0;ok;seuil franchi
+BRCB;Black Rock Coffee Bar, Inc.;IPO;False;2025-09-12;14,4;NASDAQ Global;;20.0;27,53;10,22;2026-11-24;-48,9;-62,9;3,0;12,1;-63,3;True;oui;False;False;;;;;294117640.0;ok;
+RNA;Atrium Therapeutics, Inc.;Spin-off;False;2026-02-26;8,9;Nasdaq;Avidity Biosciences;;14,75;7,49;2026-11-24;-49,2;-49,2;-6,9;-45,9;-54,7;False;non;False;False;;;;;;ok;
+ELOG;Eastern International Ltd.;IPO;False;2025-08-28;14,9;NASDAQ Capital;;4.0;2,96;2,03;2026-11-24;-49,3;-31,4;110,8;173,2;-31,6;True;oui;False;False;;;;;6400000.0;ok;
+EVMN;Evommune, Inc.;IPO;False;2025-11-06;12,6;NYSE;;16.0;20,23;7,96;2026-11-24;-50,2;-60,7;55,2;-43,6;-74,8;True;non;False;False;;;;;150000000.0;ok;
+QNT;Quantinuum Inc.;IPO;False;2026-06-04;5,7;NASDAQ Global;;60.0;60,38;29,44;2026-11-24;-50,9;-51,2;-21,5;-44,7;-64,6;False;non;False;False;;;;;1680000000.0;ok;seuil franchi
+FBGL;FBS Global Ltd;IPO;False;2025-02-06;21,6;NASDAQ Capital;;4.5;34,5;2,2;2026-11-24;-51,1;-93,6;-2,0;-47,6;-93,6;False;non;False;False;;;;;10125000.0;ok;avant v1
 WTF;Waton Financial Ltd;IPO;False;2025-04-01;19,8;NASDAQ Capital;;4.0;19,85;1,95;2026-11-24;-51,2;-90,2;-15,2;-27,5;-90,2;False;non;False;False;;;;;17500000.0;ok;avant v1
-CBRS;Cerebras Systems Inc.;IPO;False;2026-05-14;6,4;NASDAQ Global Select;;185.0;311,07;89,65;2026-11-24;-51,5;-71,2;-17,3;-50,8;-71,2;False;non;False;False;;;;;5550000000.0;ok;seuil franchi
-VG;Venture Global, Inc.;IPO;False;2025-01-24;22,0;NYSE;;25.0;24,0;11,89;2026-11-24;-52,5;-50,5;-13,6;-16,9;-50,5;False;non;False;False;;;;;1750000000.0;ok;avant v1
-SBMT;SILVER BOW MINING CORP.;IPO;False;2026-04-30;6,8;NYSE MKT;;11.5;10,75;5,34;2026-11-24;-53,6;-50,4;-20,7;-39,8;-50,4;False;non;False;False;;;;;59800000.0;ok;seuil franchi
-BETA;BETA Technologies, Inc.;IPO;False;2025-11-04;12,6;NYSE;;34.0;36,0;15,66;2026-11-24;-53,9;-56,5;-21,0;-28,0;-57,4;False;non;False;False;;;;;1014999994.0;ok;
-AGBK;AGI Inc;IPO;False;2026-02-11;9,4;NYSE;;12.0;10,75;5,47;2026-11-24;-54,4;-49,1;15,8;-11,4;-54,4;False;non;False;False;;;;;240000000.0;ok;
-INIO;INNIO N.V.;IPO;False;2026-06-04;5,7;NASDAQ Global Select;;27.0;33,72;12,04;2026-11-24;-55,4;-64,3;-27,6;-48,5;-70,7;False;non;False;False;;;;;2430000000.0;ok;seuil franchi
+CBRS;Cerebras Systems Inc.;IPO;False;2026-05-14;6,4;NASDAQ Global Select;;185.0;311,07;88,84;2026-11-24;-52,0;-71,4;-18,0;-51,2;-71,4;False;non;False;False;;;;;5550000000.0;ok;seuil franchi
+VG;Venture Global, Inc.;IPO;False;2025-01-24;22,0;NYSE;;25.0;24,0;11,86;2026-11-24;-52,5;-50,6;-13,8;-17,0;-50,6;False;non;False;False;;;;;1750000000.0;ok;avant v1
+AGBK;AGI Inc;IPO;False;2026-02-11;9,4;NYSE;;12.0;10,75;5,49;2026-11-24;-54,3;-49,0;16,0;-11,2;-54,3;False;non;False;False;;;;;240000000.0;ok;
+SBMT;SILVER BOW MINING CORP.;IPO;False;2026-04-30;6,8;NYSE MKT;;11.5;10,75;5,23;2026-11-24;-54,5;-51,3;-22,3;-41,0;-51,3;False;non;False;False;;;;;59800000.0;ok;seuil franchi
+BETA;BETA Technologies, Inc.;IPO;False;2025-11-04;12,6;NYSE;;34.0;36,0;15,46;2026-11-24;-54,5;-57,1;-22,0;-28,9;-58,0;False;non;False;False;;;;;1014999994.0;ok;
+INIO;INNIO N.V.;IPO;False;2026-06-04;5,7;NASDAQ Global Select;;27.0;33,72;11,95;2026-11-24;-55,7;-64,5;-28,1;-48,8;-70,9;False;non;False;False;;;;;2430000000.0;ok;seuil franchi
 LFS;LEIFRAS Co., Ltd.;IPO;False;2025-10-09;13,5;NASDAQ Capital;;4.0;3,11;1,75;2026-11-24;-56,2;-43,7;-17,1;-22,9;-84,6;False;non;False;False;;;;;5000000.0;ok;
-ADIG;ADI GLOBAL DISTRIBUTION INC.;Spin-off;False;2026-08-04;3,7;NYSE;Resideo;;22,0;9,58;2026-11-24;-56,5;-56,5;-41,4;-55,6;-66,1;False;non;False;False;;;;;;ok;seuil franchi
 OMSE;OMS Energy Technologies Inc.;IPO;False;2025-05-13;18,4;NASDAQ Capital;;9.0;7,51;3,9;2026-11-24;-56,7;-48,1;-1,8;-13,0;-57,5;False;non;False;False;;;;;33333336.0;ok;avant v1
-MPLT;MapLight Therapeutics, Inc.;IPO;False;2025-10-27;12,9;NASDAQ Global Select;;17.0;18,34;7,18;2026-11-24;-57,8;-60,9;-6,3;-44,2;-82,0;False;non;False;False;;;;;250750000.0;ok;
-FBGL;FBS Global Ltd;IPO;False;2025-02-06;21,6;NASDAQ Capital;;4.5;34,5;1,9;2026-11-24;-57,8;-94,5;-15,4;-54,8;-94,5;False;non;False;False;;;;;10125000.0;ok;avant v1
-MFP;Midera Food Processing, Inc.;Spin-off;False;2026-06-26;5,0;Nasdaq;Middleby;;110,5;46,03;2026-11-24;-58,3;-58,3;6,1;-5,0;-58,3;True;non;False;False;;;;;;ok;seuil franchi
+ADIG;ADI GLOBAL DISTRIBUTION INC.;Spin-off;False;2026-08-04;3,7;NYSE;Resideo;;22,0;9,53;2026-11-24;-56,7;-56,7;-41,7;-55,9;-66,3;False;non;False;False;;;;;;ok;seuil franchi
+MPLT;MapLight Therapeutics, Inc.;IPO;False;2025-10-27;12,9;NASDAQ Global Select;;17.0;18,34;7,16;2026-11-24;-57,9;-61,0;-6,5;-44,3;-82,0;False;non;False;False;;;;;250750000.0;ok;
 ETS;Elite Express Holding Inc.;IPO;False;2025-08-21;15,1;NASDAQ Capital;;4.0;3,5;1,66;2026-11-24;-58,5;-52,6;-2,9;105,4;-52,6;False;non;False;False;;;;;15200000.0;ok;
 ZGM;Zenta Group Co Ltd;IPO;False;2025-09-09;14,5;NASDAQ Capital;;4.0;1,65;1,65;2026-11-20;-58,8;0,0;;;0,0;;non;False;False;;;;;6000000.0;ok;absent v1
-FLY;Firefly Aerospace Inc.;IPO;False;2025-08-07;15,6;NASDAQ Global;;45.0;60,35;18,51;2026-11-24;-58,9;-69,3;1,4;-16,8;-69,3;False;non;False;False;;;;;868320000.0;ok;
-XE;X-Energy, Inc.;IPO;False;2026-04-24;7,0;NASDAQ Global Select;;23.0;29,2;8,88;2026-11-24;-61,4;-69,6;-16,9;-51,4;-75,3;False;non;False;False;;;;;1017857157.0;ok;seuil franchi
-CHA;Chagee Holdings Ltd.;IPO;False;2025-04-17;19,3;NASDAQ Global Select;;28.0;32,44;10,81;2026-11-24;-61,4;-66,7;-12,9;1,7;-69,7;False;non;False;False;;;;;411151748.0;ok;avant v1
-WYFI;WhiteFiber, Inc.;IPO;False;2025-08-07;15,6;NASDAQ Capital;;17.0;16,22;6,53;2026-11-24;-61,6;-59,7;-31,4;-67,3;-85,4;False;non;False;False;;;;;159375000.0;ok;
+MFP;Midera Food Processing, Inc.;Spin-off;False;2026-06-26;5,0;Nasdaq;Middleby;;110,5;45,49;2026-11-24;-58,8;-58,8;4,9;-6,1;-58,8;True;non;False;False;;;;;;ok;seuil franchi
+FLY;Firefly Aerospace Inc.;IPO;False;2025-08-07;15,6;NASDAQ Global;;45.0;60,35;18,33;2026-11-24;-59,3;-69,6;0,5;-17,6;-69,6;False;non;False;False;;;;;868320000.0;ok;
+XE;X-Energy, Inc.;IPO;False;2026-04-24;7,0;NASDAQ Global Select;;23.0;29,2;8,81;2026-11-24;-61,7;-69,8;-17,6;-51,8;-75,5;False;non;False;False;;;;;1017857157.0;ok;seuil franchi
+CHA;Chagee Holdings Ltd.;IPO;False;2025-04-17;19,3;NASDAQ Global Select;;28.0;32,44;10,69;2026-11-24;-61,8;-67,0;-13,8;0,6;-70,0;False;non;False;False;;;;;411151748.0;ok;avant v1
+WYFI;WhiteFiber, Inc.;IPO;False;2025-08-07;15,6;NASDAQ Capital;;17.0;16,22;6,47;2026-11-24;-61,9;-60,1;-32,0;-67,7;-85,5;False;non;False;False;;;;;159375000.0;ok;
 ZYBT;Zhengye Biotechnology Holding Ltd;IPO;False;2025-01-07;22,5;NASDAQ Capital;;4.0;4,86;1,51;2026-11-24;-62,3;-68,9;6,3;-17,5;-89,3;True;non;False;False;;;;;6000000.0;ok;avant v1
 AGMB;Agomab Therapeutics NV;IPO;False;2026-02-06;9,6;NASDAQ Global Select;;16.0;14,65;5,95;2026-11-24;-62,8;-59,4;-30,6;-58,4;-66,6;False;non;False;False;;;;;200000000.0;ok;
-ETOR;eToro Group Ltd.;IPO;False;2025-05-14;18,4;NASDAQ Global Select;;52.0;67,0;19,23;2026-11-24;-63,0;-71,3;-18,2;-37,0;-74,7;False;non;False;False;;;;;619996936.0;ok;avant v1
 REED;REED'S, INC.;IPO;False;2025-12-05;11,6;NYSE MKT;;4.0;3,07;1,47;2026-11-24;-63,2;-52,1;122,7;42,7;-70,4;True;oui;False;False;;;;;10000000.0;ok;absent v1
-FOFO;Hang Feng Technology Innovation Co., Ltd.;IPO;False;2025-09-12;14,4;NASDAQ Capital;;4.0;12,35;1,46;2026-11-24;-63,5;-88,2;-23,6;-42,6;-96,8;False;non;False;False;;;;;5500000.0;ok;
+ETOR;eToro Group Ltd.;IPO;False;2025-05-14;18,4;NASDAQ Global Select;;52.0;67,0;19,16;2026-11-24;-63,2;-71,4;-18,5;-37,2;-74,8;False;non;False;False;;;;;619996936.0;ok;avant v1
+FOFO;Hang Feng Technology Innovation Co., Ltd.;IPO;False;2025-09-12;14,4;NASDAQ Capital;;4.0;12,35;1,47;2026-11-24;-63,3;-88,1;-23,1;-42,3;-96,7;False;non;False;False;;;;;5500000.0;ok;
 ELWT;Elauwit Connection, Inc.;IPO;False;2025-11-05;12,6;NASDAQ Capital;;9.0;7,2;3,26;2026-11-24;-63,8;-54,7;-39,1;-53,4;-63,1;False;non;False;False;;;;;15003000.0;ok;
 CAPS;Capstone Holding Corp.;IPO;False;2025-03-06;20,6;NASDAQ Capital;;4.0;3,9;1,41;2026-11-24;-64,8;-63,8;-46,0;-75,3;-94,1;False;non;False;False;;;;;5000000.0;ok;avant v1
-FRVO;Fervo Energy Co;IPO;False;2026-05-13;6,4;NASDAQ Global Select;;27.0;36,54;9,48;2026-11-24;-64,9;-74,1;18,9;-38,6;-77,7;False;non;False;False;;;;;1890000000.0;ok;seuil franchi
 NPT;Texxon Holding Ltd;IPO;False;2025-10-22;13,1;NASDAQ Capital;;5.0;4,91;1,76;2026-11-24;-64,9;-64,2;-1,3;-50,8;-91,4;False;non;False;False;;;;;9500000.0;ok;
-ITG;ITG, Inc./DE/;IPO;False;2026-07-01;4,8;NASDAQ Global Select;;16.0;17,71;5,47;2026-11-24;-65,8;-69,1;9,4;-56,1;-69,1;False;non;False;False;;;;;312195136.0;ok;seuil franchi
-KLAR;Klarna Group plc;IPO;False;2025-09-10;14,5;NYSE;;40.0;42,74;13,6;2026-11-24;-66,0;-68,2;7,7;-4,3;-70,1;True;non;False;False;;;;;1372450960.0;ok;
-ANGI;Angi Inc.;Spin-off;False;2025-04-01;19,8;Nasdaq;People Inc;;14,7;4,89;2026-11-24;-66,8;-66,8;-23,7;0,7;-74,2;False;non;False;False;;;;;;ok;avant v1
-AIRO;AIRO Group Holdings, Inc.;IPO;False;2025-06-13;17,4;NASDAQ Global;;10.0;24,0;3,31;2026-11-24;-66,9;-86,2;-32,4;-58,2;-89,3;False;non;False;False;;;;;60000000.0;ok;avant v1
-AADX;Applied Aerospace & Defense, Inc.;IPO;False;2026-06-03;5,7;NYSE;;20.0;19,01;6,58;2026-11-24;-67,1;-65,4;-36,0;-54,0;-72,4;False;non;False;False;;;;;650000000.0;ok;seuil franchi
+FRVO;Fervo Energy Co;IPO;False;2026-05-13;6,4;NASDAQ Global Select;;27.0;36,54;9,36;2026-11-24;-65,3;-74,4;17,5;-39,3;-78,0;False;non;False;False;;;;;1890000000.0;ok;seuil franchi
+KLAR;Klarna Group plc;IPO;False;2025-09-10;14,5;NYSE;;40.0;42,74;13,57;2026-11-24;-66,1;-68,2;7,6;-4,5;-70,2;True;non;False;False;;;;;1372450960.0;ok;
+ITG;ITG, Inc./DE/;IPO;False;2026-07-01;4,8;NASDAQ Global Select;;16.0;17,71;5,4;2026-11-24;-66,2;-69,5;8,0;-56,6;-69,5;False;non;False;False;;;;;312195136.0;ok;seuil franchi
+ANGI;Angi Inc.;Spin-off;False;2025-04-01;19,8;Nasdaq;People Inc;;14,7;4,89;2026-11-24;-66,7;-66,7;-23,6;0,8;-74,1;False;non;False;False;;;;;;ok;avant v1
+AADX;Applied Aerospace & Defense, Inc.;IPO;False;2026-06-03;5,7;NYSE;;20.0;19,01;6,54;2026-11-24;-67,3;-65,6;-36,4;-54,3;-72,6;False;non;False;False;;;;;650000000.0;ok;seuil franchi
+AIRO;AIRO Group Holdings, Inc.;IPO;False;2025-06-13;17,4;NASDAQ Global;;10.0;24,0;3,27;2026-11-24;-67,3;-86,4;-33,3;-58,7;-89,5;False;non;False;False;;;;;60000000.0;ok;avant v1
 OPTH;Optimi Health Corp.;IPO;False;2026-05-20;6,2;NASDAQ Capital;;6.25;6,08;1,9;2026-11-24;-69,6;-68,8;-39,1;-61,2;-68,8;False;non;False;False;;;;;15000000.0;ok;seuil franchi
-EIKN;Eikon Therapeutics, Inc.;IPO;False;2026-02-05;9,6;NASDAQ Global Select;;18.0;15,0;5,45;2026-11-24;-69,7;-63,7;-1,7;-54,5;-66,5;False;non;False;False;;;;;381196800.0;ok;
 KMRK;K-TECH SOLUTIONS CO LTD;IPO;False;2025-07-16;16,3;NASDAQ Capital;;4.0;4,95;1,21;2026-11-24;-69,7;-75,6;-15,4;-5,5;-75,6;False;non;False;False;;;;;6400000.0;ok;
+EIKN;Eikon Therapeutics, Inc.;IPO;False;2026-02-05;9,6;NASDAQ Global Select;;18.0;15,0;5,43;2026-11-24;-69,8;-63,8;-2,0;-54,7;-66,6;False;non;False;False;;;;;381196800.0;ok;
 MWYN;Marwynn Holdings, Inc.;IPO;False;2025-03-13;20,4;NASDAQ Capital;;4.0;4,3;1,2;2026-11-24;-70,0;-72,1;-45,2;-9,8;-88,3;False;non;False;False;;;;;8000000.0;ok;avant v1
 MNTN;MNTN, Inc.;IPO;False;2025-05-22;18,1;NYSE;;16.0;26,36;4,79;2026-11-24;-70,1;-81,8;-49,0;-63,3;-84,8;False;non;False;False;;;;;187200000.0;ok;avant v1
-GLOO;Gloo Holdings, Inc.;IPO;False;2025-11-19;12,2;NASDAQ Global Select;;8.0;8,1;2,32;2026-11-24;-70,9;-71,3;-20,4;-28,0;-75,5;False;non;False;False;;;;;72800000.0;ok;
+GLOO;Gloo Holdings, Inc.;IPO;False;2025-11-19;12,2;NASDAQ Global Select;;8.0;8,1;2,31;2026-11-24;-71,1;-71,5;-20,9;-28,5;-75,7;False;non;False;False;;;;;72800000.0;ok;
 NSRX;Nasus Pharma Ltd;IPO;False;2025-08-13;15,4;NYSE MKT;;8.0;8,25;2,31;2026-11-24;-71,2;-72,1;-34,0;-43,1;-74,8;False;non;False;False;;;;;10000000.0;ok;
 ANPA;Rich Sparkle Holdings Ltd;IPO;False;2025-07-08;16,6;NASDAQ Capital;;4.0;3,52;1,1;2026-11-24;-72,5;-68,8;-27,2;-72,7;-99,3;False;non;False;False;;;;;5000000.0;ok;
-EROC;ERock, Inc.;IPO;False;2026-06-10;5,5;NYSE;;21.5;18,75;5,89;2026-11-24;-72,6;-68,6;-30,3;-54,7;-68,6;False;non;False;False;;;;;600000006.0;ok;seuil franchi
 SMJF;SMJ International Holdings Inc.;IPO;False;2025-12-04;11,7;NYSE MKT;;4.0;4,51;1,1;2026-11-24;-72,6;-75,7;-33,6;-90,3;-90,4;False;non;False;False;;;;;10000000.0;ok;
-DLXY;Delixy Holdings Ltd;IPO;False;2025-07-09;16,5;NASDAQ Capital;;4.0;4,95;1,08;2026-11-24;-73,0;-78,2;-37,5;-42,3;-90,6;False;non;False;False;;;;;8000000.0;ok;
-PICS;PicS N.V.;IPO;False;2026-01-29;9,8;NASDAQ Global Select;;19.0;19,0;5,05;2026-11-24;-73,4;-73,4;-42,5;-52,4;-73,4;False;non;False;False;;;;;434285717.0;ok;absent v1
+EROC;ERock, Inc.;IPO;False;2026-06-10;5,5;NYSE;;21.5;18,75;5,84;2026-11-24;-72,9;-68,9;-30,9;-55,1;-68,9;False;non;False;False;;;;;600000006.0;ok;seuil franchi
+DLXY;Delixy Holdings Ltd;IPO;False;2025-07-09;16,5;NASDAQ Capital;;4.0;4,95;1,08;2026-11-24;-73,0;-78,2;-37,6;-42,4;-90,6;False;non;False;False;;;;;8000000.0;ok;
+PICS;PicS N.V.;IPO;False;2026-01-29;9,8;NASDAQ Global Select;;19.0;19,0;5,08;2026-11-24;-73,3;-73,3;-42,1;-52,1;-73,3;False;non;False;False;;;;;434285717.0;ok;absent v1
 ODYS;Odysight.ai Inc.;IPO;False;2025-02-11;21,4;NASDAQ Capital;;6.5;6,5;1,73;2026-11-24;-73,4;-73,4;-18,0;-50,9;-76,3;False;non;False;False;;;;;21499998.0;ok;avant v1
-ATHR;Aether Holdings, Inc.;IPO;False;2025-04-10;19,5;NASDAQ Capital;;4.3;5,75;1,13;2026-11-24;-73,7;-80,3;-55,7;-62,5;-93,5;False;non;False;False;;;;;7740000.0;ok;avant v1
-GMTL;Guardian Metal Resources PLC;IPO;False;2026-03-20;8,2;NYSE MKT;;13.5;13,5;3,51;2026-11-24;-74,0;-74,0;-33,7;-73,4;-83,0;False;non;False;False;;;;;59999400.0;ok;
+GMTL;Guardian Metal Resources PLC;IPO;False;2026-03-20;8,2;NYSE MKT;;13.5;13,5;3,51;2026-11-24;-74,0;-74,0;-33,9;-73,4;-83,0;False;non;False;False;;;;;59999400.0;ok;
 SAGT;SAGTEC GLOBAL Ltd;IPO;False;2025-03-07;20,6;NASDAQ Capital;;4.0;3,6;1,03;2026-11-24;-74,3;-71,4;41,1;59,4;-82,1;True;oui;False;False;;;;;7000000.0;ok;avant v1
+ATHR;Aether Holdings, Inc.;IPO;False;2025-04-10;19,5;NASDAQ Capital;;4.3;5,75;1,1;2026-11-24;-74,4;-80,9;-56,9;-63,5;-93,7;False;non;False;False;;;;;7740000.0;ok;avant v1
+CDNL;Cardinal Infrastructure Group Inc.;IPO;False;2025-12-10;11,5;NASDAQ Global Select;;21.0;23,5;5,32;2026-11-24;-74,7;-77,4;-63,4;-87,1;-94,4;False;non;False;False;;;;;241500000.0;ok;
 GRAN;Grande Group Ltd/HK;IPO;False;2025-07-01;16,8;NASDAQ Capital;;5.0;4,6;1,26;2026-11-24;-74,7;-72,5;15,0;-5,6;-79,2;True;non;False;False;;;;;9375000.0;ok;
-CDNL;Cardinal Infrastructure Group Inc.;IPO;False;2025-12-10;11,5;NASDAQ Global Select;;21.0;23,5;5,24;2026-11-24;-75,0;-77,7;-64,0;-87,3;-94,4;False;non;False;False;;;;;241500000.0;ok;
-SUJA;SUJA LIFE, INC.;IPO;False;2026-05-07;6,6;NASDAQ Global Select;;21.0;17,85;5,14;2026-11-24;-75,5;-71,2;-47,3;-45,6;-71,2;False;non;False;False;;;;;186666669.0;ok;seuil franchi
+SUJA;SUJA LIFE, INC.;IPO;False;2026-05-07;6,6;NASDAQ Global Select;;21.0;17,85;5,18;2026-11-24;-75,3;-71,0;-46,9;-45,1;-71,0;False;non;False;False;;;;;186666669.0;ok;seuil franchi
 DGNX;Diginex Ltd;IPO;False;2025-01-22;22,0;NASDAQ Capital;;4.1;5,69;1,0;2026-11-24;-75,7;-82,5;-24,5;-23,3;-99,6;False;non;False;False;;;;;9225000.0;ok;avant v1
 MIMI;Axonex AI Group Ltd;IPO;False;2025-01-10;22,4;NASDAQ Capital;;4.0;0,96;0,96;2026-10-28;-75,9;0,0;;;0,0;;non;False;False;;;;;7000000.0;ok;avant v1
-PLUT;Plutus Financial Group Ltd;IPO;False;2025-02-05;21,6;NASDAQ Capital;;4.0;4,0;0,93;2026-11-24;-76,7;-76,7;-50,3;-63,5;-77,6;False;non;False;False;;;;;8400000.0;ok;avant v1
-MENS;Jyong Biotech Ltd.;IPO;False;2025-06-17;17,2;NASDAQ Global;;7.5;10,11;1,74;2026-11-24;-76,8;-82,8;-1,7;-22,3;-97,3;False;non;False;False;;;;;20000003.0;ok;avant v1
-YMAT;J-Star Holding Co., Ltd.;IPO;False;2025-07-30;15,8;NASDAQ Capital;;4.0;20,4;0,88;2026-11-24;-78,1;-95,7;-62,5;-52,8;-96,9;False;non;False;False;;;;;5000000.0;ok;
+MENS;Jyong Biotech Ltd.;IPO;False;2025-06-17;17,2;NASDAQ Global;;7.5;10,11;1,75;2026-11-24;-76,7;-82,7;-1,4;-22,1;-97,3;False;non;False;False;;;;;20000003.0;ok;avant v1
+PLUT;Plutus Financial Group Ltd;IPO;False;2025-02-05;21,6;NASDAQ Capital;;4.0;4,0;0,9;2026-11-24;-77,5;-77,5;-51,9;-64,7;-78,3;False;non;False;False;;;;;8400000.0;ok;avant v1
+YMAT;J-Star Holding Co., Ltd.;IPO;False;2025-07-30;15,8;NASDAQ Capital;;4.0;20,4;0,87;2026-11-24;-78,2;-95,7;-62,8;-53,2;-97,0;False;non;False;False;;;;;5000000.0;ok;
 DUKR;DUKE Robotics Corp.;IPO;False;2026-05-15;6,3;NASDAQ Capital;;8.2;7,46;1,78;2026-11-24;-78,3;-76,1;-56,0;-68,3;-76,3;False;non;False;False;;;;;9225000.0;ok;seuil franchi
 DKI;DarkIris Inc.;IPO;False;2025-08-08;15,5;NASDAQ Capital;;4.0;5,48;0,87;2026-11-24;-78,4;-84,2;-55,4;-99,6;-99,7;False;non;False;False;;;;;6000000.0;ok;
-BTGO;BITGO HOLDINGS, INC.;IPO;False;2026-01-22;10,1;NYSE;;18.0;18,49;3,87;2026-11-24;-78,5;-79,1;-28,3;-44,9;-79,1;False;non;False;False;;;;;212788710.0;ok;absent v1
-FJET;Starfighters Space, Inc.;IPO;False;2025-12-18;11,2;NYSE MKT;;3.59;8,5;0,76;2026-11-24;-78,7;-91,0;13,0;-80,2;-97,6;False;non;False;False;;;;;39999999.0;ok;absent v1
+BTGO;BITGO HOLDINGS, INC.;IPO;False;2026-01-22;10,1;NYSE;;18.0;18,49;3,86;2026-11-24;-78,6;-79,2;-28,6;-45,1;-79,2;False;non;False;False;;;;;212788710.0;ok;absent v1
 AHMA;AMBITIONS ENTERPRISE MANAGEMENT CO. L.L.C;IPO;False;2025-10-21;13,1;NASDAQ Capital;;4.0;4,65;0,85;2026-11-24;-78,7;-81,7;-21,3;-41,4;-97,7;False;non;False;False;;;;;6000000.0;ok;
-STUB;StubHub Holdings, Inc.;IPO;False;2025-09-17;14,2;NYSE;;23.5;22,0;5,01;2026-11-24;-78,7;-77,2;-11,1;-23,8;-77,2;False;non;False;False;;;;;799999996.0;ok;
+STUB;StubHub Holdings, Inc.;IPO;False;2025-09-17;14,2;NYSE;;23.5;22,0;4,99;2026-11-24;-78,7;-77,3;-11,4;-24,1;-77,3;False;non;False;False;;;;;799999996.0;ok;
+FJET;Starfighters Space, Inc.;IPO;False;2025-12-18;11,2;NYSE MKT;;3.59;8,5;0,76;2026-11-24;-79,0;-91,1;11,6;-80,5;-97,6;False;non;False;False;;;;;39999999.0;ok;absent v1
 DETX;LIBERTY DEFENSE HOLDINGS, LTD.;IPO;False;2026-04-22;7,1;NASDAQ Capital;;4.5;4,56;0,92;2026-11-23;-79,6;-79,8;-46,2;-74,8;-80,5;False;non;False;False;;;;;16531371.0;ok;seuil franchi
-CTW;CTW;IPO;False;2025-08-06;15,6;NASDAQ Capital;;5.0;4,44;1,01;2026-11-24;-79,8;-77,3;-42,0;-64,7;-77,3;False;non;False;False;;;;;12000000.0;ok;
-REA;Rare Earths Americas, Inc.;IPO;False;2026-05-06;6,6;NYSE MKT;;19.0;19,0;3,63;2026-11-24;-80,9;-80,9;-50,7;-75,2;-86,8;False;non;False;False;;;;;63333289.0;ok;seuil franchi
+REA;Rare Earths Americas, Inc.;IPO;False;2026-05-06;6,6;NYSE MKT;;19.0;19,0;3,63;2026-11-24;-80,9;-80,9;-50,8;-75,2;-86,8;False;non;False;False;;;;;63333289.0;ok;seuil franchi
+CTW;CTW;IPO;False;2025-08-06;15,6;NASDAQ Capital;;5.0;4,44;0,94;2026-11-24;-81,2;-78,9;-46,1;-67,2;-78,9;False;non;False;False;;;;;12000000.0;ok;
 MWC;Micware Co., Ltd.;IPO;False;2026-05-14;6,4;NASDAQ Global;;8.0;8,2;1,49;2026-11-24;-81,4;-81,8;7,2;4,9;-81,8;False;non;False;False;;;;;22800000.0;ok;seuil franchi
-EXYN;Exyn Technologies, Inc.;IPO;False;2026-05-15;6,3;NASDAQ Capital;;7.75;5,2;1,43;2026-11-24;-81,5;-72,4;-51,2;-64,1;-79,0;False;non;False;False;;;;;19375000.0;ok;seuil franchi
 EPWK;EPWK Holdings Ltd.;IPO;False;2025-02-06;21,6;NASDAQ Global;;4.1;0,75;0,75;2026-11-20;-81,6;0,0;;;0,0;;non;False;False;;;;;11275000.0;ok;avant v1
-FISN;DEEP FISSION, INC.;IPO;False;2026-06-18;5,2;NASDAQ Global;;16.0;14,56;2,87;2026-11-24;-82,1;-80,3;32,9;-58,3;-80,3;False;non;False;False;;;;;40000000.0;ok;seuil franchi
-SION;Sionna Therapeutics, Inc.;IPO;False;2025-02-07;21,5;NASDAQ Global;;18.0;25,0;3,16;2026-11-24;-82,4;-87,3;-14,2;-48,7;-93,8;False;non;False;False;;;;;190588194.0;ok;avant v1
+EXYN;Exyn Technologies, Inc.;IPO;False;2026-05-15;6,3;NASDAQ Capital;;7.75;5,2;1,4;2026-11-24;-81,9;-73,1;-52,4;-65,0;-79,5;False;non;False;False;;;;;19375000.0;ok;seuil franchi
+FISN;DEEP FISSION, INC.;IPO;False;2026-06-18;5,2;NASDAQ Global;;16.0;14,56;2,86;2026-11-24;-82,1;-80,4;32,4;-58,5;-80,4;False;non;False;False;;;;;40000000.0;ok;seuil franchi
+SION;Sionna Therapeutics, Inc.;IPO;False;2025-02-07;21,5;NASDAQ Global;;18.0;25,0;3,16;2026-11-24;-82,4;-87,4;-14,4;-48,8;-93,8;False;non;False;False;;;;;190588194.0;ok;avant v1
 YDDL;One & one Green Technologies. INC;IPO;False;2025-10-09;13,5;NASDAQ Capital;;5.0;5,42;0,86;2026-11-24;-82,8;-84,1;-27,7;-49,3;-94,4;False;non;False;False;;;;;10000000.0;ok;
 JAGU;Jaguar Uranium Corp.;IPO;False;2026-02-10;9,4;NYSE MKT;;4.0;3,07;0,67;2026-11-24;-83,3;-78,3;-32,6;-61,2;-79,9;False;non;False;False;;;;;25000000.0;ok;
 LHAI;Linkhome Holdings Inc.;IPO;False;2025-07-24;16,0;NASDAQ Capital;;4.0;5,63;0,65;2026-11-24;-83,8;-88,5;-36,3;-30,0;-95,8;False;non;False;False;;;;;6000000.0;ok;
@@ -284,39 +284,39 @@ TMDE;TMD Energy Ltd;IPO;False;2025-04-21;19,1;NYSE MKT;;3.25;3,63;0,45;2026-11-2
 DSC;DSC Holdings Ltd.;IPO;False;2026-06-25;5,0;NASDAQ Global;;17.0;9,06;2,01;2026-11-24;-88,2;-77,8;-39,5;-77,7;-77,8;False;non;False;False;;;;;51000000.0;ok;seuil franchi
 LGPS;LOGPROSTYLE INC.;IPO;False;2025-03-25;20,0;NYSE MKT;;5.0;3,7;0,58;2026-11-24;-88,4;-84,3;-8,2;-33,3;-91,3;False;non;False;False;;;;;10000000.0;ok;avant v1
 VNTG;Vantage Corp (Singapore);IPO;False;2025-06-12;17,4;NYSE MKT;;4.0;3,8;0,45;2026-11-24;-88,8;-88,2;-2,2;-26,9;-94,1;False;non;False;False;;;;;13000000.0;ok;avant v1
-EDHL;Everbright Digital Holding Ltd.;IPO;False;2025-04-17;19,3;NASDAQ Capital;;4.0;67,2;7,11;2026-11-24;-89,4;-89,4;24,2;81,5;-92,9;True;oui;True;False;;;;;6000000.0;ok;avant v1
-YSS;York Space Systems Inc.;IPO;False;2026-01-29;9,8;NYSE;;34.0;33,61;3,57;2026-11-24;-89,5;-89,4;-43,5;-60,9;-91,8;False;non;False;False;;;;;629000000.0;ok;absent v1
+EDHL;Everbright Digital Holding Ltd.;IPO;False;2025-04-17;19,3;NASDAQ Capital;;4.0;67,2;7,13;2026-11-24;-89,4;-89,4;24,4;81,9;-92,9;True;oui;True;False;;;;;6000000.0;ok;avant v1
 RYET;Ruanyun Edai Technology Inc.;IPO;False;2025-04-08;19,5;NASDAQ Capital;;4.0;4,51;0,42;2026-11-24;-89,5;-90,7;-37,2;-55,8;-97,9;False;non;False;False;;;;;15000000.0;ok;avant v1
+YSS;York Space Systems Inc.;IPO;False;2026-01-29;9,8;NYSE;;34.0;33,61;3,54;2026-11-24;-89,6;-89,5;-44,0;-61,2;-91,9;False;non;False;False;;;;;629000000.0;ok;absent v1
 RGNT;REGENTIS BIOMATERIALS LTD.;IPO;False;2025-12-04;11,7;NYSE MKT;;8.0;7,5;0,82;2026-11-24;-89,8;-89,1;-35,1;-60,5;-91,3;False;non;False;False;;;;;10000000.0;ok;
-ANTA;Antalpha Platform Holding Co;IPO;False;2025-05-14;18,4;NASDAQ Global;;12.8;16,38;1,19;2026-11-24;-90,7;-92,7;-29,6;-67,8;-92,7;False;non;False;False;;;;;49280000.0;ok;avant v1
+ANTA;Antalpha Platform Holding Co;IPO;False;2025-05-14;18,4;NASDAQ Global;;12.8;16,38;1,27;2026-11-24;-90,0;-92,2;-24,6;-65,5;-92,2;False;non;False;False;;;;;49280000.0;ok;avant v1
 TOPP;Toppoint Holdings Inc.;IPO;False;2025-01-22;22,0;NYSE MKT;;4.0;18,8;0,36;2026-11-24;-90,9;-98,1;-38,0;-63,2;-98,1;False;non;False;False;;;;;10000000.0;ok;avant v1
-FRMI;Fermi Inc.;IPO;False;2025-10-01;13,8;NASDAQ Global Select;;21.0;32,53;1,88;2026-11-24;-91,0;-94,2;-26,0;-66,5;-94,2;False;non;False;False;;;;;682500000.0;ok;
-NMAX;Newsmax Inc.;IPO;False;2025-03-31;19,8;NYSE;;10.0;83,51;6,86;2026-11-24;-91,8;-91,8;-12,1;-35,0;-97,1;False;non;True;False;;;;;75000000.0;ok;avant v1
+FRMI;Fermi Inc.;IPO;False;2025-10-01;13,8;NASDAQ Global Select;;21.0;32,53;1,89;2026-11-24;-91,0;-94,2;-25,6;-66,3;-94,2;False;non;False;False;;;;;682500000.0;ok;
+NMAX;Newsmax Inc.;IPO;False;2025-03-31;19,8;NYSE;;10.0;83,51;6,85;2026-11-24;-91,8;-91,8;-12,2;-35,1;-97,1;False;non;True;False;;;;;75000000.0;ok;avant v1
 CJMB;CALLAN JMB INC.;IPO;False;2025-02-05;21,6;NASDAQ Capital;;4.0;4,1;0,32;2026-11-24;-91,9;-92,1;-33,7;-84,5;-94,9;False;non;False;False;;;;;5120000.0;ok;avant v1
 SNSC;SunScout Holding Ltd;IPO;False;2026-08-12;3,4;NYSE MKT;;5.0;3,07;0,38;2026-11-24;-92,4;-87,6;-49,3;-77,4;-87,6;False;non;False;False;;;;;15500000.0;ok;seuil franchi
-MCRP;Micropolis AI Robotics;IPO;False;2025-03-07;20,6;NYSE MKT;;4.0;3,55;0,3;2026-11-24;-92,5;-91,5;-26,7;-70,6;-93,2;False;non;False;False;;;;;15500000.0;ok;avant v1
 PCLA;PicoCELA Inc.;IPO;False;2025-01-16;22,2;NASDAQ Capital;;4.0;85,2;6,4;2026-11-24;-92,5;-92,5;7,9;-14,3;-97,6;False;non;True;False;;;;;7000000.0;ok;avant v1
-ENGS;Energys Group Ltd;IPO;False;2025-04-01;19,8;NASDAQ Capital;;4.5;4,95;0,27;2026-11-24;-93,9;-94,4;-93,7;-90,6;-97,8;False;non;False;False;;;;;10125000.0;ok;avant v1
-AARD;Aardvark Therapeutics, Inc.;IPO;False;2025-02-13;21,3;NASDAQ Global Select;;16.0;14,31;0,94;2026-11-24;-94,1;-93,5;-13,2;-86,2;-94,6;False;non;False;False;;;;;94208000.0;ok;avant v1
+MCRP;Micropolis AI Robotics;IPO;False;2025-03-07;20,6;NYSE MKT;;4.0;3,55;0,29;2026-11-24;-92,7;-91,7;-28,3;-71,3;-93,3;False;non;False;False;;;;;15500000.0;ok;avant v1
+ENGS;Energys Group Ltd;IPO;False;2025-04-01;19,8;NASDAQ Capital;;4.5;4,95;0,27;2026-11-24;-93,9;-94,5;-93,7;-90,7;-97,8;False;non;False;False;;;;;10125000.0;ok;avant v1
+TGHL;GrowHub Ltd;IPO;False;2025-08-28;14,9;NASDAQ Capital;;4.0;3,38;0,23;2026-11-24;-94,1;-93,1;-56,6;-71,1;-93,5;False;non;False;False;;;;;15000000.0;ok;
 CIGL;Concorde International Group Ltd.;IPO;False;2025-04-22;19,1;NASDAQ Capital;;4.0;0,63;0,23;2026-11-24;-94,2;-63,3;10,1;-46,2;-63,3;False;non;False;False;;;;;5000000.0;ok;avant v1
+AARD;Aardvark Therapeutics, Inc.;IPO;False;2025-02-13;21,3;NASDAQ Global Select;;16.0;14,31;0,92;2026-11-24;-94,2;-93,6;-14,6;-86,5;-94,7;False;non;False;False;;;;;94208000.0;ok;avant v1
 CURX;Curanex Pharmaceuticals Inc;IPO;False;2025-08-26;14,9;NASDAQ Capital;;4.0;80,4;4,56;2026-11-24;-94,3;-94,3;-0,9;-0,9;-97,5;False;non;True;False;;;;;15000000.0;ok;
-TGHL;GrowHub Ltd;IPO;False;2025-08-28;14,9;NASDAQ Capital;;4.0;3,38;0,22;2026-11-24;-94,4;-93,3;-58,4;-72,3;-93,8;False;non;False;False;;;;;15000000.0;ok;
 WXM;WF International Ltd.;IPO;False;2025-04-01;19,8;NASDAQ Capital;;4.0;42,9;2,27;2026-11-24;-94,7;-94,7;-21,4;-52,4;-94,7;False;non;True;False;;;;;5600000.0;ok;avant v1
 GEMI;Gemini Space Station, Inc.;IPO;False;2025-09-12;14,4;NASDAQ Global Select;;28.0;32,0;1,4;2026-11-24;-95,0;-95,6;-51,0;-69,1;-95,7;False;non;False;False;;;;;425000016.0;ok;
 IOTR;iOThree Ltd;IPO;False;2025-04-10;19,5;NASDAQ Capital;;4.0;35,5;1,75;2026-11-24;-95,1;-95,1;-22,4;-32,0;-95,7;False;non;True;False;;;;;8400000.0;ok;avant v1
 UFG;Uni-Fuels Holdings Ltd;IPO;False;2025-01-14;22,3;NASDAQ Capital;;4.0;40,0;1,93;2026-11-24;-95,2;-95,2;-42,8;-64,9;-98,0;False;non;True;False;;;;;8400000.0;ok;avant v1
-CUPR;Cuprina Holdings (Cayman) LTD;IPO;False;2025-04-10;19,5;NASDAQ Capital;;4.0;33,2;1,52;2026-11-24;-95,4;-95,4;-15,6;-48,4;-98,0;False;non;True;False;;;;;12000000.0;ok;avant v1
+CUPR;Cuprina Holdings (Cayman) LTD;IPO;False;2025-04-10;19,5;NASDAQ Capital;;4.0;33,2;1,5;2026-11-24;-95,5;-95,5;-16,7;-49,1;-98,0;False;non;True;False;;;;;12000000.0;ok;avant v1
 CRE;Cre8 Enterprise Ltd;IPO;False;2025-07-23;16,1;NASDAQ Capital;;4.0;52,8;2,31;2026-11-24;-95,6;-95,6;-8,0;-66,1;-97,4;False;non;True;False;;;;;5800000.0;ok;
-POAS;PHAOS TECHNOLOGY HOLDINGS (CAYMAN) Ltd;IPO;False;2025-11-13;12,4;NYSE MKT;;4.0;57,75;2,06;2026-11-24;-96,4;-96,4;37,3;-20,2;-97,9;True;non;True;False;;;;;14400360.0;ok;
+POAS;PHAOS TECHNOLOGY HOLDINGS (CAYMAN) Ltd;IPO;False;2025-11-13;12,4;NYSE MKT;;4.0;57,75;2,08;2026-11-24;-96,4;-96,4;38,7;-19,4;-97,9;True;non;True;False;;;;;14400360.0;ok;
 AGRZ;Agroz Inc.;IPO;False;2025-10-01;13,8;NASDAQ Capital;;4.0;62,4;1,79;2026-11-24;-97,1;-97,1;-37,0;-60,1;-98,6;False;non;True;False;;;;;5000000.0;ok;
 SLGB;Smart Logistics Global Ltd;IPO;False;2025-10-15;13,3;NASDAQ Capital;;5.0;5,28;0,14;2026-11-24;-97,2;-97,4;-40,3;-73,1;-97,4;False;non;False;False;;;;;5000000.0;ok;
-PMI;Picard Medical, Inc.;IPO;False;2025-08-29;14,8;NYSE MKT;;4.0;229,5;6,39;2026-11-24;-97,2;-97,2;-0,7;-34,8;-99,0;False;non;True;False;;;;;17000000.0;ok;
-CHOW;ChowChow Cloud International Holdings Ltd;IPO;False;2025-09-16;14,3;NYSE MKT;;4.0;126,1;3,41;2026-11-24;-97,3;-97,3;72,2;-10,3;-97,3;False;non;True;False;;;;;10400000.0;ok;
+PMI;Picard Medical, Inc.;IPO;False;2025-08-29;14,8;NYSE MKT;;4.0;229,5;6,45;2026-11-24;-97,2;-97,2;0,2;-34,2;-99,0;False;non;True;False;;;;;17000000.0;ok;
+CHOW;ChowChow Cloud International Holdings Ltd;IPO;False;2025-09-16;14,3;NYSE MKT;;4.0;126,1;3,42;2026-11-24;-97,3;-97,3;72,7;-10,0;-97,3;False;non;True;False;;;;;10400000.0;ok;
 PN;PN Smart Energy Ltd;IPO;False;2025-03-04;20,7;NASDAQ Capital;;4.0;80,6;2,19;2026-11-24;-97,3;-97,3;-5,6;-21,8;-97,3;False;non;True;False;;;;;8000000.0;ok;avant v1
 HXHX;Haoxin Holdings Ltd;IPO;False;2025-04-15;19,3;NASDAQ Capital;;4.0;3,11;0,1;2026-11-24;-97,4;-96,6;-43,5;-79,6;-96,6;False;non;False;False;;;;;7000000.0;ok;avant v1
 HKPD;Cellyan Biotechnology Co., Ltd;IPO;False;2025-01-15;22,3;NASDAQ Capital;;4.0;56,4;1,45;2026-11-23;-97,4;-97,4;-27,5;-81,8;-97,4;False;non;True;False;;;;;5614740.0;ok;avant v1
 POM;POMDOCTOR Ltd;IPO;False;2025-10-08;13,5;NASDAQ Global;;4.0;72,54;1,61;2026-11-24;-97,8;-97,8;42,0;68,9;-98,5;True;oui;True;False;;;;;20000016.0;ok;
-ADVB;Advanced Biomed Inc.;IPO;False;2025-03-06;20,6;NASDAQ Capital;;4.0;73,0;1,6;2026-11-24;-97,8;-97,8;-41,5;-82,7;-98,0;False;non;True;False;;;;;6560000.0;ok;avant v1
+ADVB;Advanced Biomed Inc.;IPO;False;2025-03-06;20,6;NASDAQ Capital;;4.0;73,0;1,55;2026-11-24;-97,9;-97,9;-43,2;-83,2;-98,1;False;non;True;False;;;;;6560000.0;ok;avant v1
 THH;TryHard Holdings Ltd;IPO;False;2025-08-28;14,9;NASDAQ Capital;;4.0;60,2;1,0;2026-11-24;-98,3;-98,3;-27,5;-55,4;-99,8;False;non;True;False;;;;;6100000.0;ok;
 CCHH;CCH Holdings Ltd;IPO;False;2025-10-03;13,7;NASDAQ Capital;;4.0;44,4;0,7;2026-11-24;-98,4;-98,4;-19,5;-43,5;-99,5;False;non;True;False;;;;;5000000.0;ok;
 FMFC;Kandal M Venture Ltd;IPO;False;2025-06-25;17,0;NASDAQ Capital;;4.0;176,0;1,22;2026-11-24;-99,3;-99,3;-68,7;-87,3;-99,8;False;non;True;False;;;;;8000000.0;ok;avant v1
@@ -334,16 +334,16 @@ LHSW;Lianhe Sowell International Group Ltd;IPO;False;2025-04-03;19,7;NASDAQ Capi
 KNRX;KNOREX LTD.;IPO;False;2025-09-29;13,8;NYSE MKT;;4.0;0,01;0,01;2026-11-18;-99,8;-26,5;;;-26,5;;non;False;False;;;;;12000000.0;ok;absent v1
 YMT;Yimutian Inc.;IPO;False;2025-08-19;15,2;NASDAQ Global;;4.1;672,0;1,14;2026-11-24;-99,8;-99,8;132,2;-64,7;-99,8;True;non;True;False;;;;;20541000.0;ok;
 TDIC;Dreamland Ltd;IPO;False;2025-07-23;16,1;NASDAQ Capital;;4.0;547,5;1,28;2026-11-24;-99,8;-99,8;-14,7;-49,6;-99,9;False;non;True;False;;;;;8000000.0;ok;
-WFF;WF Holding Ltd;IPO;False;2025-03-27;19,9;NASDAQ Capital;;4.0;468,75;1,05;2026-11-24;-99,8;-99,8;-53,1;-97,8;-99,9;False;non;True;False;;;;;8000000.0;ok;avant v1
-WETO;Wetour Robotics Ltd;IPO;False;2025-02-27;20,9;NASDAQ Capital;;4.0;360,0;0,56;2026-11-24;-99,8;-99,8;-34,8;-96,8;-99,9;False;non;True;False;;;;;8000000.0;ok;avant v1
-MGN;Megan Holdings Ltd.;IPO;False;2025-09-26;13,9;NASDAQ Capital;;4.0;5820,0;4,13;2026-11-24;-99,9;-99,9;72,8;-96,8;-99,9;True;non;True;False;;;;;5000000.0;ok;
+WFF;WF Holding Ltd;IPO;False;2025-03-27;19,9;NASDAQ Capital;;4.0;468,75;1,05;2026-11-24;-99,8;-99,8;-53,3;-97,8;-99,9;False;non;True;False;;;;;8000000.0;ok;avant v1
+WETO;Wetour Robotics Ltd;IPO;False;2025-02-27;20,9;NASDAQ Capital;;4.0;360,0;0,55;2026-11-24;-99,8;-99,8;-35,8;-96,8;-99,9;False;non;True;False;;;;;8000000.0;ok;avant v1
+MGN;Megan Holdings Ltd.;IPO;False;2025-09-26;13,9;NASDAQ Capital;;4.0;5820,0;4,15;2026-11-24;-99,9;-99,9;73,6;-96,8;-99,9;True;non;True;False;;;;;5000000.0;ok;
 NCT;Intercont (Cayman) Ltd;IPO;False;2025-03-28;19,9;NASDAQ Capital;;7.0;4281,25;6,07;2026-11-24;-99,9;-99,9;381,7;-94,4;-99,9;True;non;True;False;;;;;10500000.0;ok;avant v1
 BIYA;Baiya International Group Inc.;IPO;False;2025-03-21;20,1;NASDAQ Capital;;4.0;1045,0;1,2;2026-11-24;-99,9;-99,9;-3,6;-47,8;-99,9;False;non;True;False;;;;;10000000.0;ok;avant v1
 HCAI;Huachen AI Parking Management Technology Holding Co., Ltd;IPO;False;2025-02-05;21,6;NASDAQ Capital;;4.0;2304,0;2,57;2026-11-24;-99,9;-99,9;-30,3;-97,4;-100,0;False;non;True;False;;;;;6000000.0;ok;avant v1
 GCDT;Green Circle Decarbonize Technology Ltd;IPO;False;2026-01-13;10,3;NYSE MKT;;4.0;2,79;0,0;2026-11-23;-100,0;-100,0;-100,0;;-100,0;False;non;False;False;;;;;10000000.0;ok;absent v1
 RPGL;Republic Power Group Ltd;IPO;False;2025-10-14;13,3;NASDAQ Capital;;4.0;63744,0;9,2;2026-11-24;-100,0;-100,0;10,6;-75,2;-100,0;False;non;True;False;;;;;8480000.0;ok;
-FCHL;Fitness Champs Holdings Ltd;IPO;False;2025-09-04;14,7;NASDAQ Capital;;4.0;1912,5;0,01;2026-11-24;-100,0;-100,0;-98,8;-99,0;-100,0;False;non;True;False;;;;;15000000.0;ok;
-INLF;INLIF Ltd;IPO;False;2025-01-02;22,7;NASDAQ Capital;;4.0;14240,0;0,18;2026-11-24;-100,0;-100,0;-0,5;-95,8;-100,0;False;non;True;False;;;;;8000000.0;ok;avant v1
+FCHL;Fitness Champs Holdings Ltd;IPO;False;2025-09-04;14,7;NASDAQ Capital;;4.0;1912,5;0,01;2026-11-24;-100,0;-100,0;-98,8;-99,1;-100,0;False;non;True;False;;;;;15000000.0;ok;
+INLF;INLIF Ltd;IPO;False;2025-01-02;22,7;NASDAQ Capital;;4.0;14240,0;0,18;2026-11-24;-100,0;-100,0;-0,2;-95,7;-100,0;False;non;True;False;;;;;8000000.0;ok;avant v1
 GBC;GEORGIA BANKING CO INC;IPO;False;2026-10-29;0,9;NASDAQ Capital;;;38,28;33,95;2026-11-24;;-11,3;;;-11,5;;non;False;False;;;;;;ok;seuil franchi
 BHAIU;BHAV Acquisition Corp II;IPO;False;2026-10-29;0,9;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;100000000.0;SPAC;seuil franchi
 SCQCU;SPACCircle Acquisition Corp.;IPO;False;2026-10-27;0,9;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;100000000.0;SPAC;seuil franchi
@@ -363,7 +363,7 @@ IPHXU;Inflection Point Acquisition Corp. VIII;IPO;False;2026-08-28;2,9;NASDAQ Gl
 RNAQU;Rainier Acquisition Corp;IPO;False;2026-08-27;2,9;NASDAQ Capital;;10.0;;;;;;;;;;;;True;;;;;75000000.0;SPAC;seuil franchi
 JTTT;JATT III Acquisition Corp;IPO;False;2026-08-26;3,0;NASDAQ Capital;;10.0;;;;;;;;;;;;True;;;;;60000000.0;SPAC;seuil franchi
 SCATU;Southern Cross Acquisition II Corp.;IPO;False;2026-08-26;3,0;NASDAQ Capital;;10.0;;;;;;;;;;;;True;;;;;75000000.0;SPAC;seuil franchi
-ADBT;Advasa Holdings, Inc.;IPO;False;2026-08-25;3,0;NASDAQ Global;;;6,26;0,09;2026-11-24;;-98,6;-26,2;-98,4;-98,6;False;non;False;False;;;;;;ok;seuil franchi
+ADBT;Advasa Holdings, Inc.;IPO;False;2026-08-25;3,0;NASDAQ Global;;;6,26;0,09;2026-11-24;;-98,6;-26,8;-98,4;-98,6;False;non;False;False;;;;;;ok;seuil franchi
 FBDT;First Breach, Inc.;IPO;False;2026-08-20;3,2;NASDAQ Capital;;;4,15;0,82;2026-11-24;;-80,4;-1,8;-32,1;-80,4;False;non;False;False;;;;;;ok;seuil franchi
 XTERU;Xterax Corp II;IPO;False;2026-08-18;3,2;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;200000000.0;SPAC;seuil franchi
 NSAIU;NorthStrive Acquisition Corp I.;IPO;False;2026-08-18;3,2;NASDAQ Capital;;10.0;;;;;;;;;;;;True;;;;;100000000.0;SPAC;seuil franchi
@@ -377,7 +377,7 @@ EWAVU;East West Ave Acquisition Corp.;IPO;False;2026-07-31;3,8;NASDAQ Global;;10
 XIIIU;Churchill Capital Corp XIII;IPO;False;2026-07-31;3,8;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;360000000.0;SPAC;seuil franchi
 GYGY;Game Your Game Inc.;IPO;False;2026-07-30;3,8;NASDAQ Capital;;;15,98;0,26;2026-11-24;;-98,4;-18,1;-79,8;-98,4;False;non;False;False;;;;;;ok;seuil franchi
 CATLU;Catalyst Acquisition Corp.;IPO;False;2026-07-28;3,9;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;200000000.0;SPAC;seuil franchi
-IOND;Ionic Digital Inc.;IPO;False;2026-07-28;3,9;NASDAQ Global Select;;;62,9;53,85;2026-11-24;;-14,4;-17,4;-23,8;-37,8;False;non;False;False;;;;;;ok;seuil franchi
+IOND;Ionic Digital Inc.;IPO;False;2026-07-28;3,9;NASDAQ Global Select;;;62,9;53,53;2026-11-24;;-14,9;-17,9;-24,2;-38,2;False;non;False;False;;;;;;ok;seuil franchi
 MTAKU;Market Technology Acquisition Corp;IPO;False;2026-07-24;4,0;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;200000000.0;SPAC;seuil franchi
 PLCIU;Pelican Acquisition II Corp;IPO;False;2026-07-24;4,0;NASDAQ Capital;;10.0;;;;;;;;;;;;True;;;;;75000000.0;SPAC;seuil franchi
 NCOOU;Southern Cross Acquisition I Corp.;IPO;False;2026-07-21;4,1;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;100000000.0;SPAC;seuil franchi
@@ -416,7 +416,7 @@ DGACU;DISCIPLINED GROWTH ACQUISITION Corp;IPO;False;2026-05-27;5,9;NYSE;;10.0;;;
 FXACU;FortuneX Acquisition Corp;IPO;False;2026-05-22;6,1;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;75000000.0;SPAC;seuil franchi
 PECEU;Peace Acquisition Corp.;IPO;False;2026-05-22;6,1;NASDAQ Capital;;10.0;;;;;;;;;;;;True;;;;;60000000.0;SPAC;seuil franchi
 BRKHU;BurTech Acquisition Corp II;IPO;False;2026-05-22;6,1;NASDAQ Capital;;10.0;;;;;;;;;;;;True;;;;;80000000.0;SPAC;seuil franchi
-CNXU;Conexeu Sciences Inc.;IPO;False;2026-05-21;6,1;NASDAQ Capital;;;13,07;1,59;2026-11-24;;-87,8;-45,9;-77,2;-90,6;False;non;False;False;;;;;;ok;seuil franchi
+CNXU;Conexeu Sciences Inc.;IPO;False;2026-05-21;6,1;NASDAQ Capital;;;13,07;1,58;2026-11-24;;-87,9;-46,3;-77,4;-90,6;False;non;False;False;;;;;;ok;seuil franchi
 OHACU;Oceanhawk Acquisition Corp.;IPO;False;2026-05-21;6,1;NASDAQ Capital;;10.0;;;;;;;;;;;;True;;;;;160000000.0;SPAC;seuil franchi
 APURU;Aperture AC;IPO;False;2026-05-21;6,1;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;90000000.0;SPAC;seuil franchi
 AMSS;AMASS BRANDS;IPO;False;2026-05-20;6,2;NASDAQ Global;;;11,35;0,2;2026-11-24;;-98,3;-37,0;-80,1;-98,3;False;non;False;False;;;;;;ok;seuil franchi
@@ -425,7 +425,7 @@ IDACU;Iron Dome Acquisition I Corp.;IPO;False;2026-05-15;6,3;NASDAQ Global;;10.0
 ETSSU;Energy Transition Special Opportunities;IPO;False;2026-05-15;6,3;NYSE;;10.0;;;;;;;;;;;;True;;;;;150000000.0;SPAC;seuil franchi
 GUACU;Berto Acquisition Corp. II;IPO;False;2026-05-15;6,3;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;274000000.0;SPAC;seuil franchi
 PTACU;Patriot Acquisition Corp./CI;IPO;False;2026-05-15;6,3;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;160000000.0;SPAC;seuil franchi
-AIAI;AIAI Holdings Corp;IPO;False;2026-05-14;6,4;NASDAQ Global;;;15,09;0,47;2026-11-24;;-96,9;-75,1;-88,1;-97,4;False;non;False;False;;;;;;ok;seuil franchi
+AIAI;AIAI Holdings Corp;IPO;False;2026-05-14;6,4;NASDAQ Global;;;15,09;0,43;2026-11-24;;-97,2;-77,3;-89,1;-97,6;False;non;False;False;;;;;;ok;seuil franchi
 GSRVU;GSR V Acquisition Corp.;IPO;False;2026-05-14;6,4;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;200000000.0;SPAC;seuil franchi
 BREZU;Breeze Acquisition Corp. II;IPO;False;2026-05-13;6,4;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;125000000.0;SPAC;seuil franchi
 OTAIU;Starlink AI Acquisition Corp;IPO;False;2026-05-08;6,6;NYSE;;10.0;;;;;;;;;;;;True;;;;;100000000.0;SPAC;seuil franchi
@@ -448,7 +448,7 @@ JATT;JATT II Acquisition Corp.;IPO;False;2026-04-17;7,3;NASDAQ Global;;10.0;;;;;
 NHIVU;NewHold Investment Corp IV;IPO;False;2026-04-15;7,3;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;175000000.0;SPAC;seuil franchi
 QREDU;QuasarEdge Acquisition Corp;IPO;False;2026-04-15;7,3;NYSE;;10.0;;;;;;;;;;;;True;;;;;100000000.0;SPAC;seuil franchi
 MYXXU;Maywood Acquisition Corp. 2;IPO;False;2026-04-14;7,4;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;100000000.0;SPAC;seuil franchi
-TMCR;Metals Royalty Co Inc.;IPO;False;2026-04-08;7,6;NASDAQ Capital;;;14,0;1,57;2026-11-24;;-88,8;-25,2;-74,2;-90,0;False;non;False;False;;;;;;ok;seuil franchi
+TMCR;Metals Royalty Co Inc.;IPO;False;2026-04-08;7,6;NASDAQ Capital;;;14,0;1,56;2026-11-24;;-88,9;-25,7;-74,3;-90,1;False;non;False;False;;;;;;ok;seuil franchi
 AACPU;Apogee Acquisition Corp;IPO;False;2026-04-07;7,6;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;150000000.0;SPAC;seuil franchi
 ACGCU;ACP Holdings Acquisition Corp.;IPO;False;2026-04-07;7,6;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;200000000.0;SPAC;seuil franchi
 KPETU;KPET Ultra Paceline Corp;IPO;False;2026-03-31;7,8;NYSE;;10.0;;;;;;;;;;;;True;;;;;200000000.0;SPAC;seuil franchi
@@ -479,7 +479,7 @@ WLIIU;Willow Lane Acquisition Corp. II;IPO;False;2026-02-13;9,3;NASDAQ Global;;1
 PAACU;Proem Acquisition Corp. I;IPO;False;2026-02-12;9,4;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;130000000.0;SPAC;absent v1
 XFLHU;XFLH Capital Corp;IPO;False;2026-02-12;9,4;NYSE;;10.0;;;;;;;;;;;;True;;;;;100000000.0;SPAC;absent v1
 HACQU;HCM IV Acquisition Corp.;IPO;False;2026-02-12;9,4;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;250000000.0;SPAC;absent v1
-BRAI;Braiin Ltd;IPO;False;2026-02-12;9,4;NASDAQ Global;;;14,84;1,61;2026-11-24;;-89,2;-24,3;-70,6;-89,2;False;non;False;False;;;;;;ok;absent v1
+BRAI;Braiin Ltd;IPO;False;2026-02-12;9,4;NASDAQ Global;;;14,84;1,6;2026-11-24;;-89,2;-24,5;-70,6;-89,2;False;non;False;False;;;;;;ok;absent v1
 IACOU;Idea Acquisition Corp.;IPO;False;2026-02-11;9,4;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;350000000.0;SPAC;absent v1
 DBCAU;D. Boral Acquisition I Corp.;IPO;False;2026-02-11;9,4;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;250000000.0;SPAC;absent v1
 TMTSU;Spartacus Acquisition Corp. II;IPO;False;2026-02-11;9,4;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;200000000.0;SPAC;absent v1
@@ -488,7 +488,7 @@ SVIVU;Spring Valley Acquisition Corp. IV;IPO;False;2026-02-10;9,4;NASDAQ Global;
 SSACU;SPACSphere Acquisition Corp.;IPO;False;2026-02-06;9,6;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;150000000.0;SPAC;absent v1
 CAQUU;Cambridge Acquisition Corp.;IPO;False;2026-02-06;9,6;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;200000000.0;SPAC;absent v1
 HCICU;Hennessy Capital Investment Corp. VIII;IPO;False;2026-02-05;9,6;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;210000000.0;SPAC;absent v1
-OBAI;Our Bond, Inc.;IPO;False;2026-02-04;9,6;NASDAQ Global;;;660,0;0,86;2026-11-24;;-99,9;-52,5;-86,5;-99,9;False;non;False;False;;;;;;ok;absent v1
+OBAI;Our Bond, Inc.;IPO;False;2026-02-04;9,6;NASDAQ Global;;;660,0;0,83;2026-11-24;;-99,9;-54,4;-87,0;-99,9;False;non;False;False;;;;;;ok;absent v1
 CLBRU;Colombier Acquisition Corp. III;IPO;False;2026-02-04;9,6;NYSE;;10.0;;;;;;;;;;;;True;;;;;260000000.0;SPAC;absent v1
 IRABU;Iris Acquisition Corp II;IPO;False;2026-02-03;9,7;NYSE;;10.0;;;;;;;;;;;;True;;;;;150000000.0;SPAC;absent v1
 WPACU;White Pearl Acquisition Corp.;IPO;False;2026-02-02;9,7;NYSE;;10.0;;;;;;;;;;;;True;;;;;100000000.0;SPAC;absent v1
@@ -496,7 +496,7 @@ PLYX;Polaryx Therapeutics, Inc.;IPO;False;2026-02-02;9,7;NASDAQ Capital;;;35,0;1
 MEVOU;M Evo Global Acquisition Corp II;IPO;False;2026-01-30;9,8;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;270000000.0;SPAC;absent v1
 MUZEU;Muzero Acquisition Corp;IPO;False;2026-01-30;9,8;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;175000000.0;SPAC;absent v1
 NBRGU;Newbridge Acquisition Ltd;IPO;False;2026-01-30;9,8;NASDAQ Capital;;10.0;;;;;;;;;;;;True;;;;;50000000.0;SPAC;absent v1
-VHUB;VenHub Global, Inc.;IPO;False;2026-01-30;9,8;NASDAQ Global;;;6,42;0,17;2026-11-24;;-97,4;-48,0;-78,7;-97,9;False;non;False;False;;;;;;ok;absent v1
+VHUB;VenHub Global, Inc.;IPO;False;2026-01-30;9,8;NASDAQ Global;;;6,42;0,17;2026-11-24;;-97,4;-47,0;-78,3;-97,9;False;non;False;False;;;;;;ok;absent v1
 UACU;United Acquisition Corp. I;IPO;False;2026-01-29;9,8;NYSE MKT;;10.0;;;;;;;;;;;;True;;;;;100000000.0;SPAC;absent v1
 KTWOU;K2 Capital Acquisition Corp;IPO;False;2026-01-29;9,8;NYSE;;10.0;;;;;;;;;;;;True;;;;;120000000.0;SPAC;absent v1
 XSLLU;Xsolla SPAC 1;IPO;False;2026-01-29;9,8;NASDAQ;;10.0;;;;;;;;;;;;True;;;;;200000000.0;SPAC;absent v1
@@ -545,7 +545,7 @@ BIXIU;Bitcoin Infrastructure Acquisition Corp Ltd;IPO;False;2025-12-02;11,7;NASD
 SCIIU;SC II Acquisition Corp.;IPO;False;2025-11-26;11,9;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;150000000.0;SPAC;absent v1
 IGACU;Invest Green Acquisition Corp;IPO;False;2025-11-25;12,0;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;150000000.0;SPAC;absent v1
 HCACU;Hall Chadwick Acquisition Corp;IPO;False;2025-11-21;12,1;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;180000000.0;SPAC;absent v1
-WSHP;WeShop Holdings Ltd;IPO;False;2025-11-14;12,3;NASDAQ Capital;;;30,21;1,57;2026-11-24;;-94,8;-38,7;-74,6;-99,2;False;non;False;False;;;;;;ok;absent v1
+WSHP;WeShop Holdings Ltd;IPO;False;2025-11-14;12,3;NASDAQ Capital;;;30,21;1,54;2026-11-24;;-94,9;-39,8;-75,1;-99,2;False;non;False;False;;;;;;ok;absent v1
 OTH;NextBoat Inc.;IPO;False;2025-11-13;12,4;NYSE MKT;;4.0;;;;;;;;;;;;False;;;;;15000000.0;pas de cours;absent v1
 ALUBU;Alussa Energy Acquisition Corp. II;IPO;False;2025-11-13;12,4;NYSE;;10.0;;;;;;;;;;;;True;;;;;250000000.0;SPAC;absent v1
 BPACU;Blueport Acquisition Ltd;IPO;False;2025-11-12;12,4;NASDAQ Capital;;10.0;;;;;;;;;;;;True;;;;;50000000.0;SPAC;absent v1
@@ -566,7 +566,7 @@ ALISU;Calisa Acquisition Corp;IPO;False;2025-10-22;13,1;NASDAQ Global;;10.0;;;;;
 OWLS;OBOOK HOLDINGS INC.;IPO;False;2025-10-16;13,3;NASDAQ Global;;;55,55;2,11;2026-11-24;;-96,2;3,4;-61,8;-96,2;False;non;False;False;;;;;;ok;absent v1
 SEV;Aptera Motors Corp;IPO;False;2025-10-16;13,3;NASDAQ Capital;;;8,0;1,59;2026-11-24;;-80,1;3,2;-30,6;-85,3;False;non;False;False;;;;;;ok;absent v1
 TCGL;TechCreate Group Ltd.;IPO;False;2025-10-15;13,3;NYSE MKT;;4.0;;;;;;;;;;;;False;;;;;10200000.0;pas de cours;
-TTRX;Turn Therapeutics Inc.;IPO;False;2025-10-08;13,5;NASDAQ Global;;;7,0;8,34;2026-11-24;;19,1;-21,4;-13,4;-45,7;False;non;False;False;;;;;;ok;absent v1
+TTRX;Turn Therapeutics Inc.;IPO;False;2025-10-08;13,5;NASDAQ Global;;;7,0;8,29;2026-11-24;;18,4;-21,9;-13,9;-46,0;False;non;False;False;;;;;;ok;absent v1
 LKSPU;Lake Superior Acquisition Corp;IPO;False;2025-10-07;13,6;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;100000000.0;SPAC;absent v1
 GIWWU;GigCapital8 Corp.;IPO;False;2025-10-06;13,6;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;220000000.0;SPAC;absent v1
 AIIAU;AI Infrastructure Acquisition Corp.;IPO;False;2025-10-03;13,7;NYSE;;10.0;;;;;;;;;;;;True;;;;;120000000.0;SPAC;absent v1
@@ -633,7 +633,7 @@ OYSEU;Oyster Enterprises II Acquisition Corp;IPO;False;2025-05-22;18,1;NASDAQ Gl
 PCAPU;ProCap Acquisition Corp;IPO;False;2025-05-21;18,1;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;220000000.0;SPAC;avant v1
 CCCMU;Columbus Circle Capital Corp. I;IPO;False;2025-05-16;18,3;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;220000000.0;SPAC;avant v1
 WENNU;WEN Acquisition Corp;IPO;False;2025-05-16;18,3;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;261000000.0;SPAC;avant v1
-ARAI;Arrive AI Inc.;IPO;False;2025-05-15;18,3;NASDAQ Global;;;636,0;1,47;2026-11-24;;-99,8;-72,7;-87,0;-99,8;False;non;False;False;;;;;372700000.0;ok;avant v1
+ARAI;Arrive AI Inc.;IPO;False;2025-05-15;18,3;NASDAQ Global;;;636,0;1,46;2026-11-24;;-99,8;-72,8;-87,1;-99,8;False;non;False;False;;;;;372700000.0;ok;avant v1
 RTACU;Renatus Tactical Acquisition Corp I;IPO;False;2025-05-15;18,3;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;210000000.0;SPAC;avant v1
 TVAIU;Thayer Ventures Acquisition Corp II;IPO;False;2025-05-15;18,3;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;175000000.0;SPAC;avant v1
 CCCXU;Infleqtion, Inc.;IPO;False;2025-05-14;18,4;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;360000000.0;SPAC;avant v1
@@ -660,7 +660,7 @@ SOULU;Soulpower Acquisition Corp.;IPO;False;2025-04-02;19,7;NYSE;;10.0;;;;;;;;;;
 SZZLU;Sizzle Acquisition Corp. II;IPO;False;2025-04-02;19,7;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;200000000.0;SPAC;avant v1
 SDHIU;Siddhi Acquisition Corp (Cayman Islands);IPO;False;2025-04-01;19,8;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;240000000.0;SPAC;avant v1
 UYSCU;UY Scuti Acquisition Corp.;IPO;False;2025-03-31;19,8;NASDAQ Capital;;10.0;;;;;;;;;;;;True;;;;;50000000.0;SPAC;avant v1
-NTHI;NEONC TECHNOLOGIES HOLDINGS, INC.;IPO;False;2025-03-26;20,0;NASDAQ Global;;;12,11;3,39;2026-11-24;;-72,0;20,2;-25,7;-79,5;True;non;False;False;;;;;;ok;avant v1
+NTHI;NEONC TECHNOLOGIES HOLDINGS, INC.;IPO;False;2025-03-26;20,0;NASDAQ Global;;;12,11;3,38;2026-11-24;;-72,1;19,9;-25,9;-79,6;True;non;False;False;;;;;;ok;avant v1
 GSHRU;Gesher Acquisition Corp. II;IPO;False;2025-03-21;20,1;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;125000000.0;SPAC;avant v1
 QSEAU;Quartzsea Acquisition Corp;IPO;False;2025-03-18;20,2;NASDAQ Global;;10.0;;;;;;;;;;;;True;;;;;72000000.0;SPAC;avant v1
 TBH;House of Doge Inc.;IPO;False;2025-03-06;20,6;NASDAQ Capital;;4.0;;;;;;;;;;;;False;;;;;5900000.0;pas de cours;avant v1
